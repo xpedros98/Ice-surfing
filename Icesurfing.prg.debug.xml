@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\javier.pedrosa\Desktop\Ice surfing\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="2" lineNum="10" parent="globals" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="2" lineNum="30" parent="globals" pc="268435469" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="2" lineNum="42" parent="globals" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="2" lineNum="45" parent="globals" pc="268435510" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="4" lineNum="59" parent="globals" pc="268435539" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="7" lineNum="65" parent="globals/firstappView" pc="268435552" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="8" lineNum="313" parent="globals" pc="268435564" symbol="is_in_ellipse"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="8" lineNum="314" parent="globals" pc="268435574" symbol="is_in_ellipse"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappApp.mc" id="9" lineNum="26" parent="globals" pc="268435651" symbol="getApp"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappApp.mc" id="9" lineNum="27" parent="globals" pc="268435661" symbol="getApp"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="287" parent="globals" pc="268435672" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="288" parent="globals" pc="268435682" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="289" parent="globals" pc="268435697" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="290" parent="globals" pc="268435712" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="291" parent="globals" pc="268435727" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="292" parent="globals" pc="268435742" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="293" parent="globals" pc="268435757" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="294" parent="globals" pc="268435772" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="295" parent="globals" pc="268435787" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="296" parent="globals" pc="268435802" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="297" parent="globals" pc="268435817" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="298" parent="globals" pc="268435832" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="299" parent="globals" pc="268435847" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="300" parent="globals" pc="268435862" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="301" parent="globals" pc="268435877" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="302" parent="globals" pc="268435892" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="303" parent="globals" pc="268435907" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="304" parent="globals" pc="268435922" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="305" parent="globals" pc="268435937" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="306" parent="globals" pc="268435952" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="307" parent="globals" pc="268435967" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="308" parent="globals" pc="268435982" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="309" parent="globals" pc="268435997" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="10" lineNum="310" parent="globals" pc="268436012" symbol="disable_all"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappMenuDelegate.mc" id="11" lineNum="5" parent="globals/firstappMenuDelegate" pc="268436028" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="12" lineNum="7" parent="globals/Rez" pc="268436040" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="13" lineNum="56" parent="globals/firstappDelegate" pc="268436060" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="14" lineNum="31" parent="globals/MyInputDelegate" pc="268436072" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappApp.mc" id="15" lineNum="5" parent="globals/firstappApp" pc="268436084" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="16" lineNum="3" parent="globals/MyTextPickerDelegate" pc="268436096" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="72" parent="globals/firstappView" pc="268436108" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="73" parent="globals/firstappView" pc="268436110" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="74" parent="globals/firstappView" pc="268436143" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="76" parent="globals/firstappView" pc="268436163" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="77" parent="globals/firstappView" pc="268436183" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="78" parent="globals/firstappView" pc="268436203" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="79" parent="globals/firstappView" pc="268436223" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="80" parent="globals/firstappView" pc="268436243" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="81" parent="globals/firstappView" pc="268436263" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="83" parent="globals/firstappView" pc="268436283" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="84" parent="globals/firstappView" pc="268436301" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="85" parent="globals/firstappView" pc="268436319" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="87" parent="globals/firstappView" pc="268436337" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="88" parent="globals/firstappView" pc="268436357" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="90" parent="globals/firstappView" pc="268436377" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="92" parent="globals/firstappView" pc="268436395" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="93" parent="globals/firstappView" pc="268436415" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="94" parent="globals/firstappView" pc="268436435" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="95" parent="globals/firstappView" pc="268436455" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="96" parent="globals/firstappView" pc="268436475" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="97" parent="globals/firstappView" pc="268436495" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="99" parent="globals/firstappView" pc="268436515" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="100" parent="globals/firstappView" pc="268436533" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="102" parent="globals/firstappView" pc="268436551" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="104" parent="globals/firstappView" pc="268436571" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="105" parent="globals/firstappView" pc="268436591" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="106" parent="globals/firstappView" pc="268436611" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="107" parent="globals/firstappView" pc="268436631" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="109" parent="globals/firstappView" pc="268436666" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="110" parent="globals/firstappView" pc="268436686" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="111" parent="globals/firstappView" pc="268436706" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="112" parent="globals/firstappView" pc="268436726" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="114" parent="globals/firstappView" pc="268436744" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="115" parent="globals/firstappView" pc="268436764" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="18" lineNum="116" parent="globals/firstappView" pc="268436782" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="19" lineNum="67" parent="globals/firstappView" pc="268436801" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="19" lineNum="68" parent="globals/firstappView" pc="268436803" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="126" parent="globals/firstappView" pc="268436816" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="128" parent="globals/firstappView" pc="268436819" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="129" parent="globals/firstappView" pc="268436835" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="135" parent="globals/firstappView" pc="268436843" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="136" parent="globals/firstappView" pc="268436856" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="137" parent="globals/firstappView" pc="268436864" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="138" parent="globals/firstappView" pc="268436871" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="139" parent="globals/firstappView" pc="268436886" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="140" parent="globals/firstappView" pc="268436901" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="141" parent="globals/firstappView" pc="268436920" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="142" parent="globals/firstappView" pc="268436942" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="144" parent="globals/firstappView" pc="268436964" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="145" parent="globals/firstappView" pc="268436972" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="146" parent="globals/firstappView" pc="268436992" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="147" parent="globals/firstappView" pc="268437001" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="148" parent="globals/firstappView" pc="268437010" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="149" parent="globals/firstappView" pc="268437034" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="150" parent="globals/firstappView" pc="268437050" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="153" parent="globals/firstappView" pc="268437069" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="154" parent="globals/firstappView" pc="268437077" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="155" parent="globals/firstappView" pc="268437084" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="156" parent="globals/firstappView" pc="268437128" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="157" parent="globals/firstappView" pc="268437143" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="158" parent="globals/firstappView" pc="268437158" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="159" parent="globals/firstappView" pc="268437178" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="160" parent="globals/firstappView" pc="268437200" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="161" parent="globals/firstappView" pc="268437222" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="163" parent="globals/firstappView" pc="268437230" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="164" parent="globals/firstappView" pc="268437242" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="165" parent="globals/firstappView" pc="268437262" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="166" parent="globals/firstappView" pc="268437284" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="166" parent="globals/firstappView" pc="268437307" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="167" parent="globals/firstappView" pc="268437330" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="168" parent="globals/firstappView" pc="268437349" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="171" parent="globals/firstappView" pc="268437393" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="172" parent="globals/firstappView" pc="268437405" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="173" parent="globals/firstappView" pc="268437425" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="174" parent="globals/firstappView" pc="268437444" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="175" parent="globals/firstappView" pc="268437463" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="176" parent="globals/firstappView" pc="268437479" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="177" parent="globals/firstappView" pc="268437541" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="178" parent="globals/firstappView" pc="268437557" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="181" parent="globals/firstappView" pc="268437622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="182" parent="globals/firstappView" pc="268437634" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="183" parent="globals/firstappView" pc="268437652" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="184" parent="globals/firstappView" pc="268437674" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="185" parent="globals/firstappView" pc="268437686" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="186" parent="globals/firstappView" pc="268437704" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="187" parent="globals/firstappView" pc="268437723" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="188" parent="globals/firstappView" pc="268437742" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="189" parent="globals/firstappView" pc="268437759" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="193" parent="globals/firstappView" pc="268437783" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="194" parent="globals/firstappView" pc="268437803" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="197" parent="globals/firstappView" pc="268437816" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="198" parent="globals/firstappView" pc="268437908" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="199" parent="globals/firstappView" pc="268437941" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="200" parent="globals/firstappView" pc="268438020" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="203" parent="globals/firstappView" pc="268438047" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="204" parent="globals/firstappView" pc="268438068" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="205" parent="globals/firstappView" pc="268438100" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="208" parent="globals/firstappView" pc="268438115" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="209" parent="globals/firstappView" pc="268438123" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="210" parent="globals/firstappView" pc="268438137" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="211" parent="globals/firstappView" pc="268438149" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="213" parent="globals/firstappView" pc="268438181" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="214" parent="globals/firstappView" pc="268438196" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="215" parent="globals/firstappView" pc="268438256" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="216" parent="globals/firstappView" pc="268438359" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="220" parent="globals/firstappView" pc="268438383" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="221" parent="globals/firstappView" pc="268438407" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="225" parent="globals/firstappView" pc="268438431" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="226" parent="globals/firstappView" pc="268438447" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="227" parent="globals/firstappView" pc="268438463" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="230" parent="globals/firstappView" pc="268438482" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="231" parent="globals/firstappView" pc="268438501" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="232" parent="globals/firstappView" pc="268438523" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="234" parent="globals/firstappView" pc="268438545" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="235" parent="globals/firstappView" pc="268438552" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="236" parent="globals/firstappView" pc="268438557" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="252" parent="globals/firstappView" pc="268438573" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="315" parent="globals/firstappView" pc="268438588" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="330" parent="globals/firstappView" pc="268438604" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="237" parent="globals/firstappView" pc="268438607" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="238" parent="globals/firstappView" pc="268438622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="239" parent="globals/firstappView" pc="268438637" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="241" parent="globals/firstappView" pc="268438653" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="243" parent="globals/firstappView" pc="268438664" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="244" parent="globals/firstappView" pc="268438706" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="246" parent="globals/firstappView" pc="268438742" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="247" parent="globals/firstappView" pc="268438770" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="248" parent="globals/firstappView" pc="268438788" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="253" parent="globals/firstappView" pc="268438817" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="254" parent="globals/firstappView" pc="268438832" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="255" parent="globals/firstappView" pc="268438847" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="256" parent="globals/firstappView" pc="268438862" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="257" parent="globals/firstappView" pc="268438877" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="258" parent="globals/firstappView" pc="268438892" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="259" parent="globals/firstappView" pc="268438907" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="260" parent="globals/firstappView" pc="268438922" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="262" parent="globals/firstappView" pc="268438937" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="263" parent="globals/firstappView" pc="268438957" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="265" parent="globals/firstappView" pc="268438978" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="265" parent="globals/firstappView" pc="268438986" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="266" parent="globals/firstappView" pc="268439044" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="266" parent="globals/firstappView" pc="268439052" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="269" parent="globals/firstappView" pc="268439110" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="270" parent="globals/firstappView" pc="268439118" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="271" parent="globals/firstappView" pc="268439160" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="272" parent="globals/firstappView" pc="268439179" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="273" parent="globals/firstappView" pc="268439210" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="274" parent="globals/firstappView" pc="268439241" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="275" parent="globals/firstappView" pc="268439302" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="276" parent="globals/firstappView" pc="268439325" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="277" parent="globals/firstappView" pc="268439413" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="278" parent="globals/firstappView" pc="268439473" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="283" parent="globals/firstappView" pc="268439536" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="285" parent="globals/firstappView" pc="268439560" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="286" parent="globals/firstappView" pc="268439580" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="289" parent="globals/firstappView" pc="268439602" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="290" parent="globals/firstappView" pc="268439610" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="291" parent="globals/firstappView" pc="268439652" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="292" parent="globals/firstappView" pc="268439671" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="293" parent="globals/firstappView" pc="268439702" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="294" parent="globals/firstappView" pc="268439733" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="295" parent="globals/firstappView" pc="268439796" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="296" parent="globals/firstappView" pc="268439819" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="297" parent="globals/firstappView" pc="268439910" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="298" parent="globals/firstappView" pc="268439970" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="301" parent="globals/firstappView" pc="268440033" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="302" parent="globals/firstappView" pc="268440057" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="303" parent="globals/firstappView" pc="268440073" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="304" parent="globals/firstappView" pc="268440089" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="305" parent="globals/firstappView" pc="268440101" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="306" parent="globals/firstappView" pc="268440119" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="307" parent="globals/firstappView" pc="268440164" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="308" parent="globals/firstappView" pc="268440210" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="309" parent="globals/firstappView" pc="268440229" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="310" parent="globals/firstappView" pc="268440292" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="311" parent="globals/firstappView" pc="268440356" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="312" parent="globals/firstappView" pc="268440372" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="314" parent="globals/firstappView" pc="268440388" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="316" parent="globals/firstappView" pc="268440391" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="317" parent="globals/firstappView" pc="268440406" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="318" parent="globals/firstappView" pc="268440414" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="319" parent="globals/firstappView" pc="268440429" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="322" parent="globals/firstappView" pc="268440447" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="323" parent="globals/firstappView" pc="268440462" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="325" parent="globals/firstappView" pc="268440477" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="326" parent="globals/firstappView" pc="268440493" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="327" parent="globals/firstappView" pc="268440509" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="328" parent="globals/firstappView" pc="268440525" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="329" parent="globals/firstappView" pc="268440541" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="331" parent="globals/firstappView" pc="268440544" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="333" parent="globals/firstappView" pc="268440564" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="334" parent="globals/firstappView" pc="268440580" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="335" parent="globals/firstappView" pc="268440596" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="336" parent="globals/firstappView" pc="268440612" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="341" parent="globals/firstappView" pc="268440628" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="342" parent="globals/firstappView" pc="268440651" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="343" parent="globals/firstappView" pc="268440660" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="344" parent="globals/firstappView" pc="268440668" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="346" parent="globals/firstappView" pc="268440679" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="347" parent="globals/firstappView" pc="268440703" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="348" parent="globals/firstappView" pc="268440718" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="349" parent="globals/firstappView" pc="268440734" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="350" parent="globals/firstappView" pc="268440749" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="351" parent="globals/firstappView" pc="268440780" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="353" parent="globals/firstappView" pc="268440799" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="354" parent="globals/firstappView" pc="268440822" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="356" parent="globals/firstappView" pc="268440830" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="364" parent="globals/firstappView" pc="268440894" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="365" parent="globals/firstappView" pc="268440917" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="366" parent="globals/firstappView" pc="268440926" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="368" parent="globals/firstappView" pc="268440935" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="369" parent="globals/firstappView" pc="268440959" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappView.mc" id="21" lineNum="370" parent="globals/firstappView" pc="268440974" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappMenuDelegate.mc" id="22" lineNum="7" parent="globals/firstappMenuDelegate" pc="268440991" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappMenuDelegate.mc" id="22" lineNum="8" parent="globals/firstappMenuDelegate" pc="268440993" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappMenuDelegate.mc" id="23" lineNum="11" parent="globals/firstappMenuDelegate" pc="268441006" symbol="onSelect"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappMenuDelegate.mc" id="23" lineNum="12" parent="globals/firstappMenuDelegate" pc="268441008" symbol="onSelect"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappMenuDelegate.mc" id="23" lineNum="13" parent="globals/firstappMenuDelegate" pc="268441024" symbol="onSelect"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="24" lineNum="130" parent="globals/firstappDelegate" pc="268441043" symbol="new_val"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="24" lineNum="133" parent="globals/firstappDelegate" pc="268441045" symbol="new_val"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="25" lineNum="274" parent="globals/firstappDelegate" pc="268441057" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="25" lineNum="281" parent="globals/firstappDelegate" pc="268441059" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="25" lineNum="282" parent="globals/firstappDelegate" pc="268441072" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="25" lineNum="283" parent="globals/firstappDelegate" pc="268441083" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="63" parent="globals/firstappDelegate" pc="268441085" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="64" parent="globals/firstappDelegate" pc="268441088" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="65" parent="globals/firstappDelegate" pc="268441100" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="66" parent="globals/firstappDelegate" pc="268441112" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="67" parent="globals/firstappDelegate" pc="268441134" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="69" parent="globals/firstappDelegate" pc="268441143" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="70" parent="globals/firstappDelegate" pc="268441149" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="71" parent="globals/firstappDelegate" pc="268441156" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="72" parent="globals/firstappDelegate" pc="268441163" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="73" parent="globals/firstappDelegate" pc="268441202" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="77" parent="globals/firstappDelegate" pc="268441222" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="78" parent="globals/firstappDelegate" pc="268441254" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="79" parent="globals/firstappDelegate" pc="268441267" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="80" parent="globals/firstappDelegate" pc="268441327" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="81" parent="globals/firstappDelegate" pc="268441416" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="84" parent="globals/firstappDelegate" pc="268441431" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="86" parent="globals/firstappDelegate" pc="268441439" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="87" parent="globals/firstappDelegate" pc="268441467" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="87" parent="globals/firstappDelegate" pc="268441484" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="88" parent="globals/firstappDelegate" pc="268441502" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="88" parent="globals/firstappDelegate" pc="268441516" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="90" parent="globals/firstappDelegate" pc="268441528" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="91" parent="globals/firstappDelegate" pc="268441563" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="92" parent="globals/firstappDelegate" pc="268441623" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="93" parent="globals/firstappDelegate" pc="268441712" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="96" parent="globals/firstappDelegate" pc="268441727" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="98" parent="globals/firstappDelegate" pc="268441735" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="99" parent="globals/firstappDelegate" pc="268441763" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="99" parent="globals/firstappDelegate" pc="268441780" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="100" parent="globals/firstappDelegate" pc="268441798" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="100" parent="globals/firstappDelegate" pc="268441812" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="102" parent="globals/firstappDelegate" pc="268441824" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="105" parent="globals/firstappDelegate" pc="268441835" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="106" parent="globals/firstappDelegate" pc="268441860" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="110" parent="globals/firstappDelegate" pc="268441868" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="111" parent="globals/firstappDelegate" pc="268441885" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="112" parent="globals/firstappDelegate" pc="268441894" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="113" parent="globals/firstappDelegate" pc="268441907" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="114" parent="globals/firstappDelegate" pc="268441927" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="115" parent="globals/firstappDelegate" pc="268441947" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="116" parent="globals/firstappDelegate" pc="268441969" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="117" parent="globals/firstappDelegate" pc="268441991" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="118" parent="globals/firstappDelegate" pc="268442014" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="122" parent="globals/firstappDelegate" pc="268442069" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="123" parent="globals/firstappDelegate" pc="268442161" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="124" parent="globals/firstappDelegate" pc="268442198" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="26" lineNum="127" parent="globals/firstappDelegate" pc="268442219" symbol="loop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="136" parent="globals/firstappDelegate" pc="268442231" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="137" parent="globals/firstappDelegate" pc="268442234" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="138" parent="globals/firstappDelegate" pc="268442246" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="139" parent="globals/firstappDelegate" pc="268442254" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="140" parent="globals/firstappDelegate" pc="268442266" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="141" parent="globals/firstappDelegate" pc="268442275" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="142" parent="globals/firstappDelegate" pc="268442313" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="143" parent="globals/firstappDelegate" pc="268442322" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="144" parent="globals/firstappDelegate" pc="268442350" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="145" parent="globals/firstappDelegate" pc="268442375" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="146" parent="globals/firstappDelegate" pc="268442412" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="147" parent="globals/firstappDelegate" pc="268442424" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="148" parent="globals/firstappDelegate" pc="268442432" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="150" parent="globals/firstappDelegate" pc="268442435" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="151" parent="globals/firstappDelegate" pc="268442446" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="154" parent="globals/firstappDelegate" pc="268442457" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="155" parent="globals/firstappDelegate" pc="268442467" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="156" parent="globals/firstappDelegate" pc="268442475" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="160" parent="globals/firstappDelegate" pc="268442478" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="161" parent="globals/firstappDelegate" pc="268442486" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="27" lineNum="164" parent="globals/firstappDelegate" pc="268442499" symbol="competition"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="28" lineNum="58" parent="globals/firstappDelegate" pc="268442511" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="28" lineNum="59" parent="globals/firstappDelegate" pc="268442513" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="28" lineNum="60" parent="globals/firstappDelegate" pc="268442525" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="193" parent="globals/firstappDelegate" pc="268442559" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="194" parent="globals/firstappDelegate" pc="268442562" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="195" parent="globals/firstappDelegate" pc="268442574" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="196" parent="globals/firstappDelegate" pc="268442588" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="199" parent="globals/firstappDelegate" pc="268442617" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="200" parent="globals/firstappDelegate" pc="268442630" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="203" parent="globals/firstappDelegate" pc="268442641" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="204" parent="globals/firstappDelegate" pc="268442650" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="205" parent="globals/firstappDelegate" pc="268442667" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="206" parent="globals/firstappDelegate" pc="268442702" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="207" parent="globals/firstappDelegate" pc="268442711" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="211" parent="globals/firstappDelegate" pc="268442722" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="212" parent="globals/firstappDelegate" pc="268442796" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="213" parent="globals/firstappDelegate" pc="268442811" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="216" parent="globals/firstappDelegate" pc="268442842" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="217" parent="globals/firstappDelegate" pc="268442917" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="218" parent="globals/firstappDelegate" pc="268442932" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="221" parent="globals/firstappDelegate" pc="268442960" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="222" parent="globals/firstappDelegate" pc="268442971" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="223" parent="globals/firstappDelegate" pc="268443045" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="225" parent="globals/firstappDelegate" pc="268443056" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="226" parent="globals/firstappDelegate" pc="268443130" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="232" parent="globals/firstappDelegate" pc="268443138" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="29" lineNum="233" parent="globals/firstappDelegate" pc="268443149" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="236" parent="globals/firstappDelegate" pc="268443151" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="237" parent="globals/firstappDelegate" pc="268443153" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="238" parent="globals/firstappDelegate" pc="268443167" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="239" parent="globals/firstappDelegate" pc="268443179" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="241" parent="globals/firstappDelegate" pc="268443191" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="242" parent="globals/firstappDelegate" pc="268443275" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="245" parent="globals/firstappDelegate" pc="268443286" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="248" parent="globals/firstappDelegate" pc="268443294" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="249" parent="globals/firstappDelegate" pc="268443378" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="252" parent="globals/firstappDelegate" pc="268443389" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="255" parent="globals/firstappDelegate" pc="268443397" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="256" parent="globals/firstappDelegate" pc="268443410" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="257" parent="globals/firstappDelegate" pc="268443418" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="260" parent="globals/firstappDelegate" pc="268443426" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="261" parent="globals/firstappDelegate" pc="268443434" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="262" parent="globals/firstappDelegate" pc="268443462" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="263" parent="globals/firstappDelegate" pc="268443492" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="263" parent="globals/firstappDelegate" pc="268443506" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="264" parent="globals/firstappDelegate" pc="268443521" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="264" parent="globals/firstappDelegate" pc="268443535" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="265" parent="globals/firstappDelegate" pc="268443547" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="265" parent="globals/firstappDelegate" pc="268443561" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="266" parent="globals/firstappDelegate" pc="268443576" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="266" parent="globals/firstappDelegate" pc="268443590" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="267" parent="globals/firstappDelegate" pc="268443602" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="270" parent="globals/firstappDelegate" pc="268443614" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="30" lineNum="271" parent="globals/firstappDelegate" pc="268443625" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="167" parent="globals/firstappDelegate" pc="268443627" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="168" parent="globals/firstappDelegate" pc="268443629" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="169" parent="globals/firstappDelegate" pc="268443642" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="170" parent="globals/firstappDelegate" pc="268443655" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="171" parent="globals/firstappDelegate" pc="268443663" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="172" parent="globals/firstappDelegate" pc="268443696" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="173" parent="globals/firstappDelegate" pc="268443704" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="176" parent="globals/firstappDelegate" pc="268443724" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="179" parent="globals/firstappDelegate" pc="268443736" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="180" parent="globals/firstappDelegate" pc="268443747" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="189" parent="globals/firstappDelegate" pc="268443749" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappDelegate.mc" id="31" lineNum="190" parent="globals/firstappDelegate" pc="268443760" symbol="onKeyPressed"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="32" lineNum="32" parent="globals/MyInputDelegate" pc="268443762" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="32" lineNum="33" parent="globals/MyInputDelegate" pc="268443764" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="33" lineNum="36" parent="globals/MyInputDelegate" pc="268443777" symbol="onKey"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="33" lineNum="37" parent="globals/MyInputDelegate" pc="268443779" symbol="onKey"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="33" lineNum="38" parent="globals/MyInputDelegate" pc="268443794" symbol="onKey"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="33" lineNum="39" parent="globals/MyInputDelegate" pc="268443807" symbol="onKey"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="33" lineNum="46" parent="globals/MyInputDelegate" pc="268443871" symbol="onKey"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappApp.mc" id="35" lineNum="20" parent="globals/firstappApp" pc="268443873" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappApp.mc" id="35" lineNum="21" parent="globals/firstappApp" pc="268443875" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappApp.mc" id="36" lineNum="7" parent="globals/firstappApp" pc="268443930" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\firstappApp.mc" id="36" lineNum="8" parent="globals/firstappApp" pc="268443932" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="9" parent="globals/MyTextPickerDelegate" pc="268443945" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="10" parent="globals/MyTextPickerDelegate" pc="268443948" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="13" parent="globals/MyTextPickerDelegate" pc="268443957" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="14" parent="globals/MyTextPickerDelegate" pc="268444010" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="17" parent="globals/MyTextPickerDelegate" pc="268444077" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="18" parent="globals/MyTextPickerDelegate" pc="268444095" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="19" parent="globals/MyTextPickerDelegate" pc="268444133" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="20" parent="globals/MyTextPickerDelegate" pc="268444170" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="38" lineNum="23" parent="globals/MyTextPickerDelegate" pc="268444192" symbol="onTextEntered"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="39" lineNum="26" parent="globals/MyTextPickerDelegate" pc="268444194" symbol="onCancel"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="39" lineNum="27" parent="globals/MyTextPickerDelegate" pc="268444196" symbol="onCancel"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="40" lineNum="5" parent="globals/MyTextPickerDelegate" pc="268444198" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\source\\new_classes.mc" id="40" lineNum="6" parent="globals/MyTextPickerDelegate" pc="268444200" symbol="initialize"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="37" parent="globals/Rez/Layouts" pc="268444213" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="38" parent="globals/Rez/Layouts" pc="268444224" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="40" parent="globals/Rez/Layouts" pc="268444305" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="42" parent="globals/Rez/Layouts" pc="268444414" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="44" parent="globals/Rez/Layouts" pc="268444495" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="45" parent="globals/Rez/Layouts" pc="268444582" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="47" parent="globals/Rez/Layouts" pc="268444624" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="49" parent="globals/Rez/Layouts" pc="268444705" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="51" parent="globals/Rez/Layouts" pc="268444787" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="53" parent="globals/Rez/Layouts" pc="268444868" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="55" parent="globals/Rez/Layouts" pc="268444949" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="57" parent="globals/Rez/Layouts" pc="268445030" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="59" parent="globals/Rez/Layouts" pc="268445111" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="61" parent="globals/Rez/Layouts" pc="268445192" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="63" parent="globals/Rez/Layouts" pc="268445273" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="64" parent="globals/Rez/Layouts" pc="268445360" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="66" parent="globals/Rez/Layouts" pc="268445402" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="67" parent="globals/Rez/Layouts" pc="268445489" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="69" parent="globals/Rez/Layouts" pc="268445531" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="70" parent="globals/Rez/Layouts" pc="268445618" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="72" parent="globals/Rez/Layouts" pc="268445660" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="74" parent="globals/Rez/Layouts" pc="268445741" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="76" parent="globals/Rez/Layouts" pc="268445822" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="78" parent="globals/Rez/Layouts" pc="268445903" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="80" parent="globals/Rez/Layouts" pc="268445984" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="82" parent="globals/Rez/Layouts" pc="268446065" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="84" parent="globals/Rez/Layouts" pc="268446146" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="86" parent="globals/Rez/Layouts" pc="268446228" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="88" parent="globals/Rez/Layouts" pc="268446309" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="90" parent="globals/Rez/Layouts" pc="268446390" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="92" parent="globals/Rez/Layouts" pc="268446497" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="94" parent="globals/Rez/Layouts" pc="268446605" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="96" parent="globals/Rez/Layouts" pc="268446714" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="98" parent="globals/Rez/Layouts" pc="268446822" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="41" lineNum="100" parent="globals/Rez/Layouts" pc="268446932" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="42" lineNum="105" parent="globals/Rez/Menus/MainMenu" pc="268447082" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="43" lineNum="106" parent="globals/Rez/Menus/MainMenu" pc="268447094" symbol="initialize"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="43" lineNum="107" parent="globals/Rez/Menus/MainMenu" pc="268447096" symbol="initialize"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="43" lineNum="108" parent="globals/Rez/Menus/MainMenu" pc="268447108" symbol="initialize"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Desktop\\Ice surfing\\gen\\006-B3907-00\\source\\Rez.mcgen" id="43" lineNum="109" parent="globals/Rez/Menus/MainMenu" pc="268447153" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="97" symbol="toggle_view"/>
+        <entry field="true" id="67" symbol="n_dim"/>
+        <entry field="true" id="10" symbol="a_limit"/>
+        <entry id="8389346" symbol="text"/>
+        <entry field="true" id="46" symbol="info_flag"/>
+        <entry field="true" id="15" symbol="compete_flag"/>
+        <entry field="true" id="103" symbol="v_y"/>
+        <entry field="true" id="102" symbol="v_x"/>
+        <entry field="true" id="58" symbol="last_winner"/>
+        <entry field="true" id="94" symbol="subject"/>
+        <entry field="true" id="69" symbol="new_p_y"/>
+        <entry field="true" id="68" symbol="new_p_x"/>
+        <entry id="113" method="true" symbol="competition"/>
+        <entry field="true" id="8388936" method="true" symbol="info"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="108" symbol="winner_flag"/>
+        <entry field="true" id="43" symbol="i_y"/>
+        <entry field="true" id="42" symbol="i_x"/>
+        <entry field="true" id="126" symbol="turtle1"/>
+        <entry id="128" method="true" symbol="MainLayout"/>
+        <entry id="115" method="true" symbol="new_val"/>
+        <entry field="true" id="96" symbol="timer"/>
+        <entry field="true" id="127" symbol="turtle_on"/>
+        <entry field="true" id="8388826" method="true" symbol="next"/>
+        <entry field="true" id="106" symbol="vynil_dim"/>
+        <entry field="true" id="88" symbol="s1_y"/>
+        <entry field="true" id="87" symbol="s1_x"/>
+        <entry field="true" id="72" symbol="new_winner"/>
+        <entry field="true" id="34" symbol="fishing"/>
+        <entry id="20" method="true" symbol="disable_all"/>
+        <entry field="true" id="93" symbol="scroll2"/>
+        <entry field="true" id="92" symbol="scroll1"/>
+        <entry field="true" id="109" symbol="x_center"/>
+        <entry field="true" id="8389605" symbol="accel"/>
+        <entry field="true" id="14" symbol="compete_cnt"/>
+        <entry id="29" object="true" symbol="firstappMenuDelegate"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="123" symbol="hole4"/>
+        <entry field="true" id="122" symbol="hole3"/>
+        <entry field="true" id="121" symbol="hole2"/>
+        <entry field="true" id="120" symbol="hole1"/>
+        <entry field="true" id="119" symbol="hole0"/>
+        <entry id="8389537" object="true" symbol="TextPicker"/>
+        <entry field="true" id="36" symbol="flag_s2"/>
+        <entry field="true" id="35" symbol="flag_s1"/>
+        <entry field="true" id="130" symbol="AppName"/>
+        <entry field="true" id="45" symbol="info_T"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="9" symbol="Tms"/>
+        <entry field="true" id="82" symbol="podium"/>
+        <entry field="true" id="56" symbol="last_game_over"/>
+        <entry field="true" id="80" symbol="penguin_flag"/>
+        <entry id="114" method="true" symbol="loop"/>
+        <entry field="true" id="57" symbol="last_info"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="100" symbol="v_dir"/>
+        <entry field="true" id="31" symbol="fish"/>
+        <entry field="true" id="12" symbol="a_y"/>
+        <entry field="true" id="11" symbol="a_x"/>
+        <entry field="true" id="91" symbol="s_dim"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="39" symbol="global_i"/>
+        <entry field="true" id="133" symbol="prompt"/>
+        <entry field="true" id="66" symbol="min_y"/>
+        <entry field="true" id="65" symbol="min_x"/>
+        <entry field="true" id="76" symbol="p_dim"/>
+        <entry field="true" id="44" symbol="ice_hole"/>
+        <entry field="true" id="33" symbol="fish_i"/>
+        <entry field="true" id="32" symbol="fish_T"/>
+        <entry id="7" object="true" symbol="MyInputDelegate"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8" object="true" symbol="MyTextPickerDelegate"/>
+        <entry field="true" id="51" symbol="last_click"/>
+        <entry id="8389553" method="true" symbol="onKeyPressed"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="135" symbol="item_2"/>
+        <entry id="134" symbol="item_1"/>
+        <entry id="112" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="75" symbol="p3"/>
+        <entry field="true" id="74" symbol="p2"/>
+        <entry field="true" id="73" symbol="p1"/>
+        <entry field="true" id="55" symbol="last_fish_i"/>
+        <entry field="true" id="37" symbol="game_over"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="101" symbol="v_limit"/>
+        <entry field="true" id="110" symbol="y_center"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="99" symbol="turtle_off"/>
+        <entry id="8389098" method="true" symbol="onTap"/>
+        <entry field="true" id="85" symbol="prev"/>
+        <entry id="17" symbol="coords"/>
+        <entry field="true" id="26" symbol="f_y"/>
+        <entry field="true" id="25" symbol="f_x"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="24" symbol="f_m"/>
+        <entry field="true" id="22" symbol="f_A"/>
+        <entry field="true" id="41" symbol="i_hole"/>
+        <entry id="47" method="true" symbol="is_in_ellipse"/>
+        <entry id="129" object="true" symbol="MainMenu"/>
+        <entry field="true" id="50" symbol="lab2"/>
+        <entry field="true" id="49" symbol="lab1"/>
+        <entry field="true" id="54" symbol="last_fish"/>
+        <entry field="true" id="53" symbol="last_coords"/>
+        <entry field="true" id="64" symbol="max_y"/>
+        <entry field="true" id="63" symbol="max_x"/>
+        <entry field="true" id="62" symbol="max_v"/>
+        <entry field="true" id="60" symbol="max_a"/>
+        <entry field="true" id="59" symbol="max_R"/>
+        <entry field="true" id="71" symbol="new_s_y"/>
+        <entry field="true" id="70" symbol="new_s_x"/>
+        <entry field="true" id="61" symbol="max_i_y"/>
+        <entry field="true" id="48" symbol="lab"/>
+        <entry field="true" id="18" symbol="curr_screen"/>
+        <entry field="true" id="125" symbol="penguin_on"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="16" symbol="compete_timer"/>
+        <entry id="27" object="true" symbol="firstappApp"/>
+        <entry field="true" id="38" symbol="game_over_flag"/>
+        <entry id="8389540" method="true" symbol="onTextEntered"/>
+        <entry field="true" id="13" symbol="compete_T"/>
+        <entry field="true" id="86" symbol="previous_player"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="40" symbol="i_dim"/>
+        <entry field="true" id="116" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="23" symbol="f_dim"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
+        <entry field="true" id="79" symbol="penguin"/>
+        <entry field="true" id="21" symbol="distance_to_point"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="8388958" symbol="speed"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="124" symbol="ice_hole_img"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="105" symbol="vynil2"/>
+        <entry field="true" id="104" symbol="vynil1"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="30" object="true" symbol="firstappView"/>
+        <entry field="true" id="8388892" symbol="name"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389541" method="true" symbol="onCancel"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="52" symbol="last_compete_init"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="84" symbol="points_indx"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry field="true" id="118" symbol="fish1"/>
+        <entry field="true" id="117" symbol="fish0"/>
+        <entry field="true" id="83" symbol="podium_list"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="111" module="true" symbol="Layouts"/>
+        <entry field="true" id="98" symbol="turtle"/>
+        <entry field="true" id="19" symbol="curr_val"/>
+        <entry id="28" object="true" symbol="firstappDelegate"/>
+        <entry field="true" id="81" symbol="penguin_off"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="107" symbol="winner"/>
+        <entry id="8391828" method="true" symbol="onDrag"/>
+        <entry field="true" id="90" symbol="s2_y"/>
+        <entry field="true" id="89" symbol="s2_x"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="78" symbol="p_y"/>
+        <entry field="true" id="77" symbol="p_x"/>
+        <entry field="true" id="95" symbol="t_dim"/>
+        <entry field="true" id="132" symbol="menu_label_2"/>
+        <entry field="true" id="131" symbol="menu_label_1"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435650" name="x" stackId="1" startPc="268435564"/>
+        <entry arg="true" endPc="268435650" name="y" stackId="2" startPc="268435564"/>
+        <entry arg="true" endPc="268435650" name="c_x" stackId="3" startPc="268435564"/>
+        <entry arg="true" endPc="268435650" name="c_y" stackId="4" startPc="268435564"/>
+        <entry arg="true" endPc="268435650" name="R_x" stackId="5" startPc="268435564"/>
+        <entry arg="true" endPc="268435650" name="R_y" stackId="6" startPc="268435564"/>
+        <entry arg="true" endPc="268436800" name="dc" stackId="1" startPc="268436108"/>
+        <entry arg="true" endPc="268440990" name="dc" stackId="1" startPc="268436816"/>
+        <entry endPc="268440989" name="now" stackId="2" startPc="268436819"/>
+        <entry endPc="268438478" name="dim" stackId="3" startPc="268437077"/>
+        <entry endPc="268439535" name="angle" stackId="5" startPc="268439118"/>
+        <entry endPc="268440032" name="angle" stackId="6" startPc="268439610"/>
+        <entry arg="true" endPc="268441042" name="item" stackId="1" startPc="268441006"/>
+        <entry arg="true" endPc="268441056" name="val" stackId="1" startPc="268441043"/>
+        <entry arg="true" endPc="268441056" name="min_val" stackId="2" startPc="268441043"/>
+        <entry arg="true" endPc="268441056" name="max_val" stackId="3" startPc="268441043"/>
+        <entry endPc="268442229" name="now" stackId="1" startPc="268441088"/>
+        <entry endPc="268442229" name="sensorInfo" stackId="2" startPc="268441088"/>
+        <entry endPc="268441834" name="accel" stackId="3" startPc="268441134"/>
+        <entry endPc="268441834" name="x" stackId="4" startPc="268441134"/>
+        <entry endPc="268441834" name="y" stackId="5" startPc="268441134"/>
+        <entry endPc="268441834" name="z" stackId="6" startPc="268441134"/>
+        <entry endPc="268441834" name="pitch" stackId="7" startPc="268441134"/>
+        <entry endPc="268441834" name="roll" stackId="8" startPc="268441134"/>
+        <entry endPc="268441834" name="dim" stackId="9" startPc="268441134"/>
+        <entry endPc="268442498" name="i" stackId="1" startPc="268442266"/>
+        <entry arg="true" endPc="268443150" name="clickEvent" stackId="1" startPc="268442559"/>
+        <entry arg="true" endPc="268443626" name="dragEvent" stackId="1" startPc="268443151"/>
+        <entry arg="true" endPc="268443761" name="keyEvent" stackId="1" startPc="268443627"/>
+        <entry arg="true" endPc="268443872" name="key" stackId="1" startPc="268443777"/>
+        <entry arg="true" endPc="268444193" name="text" stackId="1" startPc="268443945"/>
+        <entry arg="true" endPc="268444193" name="changed" stackId="2" startPc="268443945"/>
+        <entry endPc="268444191" name="j" stackId="3" startPc="268444095"/>
+        <entry arg="true" endPc="268447081" name="dc" stackId="1" startPc="268444213"/>
+    </localVars>
+    <deviceInfo deviceVersion="fcbb2d71ec35a1d3f34d13093a6835d1c69522b8" partNumber="006-B3907-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="game_over"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="accel"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="penguin_on"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="vynil1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="penguin_off"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="vynil2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="turtle1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="podium"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="prev"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="next"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="info"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="winner"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="scroll1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="scroll2"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="turtle_on"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="ice_hole_img"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="turtle_off"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="hole4"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="fish0"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="hole3"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="fish1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="hole2"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="penguin"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="speed"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="hole1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="hole0"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/firstappView" offset="1112" parentId="globals" symbolId="firstappView" type="class"/>
+        <dataEntry label="globals/firstappMenuDelegate" offset="1192" parentId="globals" symbolId="firstappMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="1245" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/firstappDelegate" offset="1307" parentId="globals" symbolId="firstappDelegate" type="class"/>
+        <dataEntry label="globals/MyInputDelegate" offset="1414" parentId="globals" symbolId="MyInputDelegate" type="class"/>
+        <dataEntry label="globals/firstappApp" offset="1467" parentId="globals" symbolId="firstappApp" type="class"/>
+        <dataEntry label="globals/MyTextPickerDelegate" offset="1538" parentId="globals" symbolId="MyTextPickerDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1600" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1851" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1886" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1921" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="2001" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435563" name="&lt;init&gt;" parent="firstappView" startPc="268435552">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435650" name="is_in_ellipse" startPc="268435564">
+            <param id="x"/>
+            <param id="y"/>
+            <param id="c_x"/>
+            <param id="c_y"/>
+            <param id="R_x"/>
+            <param id="R_y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435671" name="getApp" startPc="268435651">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436027" name="disable_all" startPc="268435672">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436039" name="&lt;init&gt;" parent="firstappMenuDelegate" startPc="268436028">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436059" name="&lt;init&gt;" parent="Rez" startPc="268436040">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436071" name="&lt;init&gt;" parent="firstappDelegate" startPc="268436060">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436083" name="&lt;init&gt;" parent="MyInputDelegate" startPc="268436072">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436095" name="&lt;init&gt;" parent="firstappApp" startPc="268436084">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436107" name="&lt;init&gt;" parent="MyTextPickerDelegate" startPc="268436096">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="firstappView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436800" name="onLayout" parent="firstappView" startPc="268436108">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436815" name="initialize" parent="firstappView" startPc="268436801">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="firstappView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440990" name="onUpdate" parent="firstappView" startPc="268436816">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441005" name="initialize" parent="firstappMenuDelegate" startPc="268440991">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441042" name="onSelect" parent="firstappMenuDelegate" startPc="268441006">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441056" name="new_val" parent="firstappDelegate" startPc="268441043">
+            <param id="val"/>
+            <param id="min_val"/>
+            <param id="max_val"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441084" name="onMenu" parent="firstappDelegate" startPc="268441057">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442230" name="loop" parent="firstappDelegate" startPc="268441085">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442510" name="competition" parent="firstappDelegate" startPc="268442231">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268442558" name="initialize" parent="firstappDelegate" startPc="268442511">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443150" name="onTap" parent="firstappDelegate" startPc="268442559">
+            <param id="clickEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443626" name="onDrag" parent="firstappDelegate" startPc="268443151">
+            <param id="dragEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443761" name="onKeyPressed" parent="firstappDelegate" startPc="268443627">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443776" name="initialize" parent="MyInputDelegate" startPc="268443762">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443872" name="onKey" parent="MyInputDelegate" startPc="268443777">
+            <param id="key"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="firstappApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443929" name="getInitialView" parent="firstappApp" startPc="268443873">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268443944" name="initialize" parent="firstappApp" startPc="268443930">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="firstappApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444193" name="onTextEntered" parent="MyTextPickerDelegate" startPc="268443945">
+            <param id="text"/>
+            <param id="changed"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444197" name="onCancel" parent="MyTextPickerDelegate" startPc="268444194">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268444212" name="initialize" parent="MyTextPickerDelegate" startPc="268444198">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268447081" name="MainLayout" parent="Layouts" startPc="268444213">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268447093" name="&lt;init&gt;" parent="MainMenu" startPc="268447082">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268447198" name="initialize" parent="MainMenu" startPc="268447094">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

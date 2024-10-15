@@ -1,0 +1,2222 @@
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 4; @position = 4; ]
+var info;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 5; @position = 4; ]
+var ice_hole;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 6; @position = 4; ]
+var subject;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 7; @position = 4; ]
+var penguin;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 8; @position = 4; ]
+var turtle;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 9; @position = 4; ]
+var fish;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 10; @position = 4; ]
+var penguin_off;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 11; @position = 4; ]
+var turtle_off;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 12; @position = 4; ]
+var lab1;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 13; @position = 4; ]
+var lab2;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 14; @position = 4; ]
+var podium;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 15; @position = 4; ]
+var p1;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 16; @position = 4; ]
+var p2;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 17; @position = 4; ]
+var p3;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 18; @position = 4; ]
+var podium_list;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 19; @position = 4; ]
+var curr_val;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 20; @position = 4; ]
+var lab;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 21; @position = 4; ]
+var winner;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 22; @position = 4; ]
+var game_over;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 24; @position = 4; ]
+var i_dim;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 25; @position = 4; ]
+var p_dim;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 26; @position = 4; ]
+var t_dim;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 27; @position = 4; ]
+var n_dim;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 28; @position = 4; ]
+var vynil_dim;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 29; @position = 4; ]
+var s_dim;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 30; @position = 4; ]
+var f_dim;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 32; @position = 4; ]
+var vynil1;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 33; @position = 4; ]
+var vynil2;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 34; @position = 4; ]
+var scroll1;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 35; @position = 4; ]
+var scroll2;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 36; @position = 4; ]
+var next;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 37; @position = 4; ]
+var prev;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 39; @position = 4; ]
+var x_center;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 40; @position = 4; ]
+var y_center;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 41; @position = 4; ]
+var distance_to_point;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 42; @position = 4; ]
+var flag_s1 = false;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 43; @position = 4; ]
+var flag_s2 = false;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 44; @position = 4; ]
+var penguin_flag = true;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 45; @position = 4; ]
+var new_winner = false;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 46; @position = 4; ]
+var winner_flag = false;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 47; @position = 4; ]
+var last_winner = 0;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 48; @position = 4; ]
+var game_over_flag = false;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 49; @position = 4; ]
+var last_game_over = 0;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 51; @position = 4; ]
+var info_flag = true;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 52; @position = 4; ]
+var last_info;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 53; @position = 4; ]
+var info_T = 2500;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 54; @position = 4; ]
+var fishing = false;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 55; @position = 4; ]
+var last_fish;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 56; @position = 4; ]
+var fish_T = 2000;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 57; @position = 4; ]
+var fish_i = 0;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 58; @position = 4; ]
+var v_dir = 0;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 59; @position = 4; ]
+var last_fish_i;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 60; @position = 4; ]
+var f_x = 0;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 61; @position = 4; ]
+var f_y = 0;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 62; @position = 4; ]
+var f_A = 150;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 63; @position = 4; ]
+var f_m = 2;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 65; ]
+class firstappView extends WatchUi.View{
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 65; ]
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 65; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 67; ]
+    function initialize() as Void {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_67_26_69_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 68 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_67_26_69_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 72; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_72_40_117_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 73 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 74 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "info";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :info %tmp.13;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 76 8 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :findDrawableById;
+        %tmp.16 = "hole0";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        putv self :ice_hole %tmp.17;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 77 8 ]
+        %tmp.18 = self;
+        %tmp.19 = getv function %tmp.18 :findDrawableById;
+        %tmp.20 = "turtle1";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        putv self :subject %tmp.21;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 78 8 ]
+        %tmp.22 = self;
+        %tmp.23 = getv function %tmp.22 :findDrawableById;
+        %tmp.24 = "penguin_on";
+        %tmp.25 = invoke %tmp.22 %tmp.23(%tmp.24);
+        putv self :penguin %tmp.25;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 79 8 ]
+        %tmp.26 = self;
+        %tmp.27 = getv function %tmp.26 :findDrawableById;
+        %tmp.28 = "turtle_on";
+        %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
+        putv self :turtle %tmp.29;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 80 8 ]
+        %tmp.30 = self;
+        %tmp.31 = getv function %tmp.30 :findDrawableById;
+        %tmp.32 = "penguin_off";
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        putv self :penguin_off %tmp.33;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 81 8 ]
+        %tmp.34 = self;
+        %tmp.35 = getv function %tmp.34 :findDrawableById;
+        %tmp.36 = "turtle_off";
+        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
+        putv self :turtle_off %tmp.37;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 83 8 ]
+        %tmp.39 = getv ? :penguin;
+        %tmp.40 = getv function %tmp.39 :getDimensions;
+        %tmp.41 = invoke %tmp.39 %tmp.40();
+        putv self :p_dim %tmp.41;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 84 8 ]
+        %tmp.43 = getv ? :turtle;
+        %tmp.44 = getv function %tmp.43 :getDimensions;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        putv self :t_dim %tmp.45;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 85 8 ]
+        %tmp.47 = getv ? :ice_hole;
+        %tmp.48 = getv function %tmp.47 :getDimensions;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        putv self :i_dim %tmp.49;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 87 8 ]
+        %tmp.50 = self;
+        %tmp.51 = getv function %tmp.50 :findDrawableById;
+        %tmp.52 = "next";
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        putv self :next %tmp.53;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 88 8 ]
+        %tmp.54 = self;
+        %tmp.55 = getv function %tmp.54 :findDrawableById;
+        %tmp.56 = "prev";
+        %tmp.57 = invoke %tmp.54 %tmp.55(%tmp.56);
+        putv self :prev %tmp.57;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 90 8 ]
+        %tmp.59 = getv ? :next;
+        %tmp.60 = getv function %tmp.59 :getDimensions;
+        %tmp.61 = invoke %tmp.59 %tmp.60();
+        putv self :n_dim %tmp.61;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 92 8 ]
+        %tmp.62 = self;
+        %tmp.63 = getv function %tmp.62 :findDrawableById;
+        %tmp.64 = "vynil1";
+        %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
+        putv self :vynil1 %tmp.65;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 93 8 ]
+        %tmp.66 = self;
+        %tmp.67 = getv function %tmp.66 :findDrawableById;
+        %tmp.68 = "vynil2";
+        %tmp.69 = invoke %tmp.66 %tmp.67(%tmp.68);
+        putv self :vynil2 %tmp.69;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 94 8 ]
+        %tmp.70 = self;
+        %tmp.71 = getv function %tmp.70 :findDrawableById;
+        %tmp.72 = "scroll1";
+        %tmp.73 = invoke %tmp.70 %tmp.71(%tmp.72);
+        putv self :scroll1 %tmp.73;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 95 8 ]
+        %tmp.74 = self;
+        %tmp.75 = getv function %tmp.74 :findDrawableById;
+        %tmp.76 = "scroll2";
+        %tmp.77 = invoke %tmp.74 %tmp.75(%tmp.76);
+        putv self :scroll2 %tmp.77;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 96 8 ]
+        %tmp.78 = self;
+        %tmp.79 = getv function %tmp.78 :findDrawableById;
+        %tmp.80 = "lab1";
+        %tmp.81 = invoke %tmp.78 %tmp.79(%tmp.80);
+        putv self :lab1 %tmp.81;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 97 8 ]
+        %tmp.82 = self;
+        %tmp.83 = getv function %tmp.82 :findDrawableById;
+        %tmp.84 = "lab2";
+        %tmp.85 = invoke %tmp.82 %tmp.83(%tmp.84);
+        putv self :lab2 %tmp.85;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 99 8 ]
+        %tmp.87 = getv ? :vynil1;
+        %tmp.88 = getv function %tmp.87 :getDimensions;
+        %tmp.89 = invoke %tmp.87 %tmp.88();
+        putv self :vynil_dim %tmp.89;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 100 8 ]
+        %tmp.91 = getv ? :scroll1;
+        %tmp.92 = getv function %tmp.91 :getDimensions;
+        %tmp.93 = invoke %tmp.91 %tmp.92();
+        putv self :s_dim %tmp.93;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 102 8 ]
+        %tmp.94 = self;
+        %tmp.95 = getv function %tmp.94 :findDrawableById;
+        %tmp.96 = "podium";
+        %tmp.97 = invoke %tmp.94 %tmp.95(%tmp.96);
+        putv self :podium %tmp.97;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 104 8 ]
+        %tmp.98 = self;
+        %tmp.99 = getv function %tmp.98 :findDrawableById;
+        %tmp.100 = "p1";
+        %tmp.101 = invoke %tmp.98 %tmp.99(%tmp.100);
+        putv self :p1 %tmp.101;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 105 8 ]
+        %tmp.102 = self;
+        %tmp.103 = getv function %tmp.102 :findDrawableById;
+        %tmp.104 = "p2";
+        %tmp.105 = invoke %tmp.102 %tmp.103(%tmp.104);
+        putv self :p2 %tmp.105;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 106 8 ]
+        %tmp.106 = self;
+        %tmp.107 = getv function %tmp.106 :findDrawableById;
+        %tmp.108 = "p3";
+        %tmp.109 = invoke %tmp.106 %tmp.107(%tmp.108);
+        putv self :p3 %tmp.109;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 107 8 ]
+        %tmp.110 = newa 3;
+        %tmp.112 = getv ? :p1;
+        %tmp.113 = dup %tmp.110;
+        %tmp.114 = aputv %tmp.113 0 %tmp.112;
+        %tmp.116 = getv ? :p2;
+        %tmp.117 = dup %tmp.114;
+        %tmp.118 = aputv %tmp.117 1 %tmp.116;
+        %tmp.120 = getv ? :p3;
+        %tmp.121 = dup %tmp.118;
+        %tmp.122 = aputv %tmp.121 2 %tmp.120;
+        putv self :podium_list %tmp.122;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 109 8 ]
+        %tmp.123 = self;
+        %tmp.124 = getv function %tmp.123 :findDrawableById;
+        %tmp.125 = "lab";
+        %tmp.126 = invoke %tmp.123 %tmp.124(%tmp.125);
+        putv self :lab %tmp.126;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 110 8 ]
+        %tmp.127 = self;
+        %tmp.128 = getv function %tmp.127 :findDrawableById;
+        %tmp.129 = "winner";
+        %tmp.130 = invoke %tmp.127 %tmp.128(%tmp.129);
+        putv self :winner %tmp.130;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 111 8 ]
+        %tmp.131 = self;
+        %tmp.132 = getv function %tmp.131 :findDrawableById;
+        %tmp.133 = "game_over";
+        %tmp.134 = invoke %tmp.131 %tmp.132(%tmp.133);
+        putv self :game_over %tmp.134;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 112 8 ]
+        %tmp.136 = getv ? :System;
+        %tmp.137 = getv function %tmp.136 :getTimer;
+        %tmp.138 = invoke %tmp.136 %tmp.137();
+        putv self :last_info %tmp.138;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 114 8 ]
+        %tmp.139 = self;
+        %tmp.140 = getv function %tmp.139 :findDrawableById;
+        %tmp.141 = "fish0";
+        %tmp.142 = invoke %tmp.139 %tmp.140(%tmp.141);
+        putv self :fish %tmp.142;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 115 8 ]
+        %tmp.144 = getv ? :System;
+        %tmp.145 = getv function %tmp.144 :getTimer;
+        %tmp.146 = invoke %tmp.144 %tmp.145();
+        putv self :last_fish %tmp.146;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 116 8 ]
+        %tmp.148 = getv ? :fish;
+        %tmp.149 = getv function %tmp.148 :getDimensions;
+        %tmp.150 = invoke %tmp.148 %tmp.149();
+        putv self :f_dim %tmp.150;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_72_40_117_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 122; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 126; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_126_40_372_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 128 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 129 8 ]
+        %tmp.6 = lgetv %dc;
+        %tmp.7 = getv function %tmp.6 :clear;
+        invoke %tmp.6 %tmp.7();
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 135 8 ]
+        [ "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_126_40_372_4_start" "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_126_40_372_4_stop" ]
+        %now.1 = local;
+        %tmp.9 = getv ? :System;
+        %tmp.10 = getv function %tmp.9 :getTimer;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        lputv %now.1 %tmp.11;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 136 8 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_136_8_339_8_if_stmt:
+        %tmp.13 = getv ? :info_flag;
+        bf %tmp.13 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_136_8_339_8_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_136_8_339_8_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_136_23_151_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 137 12 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :disable_all;
+        invoke %tmp.14 %tmp.15();
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 138 12 ]
+        %tmp.17 = getv ? :info;
+        %tmp.18 = getv function %tmp.17 :setVisible;
+        %tmp.19 = true;
+        invoke %tmp.17 %tmp.18(%tmp.19);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 139 12 ]
+        %tmp.21 = getv ? :subject;
+        %tmp.22 = getv function %tmp.21 :setVisible;
+        %tmp.23 = true;
+        invoke %tmp.21 %tmp.22(%tmp.23);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 140 12 ]
+        %tmp.24 = lgetv %dc;
+        %tmp.25 = getv function %tmp.24 :setColor;
+        %tmp.26 = getm $.Toybox.Graphics;
+        %tmp.27 = getv %tmp.26 :COLOR_DK_GRAY;
+        %tmp.28 = getm $.Toybox.Graphics;
+        %tmp.29 = getv %tmp.28 :COLOR_YELLOW;
+        invoke %tmp.24 %tmp.25(%tmp.27, %tmp.29);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 141 12 ]
+        %tmp.30 = lgetv %dc;
+        %tmp.31 = getv function %tmp.30 :drawEllipse;
+        %tmp.32 = 140;
+        %tmp.33 = 140;
+        %tmp.34 = 150;
+        %tmp.35 = 150;
+        invoke %tmp.30 %tmp.31(%tmp.32, %tmp.33, %tmp.34, %tmp.35);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 142 12 ]
+        %tmp.36 = lgetv %dc;
+        %tmp.37 = getv function %tmp.36 :fillEllipse;
+        %tmp.38 = 140;
+        %tmp.39 = 140;
+        %tmp.40 = 150;
+        %tmp.41 = 150;
+        invoke %tmp.36 %tmp.37(%tmp.38, %tmp.39, %tmp.40, %tmp.41);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 144 12 ]
+        %tmp.42 = true;
+        putv self :penguin_flag %tmp.42;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 145 12 ]
+        %tmp.43 = self;
+        %tmp.44 = getv function %tmp.43 :findDrawableById;
+        %tmp.45 = "penguin";
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        putv self :subject %tmp.46;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 146 12 ]
+        %tmp.47 = 120;
+        putv self :p_x %tmp.47;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 147 12 ]
+        %tmp.48 = 115;
+        putv self :p_y %tmp.48;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 148 12 ]
+        %tmp.50 = getv ? :subject;
+        %tmp.51 = getv function %tmp.50 :setLocation;
+        %tmp.53 = getv ? :p_x;
+        %tmp.55 = getv ? :p_y;
+        invoke %tmp.50 %tmp.51(%tmp.53, %tmp.55);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 149 12 ]
+        %tmp.57 = getv ? :info;
+        %tmp.58 = getv function %tmp.57 :draw;
+        %tmp.60 = lgetv %dc;
+        invoke %tmp.57 %tmp.58(%tmp.60);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 150 12 ]
+        %tmp.62 = getv ? :subject;
+        %tmp.63 = getv function %tmp.62 :draw;
+        %tmp.65 = lgetv %dc;
+        invoke %tmp.62 %tmp.63(%tmp.65);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_136_23_151_8_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_136_8_339_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_136_8_339_8_if_false:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_152_13_339_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 153 12 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_12_337_12_if_stmt:
+        %tmp.67 = getv ? :toggle_view;
+        bf %tmp.67 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_12_337_12_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_12_337_12_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_29_228_12_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 154 16 ]
+        %tmp.68 = self;
+        %tmp.69 = getv function %tmp.68 :disable_all;
+        invoke %tmp.68 %tmp.69();
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 155 16 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_begin:
+        %tmp.71 = getv ? :penguin_flag;
+        bf %tmp.71 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_true:
+        %tmp.72 = self;
+        %tmp.73 = getv function %tmp.72 :findDrawableById;
+        %tmp.74 = "penguin";
+        %tmp.75 = invoke %tmp.72 %tmp.73(%tmp.74);
+        push %tmp.75;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_false:
+        %tmp.76 = self;
+        %tmp.77 = getv function %tmp.76 :findDrawableById;
+        %tmp.78 = "turtle1";
+        %tmp.79 = invoke %tmp.76 %tmp.77(%tmp.78);
+        push %tmp.79;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_end:
+        %tmp.80 = phi [%tmp.71 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_begin] [%tmp.75 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_true] [%tmp.79 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_false] [%tmp.80 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_155_26_155_97_end];
+        putv self :subject %tmp.80;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 156 16 ]
+        %tmp.82 = getv ? :ice_hole;
+        %tmp.83 = getv function %tmp.82 :setVisible;
+        %tmp.84 = true;
+        invoke %tmp.82 %tmp.83(%tmp.84);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 157 16 ]
+        %tmp.86 = getv ? :subject;
+        %tmp.87 = getv function %tmp.86 :setVisible;
+        %tmp.88 = true;
+        invoke %tmp.86 %tmp.87(%tmp.88);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 158 16 ]
+        %tmp.89 = lgetv %dc;
+        %tmp.90 = getv function %tmp.89 :setColor;
+        %tmp.91 = getm $.Toybox.Graphics;
+        %tmp.92 = getv %tmp.91 :COLOR_WHITE;
+        %tmp.93 = getm $.Toybox.Graphics;
+        %tmp.94 = getv %tmp.93 :COLOR_WHITE;
+        invoke %tmp.89 %tmp.90(%tmp.92, %tmp.94);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 159 16 ]
+        %tmp.95 = lgetv %dc;
+        %tmp.96 = getv function %tmp.95 :drawEllipse;
+        %tmp.97 = 140;
+        %tmp.98 = 140;
+        %tmp.99 = 150;
+        %tmp.100 = 150;
+        invoke %tmp.95 %tmp.96(%tmp.97, %tmp.98, %tmp.99, %tmp.100);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 160 16 ]
+        %tmp.101 = lgetv %dc;
+        %tmp.102 = getv function %tmp.101 :fillEllipse;
+        %tmp.103 = 140;
+        %tmp.104 = 140;
+        %tmp.105 = 150;
+        %tmp.106 = 150;
+        invoke %tmp.101 %tmp.102(%tmp.103, %tmp.104, %tmp.105, %tmp.106);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 161 16 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_161_16_190_16_if_stmt:
+        %tmp.108 = getv ? :compete_flag;
+        bf %tmp.108 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_161_16_190_16_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_161_16_190_16_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_161_34_179_16_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 163 20 ]
+        %tmp.109 = lgetv %dc;
+        %tmp.110 = getv function %tmp.109 :setPenWidth;
+        %tmp.111 = 20;
+        invoke %tmp.109 %tmp.110(%tmp.111);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 164 20 ]
+        %tmp.112 = lgetv %dc;
+        %tmp.113 = getv function %tmp.112 :setColor;
+        %tmp.114 = getm $.Toybox.Graphics;
+        %tmp.115 = getv %tmp.114 :COLOR_ORANGE;
+        %tmp.116 = getm $.Toybox.Graphics;
+        %tmp.117 = getv %tmp.116 :COLOR_ORANGE;
+        invoke %tmp.112 %tmp.113(%tmp.115, %tmp.117);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 165 20 ]
+        %tmp.118 = lgetv %dc;
+        %tmp.119 = getv function %tmp.118 :drawEllipse;
+        %tmp.120 = 140;
+        %tmp.121 = 140;
+        %tmp.122 = 140;
+        %tmp.123 = 140;
+        invoke %tmp.118 %tmp.119(%tmp.120, %tmp.121, %tmp.122, %tmp.123);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 166 20 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_166_20_167_84_if_stmt:
+        %tmp.124 = 0.9;
+        %tmp.126 = lgetv %now.1;
+        %tmp.128 = getv ? :last_compete_init;
+        %tmp.129 = sub %tmp.126 %tmp.128;
+        %tmp.131 = getv ? :compete_T;
+        %tmp.132 = div %tmp.129 %tmp.131;
+        %tmp.133 = lt %tmp.124 %tmp.132;
+        bf %tmp.133 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_166_20_167_84_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_166_20_167_84_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_166_65_166_123_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 166 67 ]
+        %tmp.134 = lgetv %dc;
+        %tmp.135 = getv function %tmp.134 :setColor;
+        %tmp.136 = getm $.Toybox.Graphics;
+        %tmp.137 = getv %tmp.136 :COLOR_RED;
+        %tmp.138 = getm $.Toybox.Graphics;
+        %tmp.139 = getv %tmp.138 :COLOR_YELLOW;
+        invoke %tmp.134 %tmp.135(%tmp.137, %tmp.139);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_166_65_166_123_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_166_20_167_84_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_166_20_167_84_if_false:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_167_25_167_84_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 167 27 ]
+        %tmp.140 = lgetv %dc;
+        %tmp.141 = getv function %tmp.140 :setColor;
+        %tmp.142 = getm $.Toybox.Graphics;
+        %tmp.143 = getv %tmp.142 :COLOR_BLUE;
+        %tmp.144 = getm $.Toybox.Graphics;
+        %tmp.145 = getv %tmp.144 :COLOR_YELLOW;
+        invoke %tmp.140 %tmp.141(%tmp.143, %tmp.145);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_167_25_167_84_stop:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_166_20_167_84_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 168 20 ]
+        %tmp.146 = lgetv %dc;
+        %tmp.147 = getv function %tmp.146 :drawArc;
+        %tmp.148 = 140;
+        %tmp.149 = 140;
+        %tmp.150 = 140;
+        %tmp.151 = getm $.Toybox.Graphics;
+        %tmp.152 = getv %tmp.151 :ARC_CLOCKWISE;
+        %tmp.153 = 90;
+        %tmp.154 = 90;
+        %tmp.155 = 360;
+        %tmp.157 = lgetv %now.1;
+        %tmp.159 = getv ? :last_compete_init;
+        %tmp.160 = sub %tmp.157 %tmp.159;
+        %tmp.161 = mul %tmp.155 %tmp.160;
+        %tmp.163 = getv ? :compete_T;
+        %tmp.164 = div %tmp.161 %tmp.163;
+        %tmp.165 = sub %tmp.154 %tmp.164;
+        invoke %tmp.146 %tmp.147(%tmp.148, %tmp.149, %tmp.150, %tmp.152, %tmp.153, %tmp.165);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 171 20 ]
+        %tmp.166 = lgetv %dc;
+        %tmp.167 = getv function %tmp.166 :setPenWidth;
+        %tmp.168 = 1;
+        invoke %tmp.166 %tmp.167(%tmp.168);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 172 20 ]
+        %tmp.169 = lgetv %dc;
+        %tmp.170 = getv function %tmp.169 :setColor;
+        %tmp.171 = getm $.Toybox.Graphics;
+        %tmp.172 = getv %tmp.171 :COLOR_ORANGE;
+        %tmp.173 = getm $.Toybox.Graphics;
+        %tmp.174 = getv %tmp.173 :COLOR_ORANGE;
+        invoke %tmp.169 %tmp.170(%tmp.172, %tmp.174);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 173 20 ]
+        %tmp.175 = lgetv %dc;
+        %tmp.176 = getv function %tmp.175 :drawEllipse;
+        %tmp.177 = 140;
+        %tmp.178 = 23;
+        %tmp.179 = 20;
+        %tmp.180 = 20;
+        invoke %tmp.175 %tmp.176(%tmp.177, %tmp.178, %tmp.179, %tmp.180);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 174 20 ]
+        %tmp.181 = lgetv %dc;
+        %tmp.182 = getv function %tmp.181 :fillEllipse;
+        %tmp.183 = 140;
+        %tmp.184 = 23;
+        %tmp.185 = 20;
+        %tmp.186 = 20;
+        invoke %tmp.181 %tmp.182(%tmp.183, %tmp.184, %tmp.185, %tmp.186);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 175 20 ]
+        %tmp.187 = lgetv %dc;
+        %tmp.188 = getv function %tmp.187 :setColor;
+        %tmp.189 = getm $.Toybox.Graphics;
+        %tmp.190 = getv %tmp.189 :COLOR_BLUE;
+        %tmp.191 = getm $.Toybox.Graphics;
+        %tmp.192 = getv %tmp.191 :COLOR_TRANSPARENT;
+        invoke %tmp.187 %tmp.188(%tmp.190, %tmp.192);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 176 20 ]
+        %tmp.193 = lgetv %dc;
+        %tmp.194 = getv function %tmp.193 :drawText;
+        %tmp.195 = 140;
+        %tmp.196 = 3;
+        %tmp.197 = getm $.Toybox.Graphics;
+        %tmp.198 = getv %tmp.197 :FONT_MEDIUM;
+        %tmp.200 = getv ? :Lang;
+        %tmp.201 = getv function %tmp.200 :format;
+        %tmp.202 = "$1$";
+        %tmp.203 = newa 1;
+        %tmp.205 = getv ? :compete_cnt;
+        %tmp.206 = getv function %tmp.205 :format;
+        %tmp.207 = "%.0i";
+        %tmp.208 = invoke %tmp.205 %tmp.206(%tmp.207);
+        %tmp.209 = dup %tmp.203;
+        %tmp.210 = aputv %tmp.209 0 %tmp.208;
+        %tmp.211 = invoke %tmp.200 %tmp.201(%tmp.202, %tmp.210);
+        %tmp.212 = getm $.Toybox.Graphics;
+        %tmp.213 = getv %tmp.212 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.193 %tmp.194(%tmp.195, %tmp.196, %tmp.198, %tmp.211, %tmp.213);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 177 20 ]
+        %tmp.214 = lgetv %dc;
+        %tmp.215 = getv function %tmp.214 :setColor;
+        %tmp.216 = getm $.Toybox.Graphics;
+        %tmp.217 = getv %tmp.216 :COLOR_BLUE;
+        %tmp.218 = getm $.Toybox.Graphics;
+        %tmp.219 = getv %tmp.218 :COLOR_TRANSPARENT;
+        invoke %tmp.214 %tmp.215(%tmp.217, %tmp.219);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 178 20 ]
+        %tmp.220 = lgetv %dc;
+        %tmp.221 = getv function %tmp.220 :drawText;
+        %tmp.222 = 140;
+        %tmp.223 = 3;
+        %tmp.224 = getm $.Toybox.Graphics;
+        %tmp.225 = getv %tmp.224 :FONT_MEDIUM;
+        %tmp.227 = getv ? :Lang;
+        %tmp.228 = getv function %tmp.227 :format;
+        %tmp.229 = "$1$";
+        %tmp.230 = newa 1;
+        %tmp.232 = getv ? :compete_cnt;
+        %tmp.233 = getv function %tmp.232 :format;
+        %tmp.234 = "%.0f";
+        %tmp.235 = invoke %tmp.232 %tmp.233(%tmp.234);
+        %tmp.236 = dup %tmp.230;
+        %tmp.237 = aputv %tmp.236 0 %tmp.235;
+        %tmp.238 = invoke %tmp.227 %tmp.228(%tmp.229, %tmp.237);
+        %tmp.239 = getm $.Toybox.Graphics;
+        %tmp.240 = getv %tmp.239 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.220 %tmp.221(%tmp.222, %tmp.223, %tmp.225, %tmp.238, %tmp.240);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_161_34_179_16_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_161_16_190_16_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_161_16_190_16_if_false:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_180_21_190_16_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 181 20 ]
+        %tmp.241 = lgetv %dc;
+        %tmp.242 = getv function %tmp.241 :setPenWidth;
+        %tmp.243 = 20;
+        invoke %tmp.241 %tmp.242(%tmp.243);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 182 20 ]
+        %tmp.244 = lgetv %dc;
+        %tmp.245 = getv function %tmp.244 :setColor;
+        %tmp.246 = getm $.Toybox.Graphics;
+        %tmp.247 = getv %tmp.246 :COLOR_BLUE;
+        %tmp.248 = getm $.Toybox.Graphics;
+        %tmp.249 = getv %tmp.248 :COLOR_BLUE;
+        invoke %tmp.244 %tmp.245(%tmp.247, %tmp.249);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 183 20 ]
+        %tmp.250 = lgetv %dc;
+        %tmp.251 = getv function %tmp.250 :drawEllipse;
+        %tmp.252 = 140;
+        %tmp.253 = 140;
+        %tmp.254 = 140;
+        %tmp.255 = 140;
+        invoke %tmp.250 %tmp.251(%tmp.252, %tmp.253, %tmp.254, %tmp.255);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 184 20 ]
+        %tmp.256 = lgetv %dc;
+        %tmp.257 = getv function %tmp.256 :setPenWidth;
+        %tmp.258 = 1;
+        invoke %tmp.256 %tmp.257(%tmp.258);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 185 20 ]
+        %tmp.259 = lgetv %dc;
+        %tmp.260 = getv function %tmp.259 :setColor;
+        %tmp.261 = getm $.Toybox.Graphics;
+        %tmp.262 = getv %tmp.261 :COLOR_BLUE;
+        %tmp.263 = getm $.Toybox.Graphics;
+        %tmp.264 = getv %tmp.263 :COLOR_BLUE;
+        invoke %tmp.259 %tmp.260(%tmp.262, %tmp.264);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 186 20 ]
+        %tmp.265 = lgetv %dc;
+        %tmp.266 = getv function %tmp.265 :drawEllipse;
+        %tmp.267 = 140;
+        %tmp.268 = 23;
+        %tmp.269 = 20;
+        %tmp.270 = 20;
+        invoke %tmp.265 %tmp.266(%tmp.267, %tmp.268, %tmp.269, %tmp.270);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 187 20 ]
+        %tmp.271 = lgetv %dc;
+        %tmp.272 = getv function %tmp.271 :fillEllipse;
+        %tmp.273 = 140;
+        %tmp.274 = 23;
+        %tmp.275 = 20;
+        %tmp.276 = 20;
+        invoke %tmp.271 %tmp.272(%tmp.273, %tmp.274, %tmp.275, %tmp.276);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 188 20 ]
+        %tmp.277 = lgetv %dc;
+        %tmp.278 = getv function %tmp.277 :setColor;
+        %tmp.279 = getm $.Toybox.Graphics;
+        %tmp.280 = getv %tmp.279 :COLOR_ORANGE;
+        %tmp.281 = getm $.Toybox.Graphics;
+        %tmp.282 = getv %tmp.281 :COLOR_TRANSPARENT;
+        invoke %tmp.277 %tmp.278(%tmp.280, %tmp.282);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 189 20 ]
+        %tmp.283 = lgetv %dc;
+        %tmp.284 = getv function %tmp.283 :drawText;
+        %tmp.285 = 140;
+        %tmp.286 = 3;
+        %tmp.287 = getm $.Toybox.Graphics;
+        %tmp.288 = getv %tmp.287 :FONT_MEDIUM;
+        %tmp.289 = "?";
+        %tmp.290 = getm $.Toybox.Graphics;
+        %tmp.291 = getv %tmp.290 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.283 %tmp.284(%tmp.285, %tmp.286, %tmp.288, %tmp.289, %tmp.291);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_180_21_190_16_stop:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_161_16_190_16_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 193 16 ]
+        %tmp.292 = lgetv %dc;
+        %tmp.293 = getv function %tmp.292 :setColor;
+        %tmp.294 = getm $.Toybox.Graphics;
+        %tmp.295 = getv %tmp.294 :COLOR_PINK;
+        %tmp.296 = getm $.Toybox.Graphics;
+        %tmp.297 = getv %tmp.296 :COLOR_YELLOW;
+        invoke %tmp.292 %tmp.293(%tmp.295, %tmp.297);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 194 16 ]
+        [ "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_29_228_12_start" "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_29_228_12_stop" ]
+        %dim.2 = local;
+        %tmp.299 = getv ? :subject;
+        %tmp.300 = getv function %tmp.299 :getDimensions;
+        %tmp.301 = invoke %tmp.299 %tmp.300();
+        lputv %dim.2 %tmp.301;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 197 16 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_197_16_206_16_if_stmt:
+        %tmp.302 = self;
+        %tmp.303 = getv function %tmp.302 :is_in_ellipse;
+        %tmp.305 = getv ? :p_x;
+        %tmp.307 = lgetv %dim.2;
+        %tmp.308 = 0;
+        %tmp.309 = agetv %tmp.307 %tmp.308;
+        %tmp.310 = 2;
+        %tmp.311 = div %tmp.309 %tmp.310;
+        %tmp.312 = add %tmp.305 %tmp.311;
+        %tmp.314 = getv ? :p_y;
+        %tmp.316 = lgetv %dim.2;
+        %tmp.317 = 1;
+        %tmp.318 = agetv %tmp.316 %tmp.317;
+        %tmp.319 = 2;
+        %tmp.320 = div %tmp.318 %tmp.319;
+        %tmp.321 = add %tmp.314 %tmp.320;
+        %tmp.323 = getv ? :i_x;
+        %tmp.325 = getv ? :i_dim;
+        %tmp.326 = 0;
+        %tmp.327 = agetv %tmp.325 %tmp.326;
+        %tmp.328 = 2;
+        %tmp.329 = div %tmp.327 %tmp.328;
+        %tmp.330 = add %tmp.323 %tmp.329;
+        %tmp.332 = getv ? :i_y;
+        %tmp.334 = getv ? :i_dim;
+        %tmp.335 = 1;
+        %tmp.336 = agetv %tmp.334 %tmp.335;
+        %tmp.337 = 2;
+        %tmp.338 = div %tmp.336 %tmp.337;
+        %tmp.339 = add %tmp.332 %tmp.338;
+        %tmp.341 = getv ? :i_dim;
+        %tmp.342 = 0;
+        %tmp.343 = agetv %tmp.341 %tmp.342;
+        %tmp.344 = 3;
+        %tmp.345 = div %tmp.343 %tmp.344;
+        %tmp.347 = getv ? :i_dim;
+        %tmp.348 = 1;
+        %tmp.349 = agetv %tmp.347 %tmp.348;
+        %tmp.350 = 3;
+        %tmp.351 = div %tmp.349 %tmp.350;
+        %tmp.352 = invoke %tmp.302 %tmp.303(%tmp.312, %tmp.321, %tmp.330, %tmp.339, %tmp.345, %tmp.351);
+        bf %tmp.352 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_197_16_206_16_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_197_16_206_16_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_197_119_206_16_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 198 20 ]
+        %tmp.354 = getv ? :Math;
+        %tmp.355 = getv function %tmp.354 :rand;
+        %tmp.356 = invoke %tmp.354 %tmp.355();
+        %tmp.357 = 2;
+        %tmp.358 = mod %tmp.356 %tmp.357;
+        %tmp.359 = 0.9;
+        %tmp.360 = mul %tmp.358 %tmp.359;
+        %tmp.362 = getv ? :max_R;
+        %tmp.363 = mul %tmp.360 %tmp.362;
+        putv self :i_x %tmp.363;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 199 20 ]
+        %tmp.365 = getv ? :Math;
+        %tmp.366 = getv function %tmp.365 :sqrt;
+        %tmp.368 = getv ? :Math;
+        %tmp.369 = getv function %tmp.368 :pow;
+        %tmp.370 = 0.9;
+        %tmp.372 = getv ? :max_R;
+        %tmp.373 = mul %tmp.370 %tmp.372;
+        %tmp.374 = 2;
+        %tmp.375 = invoke %tmp.368 %tmp.369(%tmp.373, %tmp.374);
+        %tmp.377 = getv ? :Math;
+        %tmp.378 = getv function %tmp.377 :pow;
+        %tmp.380 = getv ? :i_x;
+        %tmp.381 = 0.9;
+        %tmp.383 = getv ? :max_R;
+        %tmp.384 = mul %tmp.381 %tmp.383;
+        %tmp.385 = sub %tmp.380 %tmp.384;
+        %tmp.386 = 2;
+        %tmp.387 = invoke %tmp.377 %tmp.378(%tmp.385, %tmp.386);
+        %tmp.388 = sub %tmp.375 %tmp.387;
+        %tmp.389 = invoke %tmp.365 %tmp.366(%tmp.388);
+        putv self :max_i_y %tmp.389;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 200 20 ]
+        %tmp.391 = getv ? :Math;
+        %tmp.392 = getv function %tmp.391 :rand;
+        %tmp.393 = invoke %tmp.391 %tmp.392();
+        %tmp.394 = 2;
+        %tmp.395 = mod %tmp.393 %tmp.394;
+        %tmp.397 = getv ? :max_i_y;
+        %tmp.398 = mul %tmp.395 %tmp.397;
+        putv self :i_y %tmp.398;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 203 20 ]
+        %tmp.400 = getv ? :Math;
+        %tmp.401 = getv function %tmp.400 :rand;
+        %tmp.402 = invoke %tmp.400 %tmp.401();
+        %tmp.403 = 4;
+        %tmp.404 = mod %tmp.402 %tmp.403;
+        putv self :i_hole %tmp.404;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 204 20 ]
+        %tmp.405 = self;
+        %tmp.406 = getv function %tmp.405 :findDrawableById;
+        %tmp.407 = "hole";
+        %tmp.409 = getv ? :i_hole;
+        %tmp.410 = getv function %tmp.409 :toString;
+        %tmp.411 = invoke %tmp.409 %tmp.410();
+        %tmp.412 = add %tmp.407 %tmp.411;
+        %tmp.413 = invoke %tmp.405 %tmp.406(%tmp.412);
+        putv self :ice_hole %tmp.413;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 205 20 ]
+        %tmp.414 = getv self :compete_cnt;
+        %tmp.415 = 1;
+        %tmp.416 = add %tmp.414 %tmp.415;
+        putv self :compete_cnt dup %tmp.416;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_197_119_206_16_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_197_16_206_16_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_197_16_206_16_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 208 16 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_208_16_218_16_if_stmt:
+        %tmp.418 = getv ? :fishing;
+        bf %tmp.418 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_208_16_218_16_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_208_16_218_16_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_208_29_218_16_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 209 20 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_209_20_212_20_if_stmt:
+        %tmp.420 = getv ? :fish_i;
+        %tmp.422 = getv ? :last_fish_i;
+        %tmp.423 = ne %tmp.420 %tmp.422;
+        bf %tmp.423 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_209_20_212_20_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_209_20_212_20_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_209_47_212_20_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 210 24 ]
+        %tmp.425 = getv ? :fish_i;
+        putv self :last_fish_i %tmp.425;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 211 24 ]
+        %tmp.426 = self;
+        %tmp.427 = getv function %tmp.426 :findDrawableById;
+        %tmp.428 = "fish";
+        %tmp.430 = getv ? :fish_i;
+        %tmp.431 = getv function %tmp.430 :toString;
+        %tmp.432 = invoke %tmp.430 %tmp.431();
+        %tmp.433 = add %tmp.428 %tmp.432;
+        %tmp.434 = invoke %tmp.426 %tmp.427(%tmp.433);
+        putv self :fish %tmp.434;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_209_47_212_20_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_209_20_212_20_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_209_20_212_20_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 213 20 ]
+        %tmp.436 = getv ? :fish;
+        %tmp.437 = getv function %tmp.436 :setVisible;
+        %tmp.438 = true;
+        invoke %tmp.436 %tmp.437(%tmp.438);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 214 20 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_begin:
+        %tmp.440 = getv ? :fish_i;
+        bf %tmp.440 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_true:
+        %tmp.442 = getv ? :f_x;
+        %tmp.443 = 320;
+        %tmp.445 = getv ? :fish_T;
+        %tmp.447 = getv ? :Tms;
+        %tmp.448 = div %tmp.445 %tmp.447;
+        %tmp.449 = div %tmp.443 %tmp.448;
+        %tmp.450 = sub %tmp.442 %tmp.449;
+        push %tmp.450;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_false:
+        %tmp.452 = getv ? :f_x;
+        %tmp.453 = 320;
+        %tmp.455 = getv ? :fish_T;
+        %tmp.457 = getv ? :Tms;
+        %tmp.458 = div %tmp.455 %tmp.457;
+        %tmp.459 = div %tmp.453 %tmp.458;
+        %tmp.460 = add %tmp.452 %tmp.459;
+        push %tmp.460;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_end:
+        %tmp.461 = phi [%tmp.440 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_begin] [%tmp.450 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_true] [%tmp.460 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_false] [%tmp.461 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_214_26_214_81_end];
+        putv self :f_x %tmp.461;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 215 20 ]
+        %tmp.463 = getv ? :f_m;
+        %tmp.465 = getv ? :f_x;
+        %tmp.466 = mul %tmp.463 %tmp.465;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_begin:
+        %tmp.468 = getv ? :v_dir;
+        bf %tmp.468 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_true:
+        %tmp.469 = 320;
+        push %tmp.469;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_false:
+        %tmp.470 = 0;
+        push %tmp.470;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_end:
+        %tmp.471 = phi [%tmp.468 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_begin] [%tmp.469 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_true] [%tmp.470 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_false] [%tmp.471 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_215_38_215_52_end];
+        %tmp.473 = getv ? :Math;
+        %tmp.474 = getv function %tmp.473 :sqrt;
+        %tmp.476 = getv ? :Math;
+        %tmp.477 = getv function %tmp.476 :pow;
+        %tmp.479 = getv ? :f_m;
+        %tmp.480 = 2;
+        %tmp.481 = invoke %tmp.476 %tmp.477(%tmp.479, %tmp.480);
+        %tmp.482 = invoke %tmp.473 %tmp.474(%tmp.481);
+        %tmp.483 = div %tmp.471 %tmp.482;
+        %tmp.484 = add %tmp.466 %tmp.483;
+        %tmp.486 = getv ? :f_A;
+        %tmp.488 = getv ? :Math;
+        %tmp.489 = getv function %tmp.488 :sin;
+        %tmp.490 = 4;
+        %tmp.492 = getv ? :Math;
+        %tmp.493 = getv %tmp.492 :PI;
+        %tmp.494 = mul %tmp.490 %tmp.493;
+        %tmp.496 = getv ? :f_x;
+        %tmp.497 = mul %tmp.494 %tmp.496;
+        %tmp.498 = 320;
+        %tmp.499 = div %tmp.497 %tmp.498;
+        %tmp.500 = invoke %tmp.488 %tmp.489(%tmp.499);
+        %tmp.501 = mul %tmp.486 %tmp.500;
+        %tmp.502 = add %tmp.484 %tmp.501;
+        putv self :f_y %tmp.502;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 216 20 ]
+        %tmp.504 = getv ? :fish;
+        %tmp.505 = getv function %tmp.504 :setLocation;
+        %tmp.507 = getv ? :f_x;
+        %tmp.509 = getv ? :f_y;
+        invoke %tmp.504 %tmp.505(%tmp.507, %tmp.509);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 217 20 ]
+        %tmp.510 = lgetv %dc;
+        %tmp.511 = getv function %tmp.510 :drawEllipse;
+        %tmp.513 = getv ? :f_x;
+        %tmp.515 = getv ? :f_dim;
+        %tmp.516 = 0;
+        %tmp.517 = agetv %tmp.515 %tmp.516;
+        %tmp.518 = 2;
+        %tmp.519 = div %tmp.517 %tmp.518;
+        %tmp.520 = add %tmp.513 %tmp.519;
+        %tmp.522 = getv ? :f_y;
+        %tmp.524 = getv ? :f_dim;
+        %tmp.525 = 1;
+        %tmp.526 = agetv %tmp.524 %tmp.525;
+        %tmp.527 = 2;
+        %tmp.528 = div %tmp.526 %tmp.527;
+        %tmp.529 = add %tmp.522 %tmp.528;
+        %tmp.531 = getv ? :f_dim;
+        %tmp.532 = 0;
+        %tmp.533 = agetv %tmp.531 %tmp.532;
+        %tmp.535 = getv ? :f_dim;
+        %tmp.536 = 1;
+        %tmp.537 = agetv %tmp.535 %tmp.536;
+        invoke %tmp.510 %tmp.511(%tmp.520, %tmp.529, %tmp.533, %tmp.537);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_208_29_218_16_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_208_16_218_16_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_208_16_218_16_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 220 16 ]
+        %tmp.539 = getv ? :ice_hole;
+        %tmp.540 = getv function %tmp.539 :setLocation;
+        %tmp.542 = getv ? :i_x;
+        %tmp.544 = getv ? :i_y;
+        invoke %tmp.539 %tmp.540(%tmp.542, %tmp.544);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 221 16 ]
+        %tmp.546 = getv ? :subject;
+        %tmp.547 = getv function %tmp.546 :setLocation;
+        %tmp.549 = getv ? :p_x;
+        %tmp.551 = getv ? :p_y;
+        invoke %tmp.546 %tmp.547(%tmp.549, %tmp.551);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 225 16 ]
+        %tmp.553 = getv ? :ice_hole;
+        %tmp.554 = getv function %tmp.553 :draw;
+        %tmp.556 = lgetv %dc;
+        invoke %tmp.553 %tmp.554(%tmp.556);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 226 16 ]
+        %tmp.558 = getv ? :subject;
+        %tmp.559 = getv function %tmp.558 :draw;
+        %tmp.561 = lgetv %dc;
+        invoke %tmp.558 %tmp.559(%tmp.561);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 227 16 ]
+        %tmp.563 = getv ? :fish;
+        %tmp.564 = getv function %tmp.563 :draw;
+        %tmp.566 = lgetv %dc;
+        invoke %tmp.563 %tmp.564(%tmp.566);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_29_228_12_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_12_337_12_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_12_337_12_if_false:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_229_17_337_12_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 230 16 ]
+        %tmp.567 = lgetv %dc;
+        %tmp.568 = getv function %tmp.567 :setColor;
+        %tmp.569 = getm $.Toybox.Graphics;
+        %tmp.570 = getv %tmp.569 :COLOR_DK_GRAY;
+        %tmp.571 = getm $.Toybox.Graphics;
+        %tmp.572 = getv %tmp.571 :COLOR_YELLOW;
+        invoke %tmp.567 %tmp.568(%tmp.570, %tmp.572);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 231 16 ]
+        %tmp.573 = lgetv %dc;
+        %tmp.574 = getv function %tmp.573 :drawEllipse;
+        %tmp.575 = 140;
+        %tmp.576 = 140;
+        %tmp.577 = 150;
+        %tmp.578 = 150;
+        invoke %tmp.573 %tmp.574(%tmp.575, %tmp.576, %tmp.577, %tmp.578);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 232 16 ]
+        %tmp.579 = lgetv %dc;
+        %tmp.580 = getv function %tmp.579 :fillEllipse;
+        %tmp.581 = 140;
+        %tmp.582 = 140;
+        %tmp.583 = 150;
+        %tmp.584 = 150;
+        invoke %tmp.579 %tmp.580(%tmp.581, %tmp.582, %tmp.583, %tmp.584);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 234 16 ]
+        %tmp.585 = self;
+        %tmp.586 = getv function %tmp.585 :disable_all;
+        invoke %tmp.585 %tmp.586();
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 235 16 ]
+        %tmp.588 = getv ? :curr_screen;
+        push %tmp.588;
+        switch %tmp.588 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_switchStmtEnd;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_switchStmtBegin:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 236 20 ]
+        %tmp.589 = dup %tmp.588;
+        %tmp.590 = -1;
+        %tmp.591 = getv function %tmp.589 :equals;
+        %tmp.592 = invoke %tmp.589 %tmp.591 (%tmp.590);
+        bt %tmp.592 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_236_20_251_29_switchCase;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 252 20 ]
+        %tmp.593 = dup %tmp.588;
+        %tmp.594 = 0;
+        %tmp.595 = getv function %tmp.593 :equals;
+        %tmp.596 = invoke %tmp.593 %tmp.595 (%tmp.594);
+        bt %tmp.596 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_252_20_314_29_switchCase;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 315 20 ]
+        %tmp.597 = dup %tmp.588;
+        %tmp.598 = 1;
+        %tmp.599 = getv function %tmp.597 :equals;
+        %tmp.600 = invoke %tmp.597 %tmp.599 (%tmp.598);
+        bt %tmp.600 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_315_20_329_29_switchCase;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 330 20 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_switchStmtDefault:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_defaultCodeBegin;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_236_20_251_29_switchCase:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 237 24 ]
+        %tmp.602 = getv ? :podium;
+        %tmp.603 = getv function %tmp.602 :setVisible;
+        %tmp.604 = true;
+        invoke %tmp.602 %tmp.603(%tmp.604);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 238 24 ]
+        %tmp.606 = getv ? :next;
+        %tmp.607 = getv function %tmp.606 :setVisible;
+        %tmp.608 = true;
+        invoke %tmp.606 %tmp.607(%tmp.608);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 239 24 ]
+        %tmp.610 = getv ? :podium;
+        %tmp.611 = getv function %tmp.610 :draw;
+        %tmp.613 = lgetv %dc;
+        invoke %tmp.610 %tmp.611(%tmp.613);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 241 24 ]
+        for @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_test @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_incr @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_init:
+        [ "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_begin" "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_end" ]
+        %i.3 = local;
+        %tmp.614 = 0;
+        lputv %i.3 %tmp.614;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_test:
+        %tmp.616 = lgetv %i.3;
+        %tmp.617 = 3;
+        %tmp.618 = lt %tmp.616 %tmp.617;
+        bf %tmp.618 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_begin:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_48_250_24_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 243 28 ]
+        %tmp.620 = getv ? :Application;
+        %tmp.621 = getv %tmp.620 :Storage;
+        %tmp.622 = getv function %tmp.621 :getValue;
+        %tmp.623 = "compete";
+        %tmp.625 = lgetv %i.3;
+        %tmp.626 = 1;
+        %tmp.627 = add %tmp.625 %tmp.626;
+        %tmp.628 = getv function %tmp.627 :toString;
+        %tmp.629 = invoke %tmp.627 %tmp.628();
+        %tmp.630 = add %tmp.623 %tmp.629;
+        %tmp.631 = invoke %tmp.621 %tmp.622(%tmp.630);
+        putv self :curr_val %tmp.631;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 244 28 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_28_249_28_if_stmt:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_32_244_78_begin:
+        %tmp.633 = getv ? :curr_val;
+        bf %tmp.633 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_28_249_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_45_244_78_true:
+        %tmp.635 = getv ? :curr_val;
+        %tmp.636 = getv function %tmp.635 :toString;
+        %tmp.637 = invoke %tmp.635 %tmp.636();
+        %tmp.638 = getv function %tmp.637 :find;
+        %tmp.639 = ":";
+        %tmp.640 = invoke %tmp.637 %tmp.638(%tmp.639);
+        %tmp.641 = null;
+        %tmp.642 = ne %tmp.640 %tmp.641;
+        push %tmp.642;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_45_244_78_end:
+        %tmp.643 = phi [%tmp.633 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_32_244_78_begin] [%tmp.642 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_45_244_78_true] [%tmp.643 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_45_244_78_end];
+        bf %tmp.643 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_28_249_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_28_249_28_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_84_249_28_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 246 32 ]
+        %tmp.645 = getv ? :podium_list;
+        %tmp.647 = lgetv %i.3;
+        %tmp.648 = agetv %tmp.645 %tmp.647;
+        %tmp.649 = getv function %tmp.648 :setText;
+        %tmp.651 = getv ? :curr_val;
+        %tmp.652 = getv function %tmp.651 :toString;
+        %tmp.653 = invoke %tmp.651 %tmp.652();
+        invoke %tmp.648 %tmp.649(%tmp.653);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 247 32 ]
+        %tmp.655 = getv ? :podium_list;
+        %tmp.657 = lgetv %i.3;
+        %tmp.658 = agetv %tmp.655 %tmp.657;
+        %tmp.659 = getv function %tmp.658 :setVisible;
+        %tmp.660 = true;
+        invoke %tmp.658 %tmp.659(%tmp.660);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 248 32 ]
+        %tmp.662 = getv ? :podium_list;
+        %tmp.664 = lgetv %i.3;
+        %tmp.665 = agetv %tmp.662 %tmp.664;
+        %tmp.666 = getv function %tmp.665 :draw;
+        %tmp.668 = lgetv %dc;
+        invoke %tmp.665 %tmp.666(%tmp.668);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_84_249_28_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_28_249_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_244_28_249_28_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_48_250_24_stop:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_incr:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 241 ]
+        %tmp.671 = lgetv %i.3;
+        %tmp.672 = add %tmp.671 1;
+        lputv %i.3 %tmp.672;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_test;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_241_24_250_24_for_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 251 24 ]
+        goto break @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_switchStmtEnd;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_252_20_314_29_switchCase:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 253 24 ]
+        %tmp.674 = getv ? :vynil1;
+        %tmp.675 = getv function %tmp.674 :setVisible;
+        %tmp.676 = true;
+        invoke %tmp.674 %tmp.675(%tmp.676);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 254 24 ]
+        %tmp.678 = getv ? :vynil2;
+        %tmp.679 = getv function %tmp.678 :setVisible;
+        %tmp.680 = true;
+        invoke %tmp.678 %tmp.679(%tmp.680);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 255 24 ]
+        %tmp.682 = getv ? :scroll1;
+        %tmp.683 = getv function %tmp.682 :setVisible;
+        %tmp.684 = true;
+        invoke %tmp.682 %tmp.683(%tmp.684);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 256 24 ]
+        %tmp.686 = getv ? :scroll2;
+        %tmp.687 = getv function %tmp.686 :setVisible;
+        %tmp.688 = true;
+        invoke %tmp.686 %tmp.687(%tmp.688);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 257 24 ]
+        %tmp.690 = getv ? :lab1;
+        %tmp.691 = getv function %tmp.690 :setVisible;
+        %tmp.692 = true;
+        invoke %tmp.690 %tmp.691(%tmp.692);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 258 24 ]
+        %tmp.694 = getv ? :lab2;
+        %tmp.695 = getv function %tmp.694 :setVisible;
+        %tmp.696 = true;
+        invoke %tmp.694 %tmp.695(%tmp.696);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 259 24 ]
+        %tmp.698 = getv ? :next;
+        %tmp.699 = getv function %tmp.698 :setVisible;
+        %tmp.700 = true;
+        invoke %tmp.698 %tmp.699(%tmp.700);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 260 24 ]
+        %tmp.702 = getv ? :prev;
+        %tmp.703 = getv function %tmp.702 :setVisible;
+        %tmp.704 = true;
+        invoke %tmp.702 %tmp.703(%tmp.704);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 262 24 ]
+        %tmp.705 = 67;
+        %tmp.707 = getv ? :vynil_dim;
+        %tmp.708 = 0;
+        %tmp.709 = agetv %tmp.707 %tmp.708;
+        %tmp.710 = 2;
+        %tmp.711 = div %tmp.709 %tmp.710;
+        %tmp.712 = add %tmp.705 %tmp.711;
+        putv self :x_center %tmp.712;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 263 24 ]
+        %tmp.713 = 50;
+        %tmp.715 = getv ? :vynil_dim;
+        %tmp.716 = 1;
+        %tmp.717 = agetv %tmp.715 %tmp.716;
+        %tmp.718 = 2;
+        %tmp.719 = div %tmp.717 %tmp.718;
+        %tmp.720 = add %tmp.713 %tmp.719;
+        putv self :y_center %tmp.720;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 265 24 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_265_24_265_109_if_stmt:
+        %tmp.722 = getv ? :flag_s1;
+        bf %tmp.722 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_265_24_265_109_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_265_24_265_109_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_265_37_265_109_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 265 39 ]
+        %tmp.723 = lgetv %dc;
+        %tmp.724 = getv function %tmp.723 :drawEllipse;
+        %tmp.726 = getv ? :s1_x;
+        %tmp.728 = getv ? :s_dim;
+        %tmp.729 = 0;
+        %tmp.730 = agetv %tmp.728 %tmp.729;
+        %tmp.731 = 2;
+        %tmp.732 = div %tmp.730 %tmp.731;
+        %tmp.733 = add %tmp.726 %tmp.732;
+        %tmp.735 = getv ? :s1_y;
+        %tmp.737 = getv ? :s_dim;
+        %tmp.738 = 1;
+        %tmp.739 = agetv %tmp.737 %tmp.738;
+        %tmp.740 = 2;
+        %tmp.741 = div %tmp.739 %tmp.740;
+        %tmp.742 = add %tmp.735 %tmp.741;
+        %tmp.744 = getv ? :s_dim;
+        %tmp.745 = 0;
+        %tmp.746 = agetv %tmp.744 %tmp.745;
+        %tmp.748 = getv ? :s_dim;
+        %tmp.749 = 1;
+        %tmp.750 = agetv %tmp.748 %tmp.749;
+        invoke %tmp.723 %tmp.724(%tmp.733, %tmp.742, %tmp.746, %tmp.750);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_265_37_265_109_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_265_24_265_109_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_265_24_265_109_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 266 24 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_266_24_266_109_if_stmt:
+        %tmp.752 = getv ? :flag_s2;
+        bf %tmp.752 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_266_24_266_109_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_266_24_266_109_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_266_37_266_109_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 266 39 ]
+        %tmp.753 = lgetv %dc;
+        %tmp.754 = getv function %tmp.753 :drawEllipse;
+        %tmp.756 = getv ? :s2_x;
+        %tmp.758 = getv ? :s_dim;
+        %tmp.759 = 0;
+        %tmp.760 = agetv %tmp.758 %tmp.759;
+        %tmp.761 = 2;
+        %tmp.762 = div %tmp.760 %tmp.761;
+        %tmp.763 = add %tmp.756 %tmp.762;
+        %tmp.765 = getv ? :s2_y;
+        %tmp.767 = getv ? :s_dim;
+        %tmp.768 = 1;
+        %tmp.769 = agetv %tmp.767 %tmp.768;
+        %tmp.770 = 2;
+        %tmp.771 = div %tmp.769 %tmp.770;
+        %tmp.772 = add %tmp.765 %tmp.771;
+        %tmp.774 = getv ? :s_dim;
+        %tmp.775 = 0;
+        %tmp.776 = agetv %tmp.774 %tmp.775;
+        %tmp.778 = getv ? :s_dim;
+        %tmp.779 = 1;
+        %tmp.780 = agetv %tmp.778 %tmp.779;
+        invoke %tmp.753 %tmp.754(%tmp.763, %tmp.772, %tmp.776, %tmp.780);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_266_37_266_109_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_266_24_266_109_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_266_24_266_109_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 269 24 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_24_282_24_if_stmt:
+        %tmp.782 = getv ? :flag_s1;
+        bf %tmp.782 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_24_282_24_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_24_282_24_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_37_282_24_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 270 28 ]
+        [ "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_37_282_24_start" "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_37_282_24_stop" ]
+        %angle.4 = local;
+        %tmp.784 = getv ? :Math;
+        %tmp.785 = getv function %tmp.784 :atan2;
+        %tmp.787 = getv ? :coords;
+        %tmp.788 = 1;
+        %tmp.789 = agetv %tmp.787 %tmp.788;
+        %tmp.791 = getv ? :y_center;
+        %tmp.792 = sub %tmp.789 %tmp.791;
+        %tmp.794 = getv ? :coords;
+        %tmp.795 = 0;
+        %tmp.796 = agetv %tmp.794 %tmp.795;
+        %tmp.798 = getv ? :x_center;
+        %tmp.799 = sub %tmp.796 %tmp.798;
+        %tmp.800 = invoke %tmp.784 %tmp.785(%tmp.792, %tmp.799);
+        lputv %angle.4 %tmp.800;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 271 28 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_begin:
+        %tmp.802 = lgetv %angle.4;
+        %tmp.803 = 0;
+        %tmp.804 = lt %tmp.802 %tmp.803;
+        bf %tmp.804 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_true:
+        %tmp.805 = -1;
+        %tmp.807 = lgetv %angle.4;
+        %tmp.808 = mul %tmp.805 %tmp.807;
+        push %tmp.808;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_false:
+        %tmp.810 = lgetv %angle.4;
+        push %tmp.810;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_end:
+        %tmp.811 = phi [%tmp.804 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_begin] [%tmp.808 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_true] [%tmp.810 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_false] [%tmp.811 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_271_36_271_59_end];
+        lputv %angle.4 %tmp.811;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 272 28 ]
+        %tmp.813 = getv ? :x_center;
+        %tmp.814 = 30;
+        %tmp.816 = getv ? :Math;
+        %tmp.817 = getv function %tmp.816 :cos;
+        %tmp.819 = lgetv %angle.4;
+        %tmp.820 = invoke %tmp.816 %tmp.817(%tmp.819);
+        %tmp.821 = mul %tmp.814 %tmp.820;
+        %tmp.822 = add %tmp.813 %tmp.821;
+        putv self :new_s_x %tmp.822;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 273 28 ]
+        %tmp.824 = getv ? :y_center;
+        %tmp.825 = 30;
+        %tmp.827 = getv ? :Math;
+        %tmp.828 = getv function %tmp.827 :sin;
+        %tmp.830 = lgetv %angle.4;
+        %tmp.831 = invoke %tmp.827 %tmp.828(%tmp.830);
+        %tmp.832 = mul %tmp.825 %tmp.831;
+        %tmp.833 = add %tmp.824 %tmp.832;
+        putv self :new_s_y %tmp.833;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 274 28 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_28_279_28_if_stmt:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_32_274_120_begin:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_32_274_84_begin:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_32_274_73_begin:
+        %tmp.834 = 67;
+        %tmp.836 = getv ? :new_s_x;
+        %tmp.837 = lt %tmp.834 %tmp.836;
+        bf %tmp.837 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_28_279_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_49_274_73_true:
+        %tmp.839 = getv ? :new_s_x;
+        %tmp.840 = 67;
+        %tmp.842 = getv ? :vynil_dim;
+        %tmp.843 = 0;
+        %tmp.844 = agetv %tmp.842 %tmp.843;
+        %tmp.845 = add %tmp.840 %tmp.844;
+        %tmp.846 = lt %tmp.839 %tmp.845;
+        push %tmp.846;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_49_274_73_end:
+        %tmp.847 = phi [%tmp.837 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_32_274_73_begin] [%tmp.846 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_49_274_73_true] [%tmp.847 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_49_274_73_end];
+        bf %tmp.847 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_28_279_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_79_274_84_true:
+        %tmp.848 = 50;
+        %tmp.850 = getv ? :new_s_y;
+        %tmp.851 = lt %tmp.848 %tmp.850;
+        push %tmp.851;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_79_274_84_end:
+        %tmp.852 = phi [%tmp.847 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_32_274_84_begin] [%tmp.851 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_79_274_84_true] [%tmp.852 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_79_274_84_end];
+        bf %tmp.852 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_28_279_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_96_274_120_true:
+        %tmp.854 = getv ? :new_s_y;
+        %tmp.855 = 50;
+        %tmp.857 = getv ? :vynil_dim;
+        %tmp.858 = 1;
+        %tmp.859 = agetv %tmp.857 %tmp.858;
+        %tmp.860 = add %tmp.855 %tmp.859;
+        %tmp.861 = lt %tmp.854 %tmp.860;
+        push %tmp.861;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_96_274_120_end:
+        %tmp.862 = phi [%tmp.852 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_32_274_120_begin] [%tmp.861 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_96_274_120_true] [%tmp.862 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_96_274_120_end];
+        bf %tmp.862 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_28_279_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_28_279_28_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_122_279_28_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 275 32 ]
+        %tmp.864 = getv ? :new_s_x;
+        %tmp.866 = getv ? :s_dim;
+        %tmp.867 = 0;
+        %tmp.868 = agetv %tmp.866 %tmp.867;
+        %tmp.869 = 2;
+        %tmp.870 = div %tmp.868 %tmp.869;
+        %tmp.871 = sub %tmp.864 %tmp.870;
+        putv self :s1_x %tmp.871;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 276 32 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_begin:
+        %tmp.872 = 50;
+        %tmp.874 = getv ? :vynil_dim;
+        %tmp.875 = 1;
+        %tmp.876 = agetv %tmp.874 %tmp.875;
+        %tmp.877 = 2.2;
+        %tmp.878 = div %tmp.876 %tmp.877;
+        %tmp.879 = add %tmp.872 %tmp.878;
+        %tmp.881 = getv ? :new_s_y;
+        %tmp.882 = lt %tmp.879 %tmp.881;
+        bf %tmp.882 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_true:
+        %tmp.883 = 50;
+        %tmp.885 = getv ? :vynil_dim;
+        %tmp.886 = 1;
+        %tmp.887 = agetv %tmp.885 %tmp.886;
+        %tmp.888 = 2;
+        %tmp.889 = div %tmp.887 %tmp.888;
+        %tmp.890 = add %tmp.883 %tmp.889;
+        %tmp.892 = getv ? :new_s_y;
+        %tmp.893 = 50;
+        %tmp.894 = sub %tmp.892 %tmp.893;
+        %tmp.896 = getv ? :vynil_dim;
+        %tmp.897 = 1;
+        %tmp.898 = agetv %tmp.896 %tmp.897;
+        %tmp.899 = 2;
+        %tmp.900 = div %tmp.898 %tmp.899;
+        %tmp.901 = sub %tmp.894 %tmp.900;
+        %tmp.902 = sub %tmp.890 %tmp.901;
+        push %tmp.902;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_false:
+        %tmp.904 = getv ? :new_s_y;
+        push %tmp.904;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_end:
+        %tmp.905 = phi [%tmp.882 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_begin] [%tmp.902 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_true] [%tmp.904 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_false] [%tmp.905 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_276_40_276_124_end];
+        %tmp.907 = getv ? :s_dim;
+        %tmp.908 = 1;
+        %tmp.909 = agetv %tmp.907 %tmp.908;
+        %tmp.910 = 2;
+        %tmp.911 = div %tmp.909 %tmp.910;
+        %tmp.912 = sub %tmp.905 %tmp.911;
+        putv self :s1_y %tmp.912;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 277 32 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_begin:
+        %tmp.914 = lgetv %angle.4;
+        %tmp.915 = 0;
+        %tmp.916 = lt %tmp.914 %tmp.915;
+        bf %tmp.916 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_true:
+        %tmp.917 = -1;
+        %tmp.919 = getv ? :Math;
+        %tmp.920 = getv %tmp.919 :PI;
+        %tmp.922 = lgetv %angle.4;
+        %tmp.923 = sub %tmp.920 %tmp.922;
+        %tmp.924 = mul %tmp.917 %tmp.923;
+        %tmp.926 = getv ? :Math;
+        %tmp.927 = getv %tmp.926 :PI;
+        %tmp.928 = div %tmp.924 %tmp.927;
+        %tmp.930 = getv ? :a_limit;
+        %tmp.931 = mul %tmp.928 %tmp.930;
+        push %tmp.931;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_false:
+        %tmp.933 = getv ? :Math;
+        %tmp.934 = getv %tmp.933 :PI;
+        %tmp.936 = lgetv %angle.4;
+        %tmp.937 = sub %tmp.934 %tmp.936;
+        %tmp.939 = getv ? :Math;
+        %tmp.940 = getv %tmp.939 :PI;
+        %tmp.941 = div %tmp.937 %tmp.940;
+        %tmp.943 = getv ? :a_limit;
+        %tmp.944 = mul %tmp.941 %tmp.943;
+        push %tmp.944;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_end:
+        %tmp.945 = phi [%tmp.916 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_begin] [%tmp.931 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_true] [%tmp.944 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_false] [%tmp.945 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_277_40_277_113_end];
+        putv self :max_a %tmp.945;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 278 32 ]
+        %tmp.947 = getv ? :lab1;
+        %tmp.948 = getv function %tmp.947 :setText;
+        %tmp.949 = "g=";
+        %tmp.951 = getv ? :Lang;
+        %tmp.952 = getv function %tmp.951 :format;
+        %tmp.953 = "$1$";
+        %tmp.954 = newa 1;
+        %tmp.956 = getv ? :max_a;
+        %tmp.957 = getv function %tmp.956 :format;
+        %tmp.958 = "%.0d";
+        %tmp.959 = invoke %tmp.956 %tmp.957(%tmp.958);
+        %tmp.960 = dup %tmp.954;
+        %tmp.961 = aputv %tmp.960 0 %tmp.959;
+        %tmp.962 = invoke %tmp.951 %tmp.952(%tmp.953, %tmp.961);
+        %tmp.963 = add %tmp.949 %tmp.962;
+        invoke %tmp.947 %tmp.948(%tmp.963);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_122_279_28_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_28_279_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_274_28_279_28_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_37_282_24_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_24_282_24_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_269_24_282_24_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 283 24 ]
+        %tmp.965 = getv ? :scroll1;
+        %tmp.966 = getv function %tmp.965 :setLocation;
+        %tmp.968 = getv ? :s1_x;
+        %tmp.970 = getv ? :s1_y;
+        invoke %tmp.965 %tmp.966(%tmp.968, %tmp.970);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 285 24 ]
+        %tmp.971 = 67;
+        %tmp.973 = getv ? :vynil_dim;
+        %tmp.974 = 0;
+        %tmp.975 = agetv %tmp.973 %tmp.974;
+        %tmp.976 = 2;
+        %tmp.977 = div %tmp.975 %tmp.976;
+        %tmp.978 = add %tmp.971 %tmp.977;
+        putv self :x_center %tmp.978;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 286 24 ]
+        %tmp.979 = 170;
+        %tmp.981 = getv ? :vynil_dim;
+        %tmp.982 = 1;
+        %tmp.983 = agetv %tmp.981 %tmp.982;
+        %tmp.984 = 2;
+        %tmp.985 = div %tmp.983 %tmp.984;
+        %tmp.986 = add %tmp.979 %tmp.985;
+        putv self :y_center %tmp.986;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 289 24 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_24_300_24_if_stmt:
+        %tmp.988 = getv ? :flag_s2;
+        bf %tmp.988 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_24_300_24_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_24_300_24_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_37_300_24_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 290 28 ]
+        [ "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_37_300_24_start" "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_37_300_24_stop" ]
+        %angle.5 = local;
+        %tmp.990 = getv ? :Math;
+        %tmp.991 = getv function %tmp.990 :atan2;
+        %tmp.993 = getv ? :coords;
+        %tmp.994 = 1;
+        %tmp.995 = agetv %tmp.993 %tmp.994;
+        %tmp.997 = getv ? :y_center;
+        %tmp.998 = sub %tmp.995 %tmp.997;
+        %tmp.1000 = getv ? :coords;
+        %tmp.1001 = 0;
+        %tmp.1002 = agetv %tmp.1000 %tmp.1001;
+        %tmp.1004 = getv ? :x_center;
+        %tmp.1005 = sub %tmp.1002 %tmp.1004;
+        %tmp.1006 = invoke %tmp.990 %tmp.991(%tmp.998, %tmp.1005);
+        lputv %angle.5 %tmp.1006;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 291 28 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_begin:
+        %tmp.1008 = lgetv %angle.5;
+        %tmp.1009 = 0;
+        %tmp.1010 = lt %tmp.1008 %tmp.1009;
+        bf %tmp.1010 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_true:
+        %tmp.1011 = -1;
+        %tmp.1013 = lgetv %angle.5;
+        %tmp.1014 = mul %tmp.1011 %tmp.1013;
+        push %tmp.1014;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_false:
+        %tmp.1016 = lgetv %angle.5;
+        push %tmp.1016;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_end:
+        %tmp.1017 = phi [%tmp.1010 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_begin] [%tmp.1014 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_true] [%tmp.1016 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_false] [%tmp.1017 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_291_36_291_59_end];
+        lputv %angle.5 %tmp.1017;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 292 28 ]
+        %tmp.1019 = getv ? :x_center;
+        %tmp.1020 = 30;
+        %tmp.1022 = getv ? :Math;
+        %tmp.1023 = getv function %tmp.1022 :cos;
+        %tmp.1025 = lgetv %angle.5;
+        %tmp.1026 = invoke %tmp.1022 %tmp.1023(%tmp.1025);
+        %tmp.1027 = mul %tmp.1020 %tmp.1026;
+        %tmp.1028 = add %tmp.1019 %tmp.1027;
+        putv self :new_s_x %tmp.1028;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 293 28 ]
+        %tmp.1030 = getv ? :y_center;
+        %tmp.1031 = 30;
+        %tmp.1033 = getv ? :Math;
+        %tmp.1034 = getv function %tmp.1033 :sin;
+        %tmp.1036 = lgetv %angle.5;
+        %tmp.1037 = invoke %tmp.1033 %tmp.1034(%tmp.1036);
+        %tmp.1038 = mul %tmp.1031 %tmp.1037;
+        %tmp.1039 = add %tmp.1030 %tmp.1038;
+        putv self :new_s_y %tmp.1039;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 294 28 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_28_299_28_if_stmt:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_32_294_122_begin:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_32_294_85_begin:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_32_294_73_begin:
+        %tmp.1040 = 67;
+        %tmp.1042 = getv ? :new_s_x;
+        %tmp.1043 = lt %tmp.1040 %tmp.1042;
+        bf %tmp.1043 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_28_299_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_49_294_73_true:
+        %tmp.1045 = getv ? :new_s_x;
+        %tmp.1046 = 67;
+        %tmp.1048 = getv ? :vynil_dim;
+        %tmp.1049 = 0;
+        %tmp.1050 = agetv %tmp.1048 %tmp.1049;
+        %tmp.1051 = add %tmp.1046 %tmp.1050;
+        %tmp.1052 = lt %tmp.1045 %tmp.1051;
+        push %tmp.1052;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_49_294_73_end:
+        %tmp.1053 = phi [%tmp.1043 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_32_294_73_begin] [%tmp.1052 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_49_294_73_true] [%tmp.1053 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_49_294_73_end];
+        bf %tmp.1053 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_28_299_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_79_294_85_true:
+        %tmp.1054 = 170;
+        %tmp.1056 = getv ? :new_s_y;
+        %tmp.1057 = lt %tmp.1054 %tmp.1056;
+        push %tmp.1057;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_79_294_85_end:
+        %tmp.1058 = phi [%tmp.1053 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_32_294_85_begin] [%tmp.1057 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_79_294_85_true] [%tmp.1058 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_79_294_85_end];
+        bf %tmp.1058 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_28_299_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_97_294_122_true:
+        %tmp.1060 = getv ? :new_s_y;
+        %tmp.1061 = 170;
+        %tmp.1063 = getv ? :vynil_dim;
+        %tmp.1064 = 1;
+        %tmp.1065 = agetv %tmp.1063 %tmp.1064;
+        %tmp.1066 = add %tmp.1061 %tmp.1065;
+        %tmp.1067 = lt %tmp.1060 %tmp.1066;
+        push %tmp.1067;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_97_294_122_end:
+        %tmp.1068 = phi [%tmp.1058 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_32_294_122_begin] [%tmp.1067 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_97_294_122_true] [%tmp.1068 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_97_294_122_end];
+        bf %tmp.1068 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_28_299_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_28_299_28_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_124_299_28_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 295 32 ]
+        %tmp.1070 = getv ? :new_s_x;
+        %tmp.1072 = getv ? :s_dim;
+        %tmp.1073 = 0;
+        %tmp.1074 = agetv %tmp.1072 %tmp.1073;
+        %tmp.1075 = 2;
+        %tmp.1076 = div %tmp.1074 %tmp.1075;
+        %tmp.1077 = sub %tmp.1070 %tmp.1076;
+        putv self :s2_x %tmp.1077;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 296 32 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_begin:
+        %tmp.1078 = 170;
+        %tmp.1080 = getv ? :vynil_dim;
+        %tmp.1081 = 1;
+        %tmp.1082 = agetv %tmp.1080 %tmp.1081;
+        %tmp.1083 = 2.2;
+        %tmp.1084 = div %tmp.1082 %tmp.1083;
+        %tmp.1085 = add %tmp.1078 %tmp.1084;
+        %tmp.1087 = getv ? :new_s_y;
+        %tmp.1088 = lt %tmp.1085 %tmp.1087;
+        bf %tmp.1088 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_true:
+        %tmp.1089 = 170;
+        %tmp.1091 = getv ? :vynil_dim;
+        %tmp.1092 = 1;
+        %tmp.1093 = agetv %tmp.1091 %tmp.1092;
+        %tmp.1094 = 2;
+        %tmp.1095 = div %tmp.1093 %tmp.1094;
+        %tmp.1096 = add %tmp.1089 %tmp.1095;
+        %tmp.1098 = getv ? :new_s_y;
+        %tmp.1099 = 170;
+        %tmp.1100 = sub %tmp.1098 %tmp.1099;
+        %tmp.1102 = getv ? :vynil_dim;
+        %tmp.1103 = 1;
+        %tmp.1104 = agetv %tmp.1102 %tmp.1103;
+        %tmp.1105 = 2;
+        %tmp.1106 = div %tmp.1104 %tmp.1105;
+        %tmp.1107 = sub %tmp.1100 %tmp.1106;
+        %tmp.1108 = sub %tmp.1096 %tmp.1107;
+        push %tmp.1108;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_false:
+        %tmp.1110 = getv ? :new_s_y;
+        push %tmp.1110;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_end:
+        %tmp.1111 = phi [%tmp.1088 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_begin] [%tmp.1108 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_true] [%tmp.1110 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_false] [%tmp.1111 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_296_40_296_127_end];
+        %tmp.1113 = getv ? :s_dim;
+        %tmp.1114 = 1;
+        %tmp.1115 = agetv %tmp.1113 %tmp.1114;
+        %tmp.1116 = 2;
+        %tmp.1117 = div %tmp.1115 %tmp.1116;
+        %tmp.1118 = sub %tmp.1111 %tmp.1117;
+        putv self :s2_y %tmp.1118;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 297 32 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_begin:
+        %tmp.1120 = lgetv %angle.5;
+        %tmp.1121 = 0;
+        %tmp.1122 = lt %tmp.1120 %tmp.1121;
+        bf %tmp.1122 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_true:
+        %tmp.1123 = -1;
+        %tmp.1125 = getv ? :Math;
+        %tmp.1126 = getv %tmp.1125 :PI;
+        %tmp.1128 = lgetv %angle.5;
+        %tmp.1129 = sub %tmp.1126 %tmp.1128;
+        %tmp.1130 = mul %tmp.1123 %tmp.1129;
+        %tmp.1132 = getv ? :Math;
+        %tmp.1133 = getv %tmp.1132 :PI;
+        %tmp.1134 = div %tmp.1130 %tmp.1133;
+        %tmp.1136 = getv ? :v_limit;
+        %tmp.1137 = mul %tmp.1134 %tmp.1136;
+        push %tmp.1137;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_false:
+        %tmp.1139 = getv ? :Math;
+        %tmp.1140 = getv %tmp.1139 :PI;
+        %tmp.1142 = lgetv %angle.5;
+        %tmp.1143 = sub %tmp.1140 %tmp.1142;
+        %tmp.1145 = getv ? :Math;
+        %tmp.1146 = getv %tmp.1145 :PI;
+        %tmp.1147 = div %tmp.1143 %tmp.1146;
+        %tmp.1149 = getv ? :v_limit;
+        %tmp.1150 = mul %tmp.1147 %tmp.1149;
+        push %tmp.1150;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_end:
+        %tmp.1151 = phi [%tmp.1122 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_begin] [%tmp.1137 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_true] [%tmp.1150 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_false] [%tmp.1151 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_297_40_297_113_end];
+        putv self :max_v %tmp.1151;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 298 32 ]
+        %tmp.1153 = getv ? :lab2;
+        %tmp.1154 = getv function %tmp.1153 :setText;
+        %tmp.1155 = "v=";
+        %tmp.1157 = getv ? :Lang;
+        %tmp.1158 = getv function %tmp.1157 :format;
+        %tmp.1159 = "$1$";
+        %tmp.1160 = newa 1;
+        %tmp.1162 = getv ? :max_v;
+        %tmp.1163 = getv function %tmp.1162 :format;
+        %tmp.1164 = "%.0d";
+        %tmp.1165 = invoke %tmp.1162 %tmp.1163(%tmp.1164);
+        %tmp.1166 = dup %tmp.1160;
+        %tmp.1167 = aputv %tmp.1166 0 %tmp.1165;
+        %tmp.1168 = invoke %tmp.1157 %tmp.1158(%tmp.1159, %tmp.1167);
+        %tmp.1169 = add %tmp.1155 %tmp.1168;
+        invoke %tmp.1153 %tmp.1154(%tmp.1169);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_124_299_28_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_28_299_28_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_294_28_299_28_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_37_300_24_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_24_300_24_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_289_24_300_24_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 301 24 ]
+        %tmp.1171 = getv ? :scroll2;
+        %tmp.1172 = getv function %tmp.1171 :setLocation;
+        %tmp.1174 = getv ? :s2_x;
+        %tmp.1176 = getv ? :s2_y;
+        invoke %tmp.1171 %tmp.1172(%tmp.1174, %tmp.1176);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 302 24 ]
+        %tmp.1178 = getv ? :vynil1;
+        %tmp.1179 = getv function %tmp.1178 :draw;
+        %tmp.1181 = lgetv %dc;
+        invoke %tmp.1178 %tmp.1179(%tmp.1181);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 303 24 ]
+        %tmp.1183 = getv ? :vynil2;
+        %tmp.1184 = getv function %tmp.1183 :draw;
+        %tmp.1186 = lgetv %dc;
+        invoke %tmp.1183 %tmp.1184(%tmp.1186);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 304 24 ]
+        %tmp.1187 = lgetv %dc;
+        %tmp.1188 = getv function %tmp.1187 :setPenWidth;
+        %tmp.1189 = 3;
+        invoke %tmp.1187 %tmp.1188(%tmp.1189);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 305 24 ]
+        %tmp.1190 = lgetv %dc;
+        %tmp.1191 = getv function %tmp.1190 :setColor;
+        %tmp.1192 = getm $.Toybox.Graphics;
+        %tmp.1193 = getv %tmp.1192 :COLOR_DK_BLUE;
+        %tmp.1194 = getm $.Toybox.Graphics;
+        %tmp.1195 = getv %tmp.1194 :COLOR_YELLOW;
+        invoke %tmp.1190 %tmp.1191(%tmp.1193, %tmp.1195);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 306 24 ]
+        %tmp.1196 = lgetv %dc;
+        %tmp.1197 = getv function %tmp.1196 :drawArc;
+        %tmp.1198 = 67;
+        %tmp.1200 = getv ? :vynil_dim;
+        %tmp.1201 = 0;
+        %tmp.1202 = agetv %tmp.1200 %tmp.1201;
+        %tmp.1203 = 2;
+        %tmp.1204 = div %tmp.1202 %tmp.1203;
+        %tmp.1205 = add %tmp.1198 %tmp.1204;
+        %tmp.1206 = 50;
+        %tmp.1208 = getv ? :vynil_dim;
+        %tmp.1209 = 1;
+        %tmp.1210 = agetv %tmp.1208 %tmp.1209;
+        %tmp.1211 = 2;
+        %tmp.1212 = div %tmp.1210 %tmp.1211;
+        %tmp.1213 = add %tmp.1206 %tmp.1212;
+        %tmp.1214 = 30;
+        %tmp.1215 = getm $.Toybox.Graphics;
+        %tmp.1216 = getv %tmp.1215 :ARC_CLOCKWISE;
+        %tmp.1217 = 180;
+        %tmp.1218 = 1;
+        %tmp.1219 = sub %tmp.1217 %tmp.1218;
+        %tmp.1220 = 0;
+        invoke %tmp.1196 %tmp.1197(%tmp.1205, %tmp.1213, %tmp.1214, %tmp.1216, %tmp.1219, %tmp.1220);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 307 24 ]
+        %tmp.1221 = lgetv %dc;
+        %tmp.1222 = getv function %tmp.1221 :drawArc;
+        %tmp.1223 = 67;
+        %tmp.1225 = getv ? :vynil_dim;
+        %tmp.1226 = 0;
+        %tmp.1227 = agetv %tmp.1225 %tmp.1226;
+        %tmp.1228 = 2;
+        %tmp.1229 = div %tmp.1227 %tmp.1228;
+        %tmp.1230 = add %tmp.1223 %tmp.1229;
+        %tmp.1231 = 170;
+        %tmp.1233 = getv ? :vynil_dim;
+        %tmp.1234 = 1;
+        %tmp.1235 = agetv %tmp.1233 %tmp.1234;
+        %tmp.1236 = 2;
+        %tmp.1237 = div %tmp.1235 %tmp.1236;
+        %tmp.1238 = add %tmp.1231 %tmp.1237;
+        %tmp.1239 = 30;
+        %tmp.1240 = getm $.Toybox.Graphics;
+        %tmp.1241 = getv %tmp.1240 :ARC_CLOCKWISE;
+        %tmp.1242 = 180;
+        %tmp.1243 = 1;
+        %tmp.1244 = sub %tmp.1242 %tmp.1243;
+        %tmp.1245 = 0;
+        invoke %tmp.1221 %tmp.1222(%tmp.1230, %tmp.1238, %tmp.1239, %tmp.1241, %tmp.1244, %tmp.1245);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 308 24 ]
+        %tmp.1246 = lgetv %dc;
+        %tmp.1247 = getv function %tmp.1246 :setColor;
+        %tmp.1248 = getm $.Toybox.Graphics;
+        %tmp.1249 = getv %tmp.1248 :COLOR_DK_GREEN;
+        %tmp.1250 = getm $.Toybox.Graphics;
+        %tmp.1251 = getv %tmp.1250 :COLOR_YELLOW;
+        invoke %tmp.1246 %tmp.1247(%tmp.1249, %tmp.1251);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 309 24 ]
+        %tmp.1252 = lgetv %dc;
+        %tmp.1253 = getv function %tmp.1252 :drawArc;
+        %tmp.1254 = 67;
+        %tmp.1256 = getv ? :vynil_dim;
+        %tmp.1257 = 0;
+        %tmp.1258 = agetv %tmp.1256 %tmp.1257;
+        %tmp.1259 = 2;
+        %tmp.1260 = div %tmp.1258 %tmp.1259;
+        %tmp.1261 = add %tmp.1254 %tmp.1260;
+        %tmp.1262 = 50;
+        %tmp.1264 = getv ? :vynil_dim;
+        %tmp.1265 = 1;
+        %tmp.1266 = agetv %tmp.1264 %tmp.1265;
+        %tmp.1267 = 2;
+        %tmp.1268 = div %tmp.1266 %tmp.1267;
+        %tmp.1269 = add %tmp.1262 %tmp.1268;
+        %tmp.1270 = 30;
+        %tmp.1271 = getm $.Toybox.Graphics;
+        %tmp.1272 = getv %tmp.1271 :ARC_CLOCKWISE;
+        %tmp.1273 = 180;
+        %tmp.1274 = 1;
+        %tmp.1275 = sub %tmp.1273 %tmp.1274;
+        %tmp.1276 = 180;
+        %tmp.1277 = 2;
+        %tmp.1278 = sub %tmp.1276 %tmp.1277;
+        %tmp.1280 = getv ? :max_a;
+        %tmp.1282 = getv ? :a_limit;
+        %tmp.1283 = div %tmp.1280 %tmp.1282;
+        %tmp.1284 = 180;
+        %tmp.1285 = 3;
+        %tmp.1286 = sub %tmp.1284 %tmp.1285;
+        %tmp.1287 = mul %tmp.1283 %tmp.1286;
+        %tmp.1288 = sub %tmp.1278 %tmp.1287;
+        invoke %tmp.1252 %tmp.1253(%tmp.1261, %tmp.1269, %tmp.1270, %tmp.1272, %tmp.1275, %tmp.1288);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 310 24 ]
+        %tmp.1289 = lgetv %dc;
+        %tmp.1290 = getv function %tmp.1289 :drawArc;
+        %tmp.1291 = 67;
+        %tmp.1293 = getv ? :vynil_dim;
+        %tmp.1294 = 0;
+        %tmp.1295 = agetv %tmp.1293 %tmp.1294;
+        %tmp.1296 = 2;
+        %tmp.1297 = div %tmp.1295 %tmp.1296;
+        %tmp.1298 = add %tmp.1291 %tmp.1297;
+        %tmp.1299 = 170;
+        %tmp.1301 = getv ? :vynil_dim;
+        %tmp.1302 = 1;
+        %tmp.1303 = agetv %tmp.1301 %tmp.1302;
+        %tmp.1304 = 2;
+        %tmp.1305 = div %tmp.1303 %tmp.1304;
+        %tmp.1306 = add %tmp.1299 %tmp.1305;
+        %tmp.1307 = 30;
+        %tmp.1308 = getm $.Toybox.Graphics;
+        %tmp.1309 = getv %tmp.1308 :ARC_CLOCKWISE;
+        %tmp.1310 = 180;
+        %tmp.1311 = 1;
+        %tmp.1312 = sub %tmp.1310 %tmp.1311;
+        %tmp.1313 = 180;
+        %tmp.1314 = 2;
+        %tmp.1315 = sub %tmp.1313 %tmp.1314;
+        %tmp.1317 = getv ? :max_v;
+        %tmp.1319 = getv ? :v_limit;
+        %tmp.1320 = div %tmp.1317 %tmp.1319;
+        %tmp.1321 = 180;
+        %tmp.1322 = 3;
+        %tmp.1323 = sub %tmp.1321 %tmp.1322;
+        %tmp.1324 = mul %tmp.1320 %tmp.1323;
+        %tmp.1325 = sub %tmp.1315 %tmp.1324;
+        invoke %tmp.1289 %tmp.1290(%tmp.1298, %tmp.1306, %tmp.1307, %tmp.1309, %tmp.1312, %tmp.1325);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 311 24 ]
+        %tmp.1327 = getv ? :scroll1;
+        %tmp.1328 = getv function %tmp.1327 :draw;
+        %tmp.1330 = lgetv %dc;
+        invoke %tmp.1327 %tmp.1328(%tmp.1330);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 312 24 ]
+        %tmp.1332 = getv ? :scroll2;
+        %tmp.1333 = getv function %tmp.1332 :draw;
+        %tmp.1335 = lgetv %dc;
+        invoke %tmp.1332 %tmp.1333(%tmp.1335);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 314 24 ]
+        goto break @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_switchStmtEnd;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_315_20_329_29_switchCase:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 316 24 ]
+        %tmp.1337 = getv ? :prev;
+        %tmp.1338 = getv function %tmp.1337 :setVisible;
+        %tmp.1339 = true;
+        invoke %tmp.1337 %tmp.1338(%tmp.1339);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 317 24 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_317_24_324_24_if_stmt:
+        %tmp.1341 = getv ? :penguin_flag;
+        bf %tmp.1341 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_317_24_324_24_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_317_24_324_24_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_317_42_320_24_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 318 28 ]
+        %tmp.1343 = getv ? :penguin;
+        %tmp.1344 = getv function %tmp.1343 :setVisible;
+        %tmp.1345 = true;
+        invoke %tmp.1343 %tmp.1344(%tmp.1345);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 319 28 ]
+        %tmp.1347 = getv ? :turtle_off;
+        %tmp.1348 = getv function %tmp.1347 :setVisible;
+        %tmp.1349 = true;
+        invoke %tmp.1347 %tmp.1348(%tmp.1349);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_317_42_320_24_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_317_24_324_24_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_317_24_324_24_if_false:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_321_29_324_24_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 322 28 ]
+        %tmp.1351 = getv ? :penguin_off;
+        %tmp.1352 = getv function %tmp.1351 :setVisible;
+        %tmp.1353 = true;
+        invoke %tmp.1351 %tmp.1352(%tmp.1353);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 323 28 ]
+        %tmp.1355 = getv ? :turtle;
+        %tmp.1356 = getv function %tmp.1355 :setVisible;
+        %tmp.1357 = true;
+        invoke %tmp.1355 %tmp.1356(%tmp.1357);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_321_29_324_24_stop:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_317_24_324_24_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 325 24 ]
+        %tmp.1359 = getv ? :penguin_off;
+        %tmp.1360 = getv function %tmp.1359 :draw;
+        %tmp.1362 = lgetv %dc;
+        invoke %tmp.1359 %tmp.1360(%tmp.1362);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 326 24 ]
+        %tmp.1364 = getv ? :turtle_off;
+        %tmp.1365 = getv function %tmp.1364 :draw;
+        %tmp.1367 = lgetv %dc;
+        invoke %tmp.1364 %tmp.1365(%tmp.1367);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 327 24 ]
+        %tmp.1369 = getv ? :penguin;
+        %tmp.1370 = getv function %tmp.1369 :draw;
+        %tmp.1372 = lgetv %dc;
+        invoke %tmp.1369 %tmp.1370(%tmp.1372);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 328 24 ]
+        %tmp.1374 = getv ? :turtle;
+        %tmp.1375 = getv function %tmp.1374 :draw;
+        %tmp.1377 = lgetv %dc;
+        invoke %tmp.1374 %tmp.1375(%tmp.1377);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 329 24 ]
+        goto break @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_switchStmtEnd;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_330_20_331_50_switchCase:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_defaultCodeBegin:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 331 24 ]
+        %tmp.1379 = getv ? :System;
+        %tmp.1380 = getv function %tmp.1379 :println;
+        %tmp.1381 = "Default?";
+        invoke %tmp.1379 %tmp.1380(%tmp.1381);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_235_16_332_16_switchStmtEnd:
+        pop;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 333 16 ]
+        %tmp.1383 = getv ? :lab1;
+        %tmp.1384 = getv function %tmp.1383 :draw;
+        %tmp.1386 = lgetv %dc;
+        invoke %tmp.1383 %tmp.1384(%tmp.1386);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 334 16 ]
+        %tmp.1388 = getv ? :lab2;
+        %tmp.1389 = getv function %tmp.1388 :draw;
+        %tmp.1391 = lgetv %dc;
+        invoke %tmp.1388 %tmp.1389(%tmp.1391);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 335 16 ]
+        %tmp.1393 = getv ? :next;
+        %tmp.1394 = getv function %tmp.1393 :draw;
+        %tmp.1396 = lgetv %dc;
+        invoke %tmp.1393 %tmp.1394(%tmp.1396);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 336 16 ]
+        %tmp.1398 = getv ? :prev;
+        %tmp.1399 = getv function %tmp.1398 :draw;
+        %tmp.1401 = lgetv %dc;
+        invoke %tmp.1398 %tmp.1399(%tmp.1401);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_229_17_337_12_stop:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_153_12_337_12_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_152_13_339_8_stop:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_136_8_339_8_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 341 8 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_8_361_8_if_stmt:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_12_341_50_begin:
+        %tmp.1403 = getv ? :new_winner;
+        bf %tmp.1403 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_8_361_8_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_27_341_50_true:
+        %tmp.1404 = 2000;
+        %tmp.1406 = lgetv %now.1;
+        %tmp.1408 = getv ? :last_winner;
+        %tmp.1409 = sub %tmp.1406 %tmp.1408;
+        %tmp.1410 = lt %tmp.1404 %tmp.1409;
+        push %tmp.1410;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_27_341_50_end:
+        %tmp.1411 = phi [%tmp.1403 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_12_341_50_begin] [%tmp.1410 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_27_341_50_true] [%tmp.1411 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_27_341_50_end];
+        bf %tmp.1411 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_8_361_8_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_8_361_8_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_53_345_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 342 12 ]
+        %tmp.1413 = lgetv %now.1;
+        putv self :last_winner %tmp.1413;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 343 12 ]
+        %tmp.1414 = false;
+        putv self :new_winner %tmp.1414;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 344 12 ]
+        %tmp.1415 = true;
+        putv self :winner_flag %tmp.1415;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_53_345_8_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_8_361_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_8_361_8_if_false:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 346 13 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_13_361_8_if_stmt:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_17_346_53_begin:
+        %tmp.1417 = getv ? :new_winner;
+        %tmp.1418 = not %tmp.1417;
+        bf %tmp.1418 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_13_361_8_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_33_346_53_true:
+        %tmp.1420 = lgetv %now.1;
+        %tmp.1422 = getv ? :last_winner;
+        %tmp.1423 = sub %tmp.1420 %tmp.1422;
+        %tmp.1424 = 2000;
+        %tmp.1425 = lt %tmp.1423 %tmp.1424;
+        push %tmp.1425;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_33_346_53_end:
+        %tmp.1426 = phi [%tmp.1418 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_17_346_53_begin] [%tmp.1425 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_33_346_53_true] [%tmp.1426 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_33_346_53_end];
+        bf %tmp.1426 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_13_361_8_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_13_361_8_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_59_352_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 347 12 ]
+        %tmp.1428 = getv ? :winner;
+        %tmp.1429 = getv function %tmp.1428 :setVisible;
+        %tmp.1430 = true;
+        invoke %tmp.1428 %tmp.1429(%tmp.1430);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 348 12 ]
+        %tmp.1432 = getv ? :winner;
+        %tmp.1433 = getv function %tmp.1432 :draw;
+        %tmp.1435 = lgetv %dc;
+        invoke %tmp.1432 %tmp.1433(%tmp.1435);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 349 12 ]
+        %tmp.1437 = getv ? :lab;
+        %tmp.1438 = getv function %tmp.1437 :setVisible;
+        %tmp.1439 = true;
+        invoke %tmp.1437 %tmp.1438(%tmp.1439);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 350 12 ]
+        %tmp.1441 = getv ? :lab;
+        %tmp.1442 = getv function %tmp.1441 :setText;
+        %tmp.1443 = "New winner ";
+        %tmp.1445 = getv ? :global_i;
+        %tmp.1446 = add %tmp.1443 %tmp.1445;
+        %tmp.1447 = "!";
+        %tmp.1448 = add %tmp.1446 %tmp.1447;
+        invoke %tmp.1441 %tmp.1442(%tmp.1448);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 351 12 ]
+        %tmp.1450 = getv ? :lab;
+        %tmp.1451 = getv function %tmp.1450 :draw;
+        %tmp.1453 = lgetv %dc;
+        invoke %tmp.1450 %tmp.1451(%tmp.1453);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_59_352_8_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_13_361_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_13_361_8_if_false:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 353 13 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_13_361_8_if_stmt:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_17_353_56_begin:
+        %tmp.1455 = getv ? :winner_flag;
+        bf %tmp.1455 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_13_361_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_33_353_56_true:
+        %tmp.1456 = 2000;
+        %tmp.1458 = lgetv %now.1;
+        %tmp.1460 = getv ? :last_winner;
+        %tmp.1461 = sub %tmp.1458 %tmp.1460;
+        %tmp.1462 = lt %tmp.1456 %tmp.1461;
+        push %tmp.1462;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_33_353_56_end:
+        %tmp.1463 = phi [%tmp.1455 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_17_353_56_begin] [%tmp.1462 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_33_353_56_true] [%tmp.1463 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_33_353_56_end];
+        bf %tmp.1463 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_13_361_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_13_361_8_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_59_361_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 354 12 ]
+        %tmp.1464 = false;
+        putv self :winner_flag %tmp.1464;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 356 12 ]
+        %tmp.1465 = getm $.Toybox.WatchUi;
+        %tmp.1466 = getv function %tmp.1465 :pushView;
+        %tmp.1469 = getm $.Toybox.WatchUi;
+        %tmp.1470 = getv function ? %tmp.1469 :TextPicker;
+        %tmp.1472 = getv ? :name;
+        %tmp.1467 = newc %tmp.1470 (%tmp.1472);
+        %tmp.1476 = getv ? :MyTextPickerDelegate;
+        %tmp.1473 = newc %tmp.1476 ();
+        %tmp.1477 = getm $.Toybox.WatchUi;
+        %tmp.1478 = getv %tmp.1477 :SLIDE_DOWN;
+        invoke %tmp.1465 %tmp.1466(%tmp.1467, %tmp.1473, %tmp.1478);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_59_361_8_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_13_361_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_353_13_361_8_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_346_13_361_8_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_341_8_361_8_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 364 8 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_8_371_8_if_stmt:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_12_364_57_begin:
+        %tmp.1480 = getv ? :game_over_flag;
+        bf %tmp.1480 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_8_371_8_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_31_364_57_true:
+        %tmp.1481 = 2000;
+        %tmp.1483 = lgetv %now.1;
+        %tmp.1485 = getv ? :last_game_over;
+        %tmp.1486 = sub %tmp.1483 %tmp.1485;
+        %tmp.1487 = lt %tmp.1481 %tmp.1486;
+        push %tmp.1487;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_31_364_57_end:
+        %tmp.1488 = phi [%tmp.1480 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_12_364_57_begin] [%tmp.1487 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_31_364_57_true] [%tmp.1488 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_31_364_57_end];
+        bf %tmp.1488 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_8_371_8_if_false;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_8_371_8_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_60_367_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 365 12 ]
+        %tmp.1490 = lgetv %now.1;
+        putv self :last_game_over %tmp.1490;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 366 12 ]
+        %tmp.1491 = false;
+        putv self :game_over_flag %tmp.1491;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_60_367_8_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_8_371_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_8_371_8_if_false:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 368 13 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_13_371_8_if_stmt:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_17_368_60_begin:
+        %tmp.1493 = getv ? :game_over_flag;
+        %tmp.1494 = not %tmp.1493;
+        bf %tmp.1494 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_13_371_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_37_368_60_true:
+        %tmp.1496 = lgetv %now.1;
+        %tmp.1498 = getv ? :last_game_over;
+        %tmp.1499 = sub %tmp.1496 %tmp.1498;
+        %tmp.1500 = 2000;
+        %tmp.1501 = lt %tmp.1499 %tmp.1500;
+        push %tmp.1501;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_37_368_60_end:
+        %tmp.1502 = phi [%tmp.1494 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_17_368_60_begin] [%tmp.1501 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_37_368_60_true] [%tmp.1502 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_37_368_60_end];
+        bf %tmp.1502 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_13_371_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_13_371_8_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_66_371_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 369 12 ]
+        %tmp.1504 = getv ? :game_over;
+        %tmp.1505 = getv function %tmp.1504 :setVisible;
+        %tmp.1506 = true;
+        invoke %tmp.1504 %tmp.1505(%tmp.1506);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 370 12 ]
+        %tmp.1508 = getv ? :game_over;
+        %tmp.1509 = getv function %tmp.1508 :draw;
+        %tmp.1511 = lgetv %dc;
+        invoke %tmp.1508 %tmp.1509(%tmp.1511);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_66_371_8_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_13_371_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_368_13_371_8_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_364_8_371_8_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappView_mc_126_40_372_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 377; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc"; @line = 1; ]
+<init> {
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappView.mc" 59 4 ]
+    %tmp.2 = getv ? :fish_i;
+    putv self :last_fish_i %tmp.2;
+}

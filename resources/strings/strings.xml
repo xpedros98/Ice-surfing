@@ -1,0 +1,11 @@
+<strings>
+    <string id="AppName">Ice surfing</string>
+
+    <string id="prompt"></string>
+
+    <string id="menu_label_1">Item 1</string>
+    <string id="menu_label_2">Item 2</string>
+
+    <string id="accel">Gravity</string>
+    <string id="speed">Max speed</string>
+</strings>

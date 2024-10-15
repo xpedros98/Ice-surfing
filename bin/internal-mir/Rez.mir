@@ -1,0 +1,2537 @@
+[ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var ice_hole_img as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        var info as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
+        var winner as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var game_over as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var prev as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        var next as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        var turtle1 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
+        var penguin_on as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
+        var penguin_off as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        var turtle_on as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 20; @position = 27; initialized = true; ]
+        var turtle_off as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 21; @position = 27; initialized = true; ]
+        var podium as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 22; @position = 27; initialized = true; ]
+        var fish0 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 23; @position = 27; initialized = true; ]
+        var fish1 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 24; @position = 27; initialized = true; ]
+        var hole0 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 25; @position = 27; initialized = true; ]
+        var hole1 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 26; @position = 27; initialized = true; ]
+        var hole2 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 27; @position = 27; initialized = true; ]
+        var hole3 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 28; @position = 27; initialized = true; ]
+        var hole4 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 29; @position = 27; initialized = true; ]
+        var vynil1 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 30; @position = 27; initialized = true; ]
+        var vynil2 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 31; @position = 27; initialized = true; ]
+        var scroll1 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 32; @position = 27; initialized = true; ]
+        var scroll2 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 33; @position = 27; initialized = true; ]
+        var penguin as ResourceId;
+    }
+    [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 36; ]
+    module Layouts {
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 36; ]
+        <init> {
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 37; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start:
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 38 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_info.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Bitmap;
+            %tmp.5 = newd 4;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "info";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :rezId;
+            %tmp.13 = getm $;
+            %tmp.14 = getv %tmp.13 :Rez;
+            %tmp.15 = getv %tmp.14 :Drawables;
+            %tmp.16 = getv %tmp.15 :info;
+            %tmp.17 = dup %tmp.10;
+            %tmp.18 = aputv %tmp.17 %tmp.12 %tmp.16;
+            %tmp.20 = const :locX;
+            %tmp.21 = 20;
+            %tmp.22 = dup %tmp.18;
+            %tmp.23 = aputv %tmp.22 %tmp.20 %tmp.21;
+            %tmp.25 = const :locY;
+            %tmp.26 = 10;
+            %tmp.27 = dup %tmp.23;
+            %tmp.28 = aputv %tmp.27 %tmp.25 %tmp.26;
+            %tmp.1 = newc %tmp.4 (%tmp.28);
+            lputv %rez_cmp_local_bitmap_info.1 %tmp.1;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 40 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_text_lab.2 = local;
+            %tmp.31 = getm $.Toybox.WatchUi;
+            %tmp.32 = getv function ? %tmp.31 :Text;
+            %tmp.33 = newd 7;
+            %tmp.35 = const :identifier;
+            %tmp.36 = "lab";
+            %tmp.37 = dup %tmp.33;
+            %tmp.38 = aputv %tmp.37 %tmp.35 %tmp.36;
+            %tmp.40 = const :color;
+            %tmp.41 = getm $.Toybox.Graphics;
+            %tmp.42 = getv %tmp.41 :COLOR_ORANGE;
+            %tmp.43 = dup %tmp.38;
+            %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
+            %tmp.46 = const :locX;
+            %tmp.47 = 140;
+            %tmp.48 = dup %tmp.44;
+            %tmp.49 = aputv %tmp.48 %tmp.46 %tmp.47;
+            %tmp.51 = const :locY;
+            %tmp.52 = 120;
+            %tmp.53 = dup %tmp.49;
+            %tmp.54 = aputv %tmp.53 %tmp.51 %tmp.52;
+            %tmp.56 = const :text;
+            %tmp.57 = getm $;
+            %tmp.58 = getv %tmp.57 :Rez;
+            %tmp.59 = getv %tmp.58 :Strings;
+            %tmp.60 = getv %tmp.59 :prompt;
+            %tmp.61 = dup %tmp.54;
+            %tmp.62 = aputv %tmp.61 %tmp.56 %tmp.60;
+            %tmp.64 = const :justification;
+            %tmp.65 = getm $.Toybox.Graphics;
+            %tmp.66 = getv %tmp.65 :TEXT_JUSTIFY_CENTER;
+            %tmp.67 = dup %tmp.62;
+            %tmp.68 = aputv %tmp.67 %tmp.64 %tmp.66;
+            %tmp.70 = const :font;
+            %tmp.71 = getm $.Toybox.Graphics;
+            %tmp.72 = getv %tmp.71 :FONT_MEDIUM;
+            %tmp.73 = dup %tmp.68;
+            %tmp.74 = aputv %tmp.73 %tmp.70 %tmp.72;
+            %tmp.29 = newc %tmp.32 (%tmp.74);
+            lputv %rez_cmp_local_text_lab.2 %tmp.29;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 42 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_winner.3 = local;
+            %tmp.77 = getm $.Toybox.WatchUi;
+            %tmp.78 = getv function ? %tmp.77 :Bitmap;
+            %tmp.79 = newd 4;
+            %tmp.81 = const :identifier;
+            %tmp.82 = "winner";
+            %tmp.83 = dup %tmp.79;
+            %tmp.84 = aputv %tmp.83 %tmp.81 %tmp.82;
+            %tmp.86 = const :rezId;
+            %tmp.87 = getm $;
+            %tmp.88 = getv %tmp.87 :Rez;
+            %tmp.89 = getv %tmp.88 :Drawables;
+            %tmp.90 = getv %tmp.89 :winner;
+            %tmp.91 = dup %tmp.84;
+            %tmp.92 = aputv %tmp.91 %tmp.86 %tmp.90;
+            %tmp.94 = const :locX;
+            %tmp.95 = 40;
+            %tmp.96 = dup %tmp.92;
+            %tmp.97 = aputv %tmp.96 %tmp.94 %tmp.95;
+            %tmp.99 = const :locY;
+            %tmp.100 = 40;
+            %tmp.101 = dup %tmp.97;
+            %tmp.102 = aputv %tmp.101 %tmp.99 %tmp.100;
+            %tmp.75 = newc %tmp.78 (%tmp.102);
+            lputv %rez_cmp_local_bitmap_winner.3 %tmp.75;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 44 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_game_over.4 = local;
+            %tmp.105 = getm $.Toybox.WatchUi;
+            %tmp.106 = getv function ? %tmp.105 :Bitmap;
+            %tmp.107 = newd 4;
+            %tmp.109 = const :identifier;
+            %tmp.110 = "game_over";
+            %tmp.111 = dup %tmp.107;
+            %tmp.112 = aputv %tmp.111 %tmp.109 %tmp.110;
+            %tmp.114 = const :rezId;
+            %tmp.115 = getm $;
+            %tmp.116 = getv %tmp.115 :Rez;
+            %tmp.117 = getv %tmp.116 :Drawables;
+            %tmp.118 = getv %tmp.117 :game_over;
+            %tmp.119 = dup %tmp.112;
+            %tmp.120 = aputv %tmp.119 %tmp.114 %tmp.118;
+            %tmp.122 = const :locX;
+            %tmp.123 = getm $.Toybox.WatchUi;
+            %tmp.124 = getv %tmp.123 :LAYOUT_HALIGN_CENTER;
+            %tmp.125 = dup %tmp.120;
+            %tmp.126 = aputv %tmp.125 %tmp.122 %tmp.124;
+            %tmp.128 = const :locY;
+            %tmp.129 = getm $.Toybox.WatchUi;
+            %tmp.130 = getv %tmp.129 :LAYOUT_VALIGN_CENTER;
+            %tmp.131 = dup %tmp.126;
+            %tmp.132 = aputv %tmp.131 %tmp.128 %tmp.130;
+            %tmp.103 = newc %tmp.106 (%tmp.132);
+            lputv %rez_cmp_local_bitmap_game_over.4 %tmp.103;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 45 12 ]
+            %tmp.133 = lgetv %rez_cmp_local_bitmap_game_over.4;
+            %tmp.134 = getv function %tmp.133 :setLocation;
+            %tmp.135 = 280;
+            %tmp.136 = lgetv %rez_cmp_local_bitmap_game_over.4;
+            %tmp.137 = getv %tmp.136 :width;
+            %tmp.138 = sub %tmp.135 %tmp.137;
+            %tmp.139 = 0.5;
+            %tmp.140 = mul %tmp.138 %tmp.139;
+            %tmp.141 = 280;
+            %tmp.142 = lgetv %rez_cmp_local_bitmap_game_over.4;
+            %tmp.143 = getv %tmp.142 :height;
+            %tmp.144 = sub %tmp.141 %tmp.143;
+            %tmp.145 = 0.5;
+            %tmp.146 = mul %tmp.144 %tmp.145;
+            invoke %tmp.133 %tmp.134(%tmp.140, %tmp.146);
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 47 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_prev.5 = local;
+            %tmp.149 = getm $.Toybox.WatchUi;
+            %tmp.150 = getv function ? %tmp.149 :Bitmap;
+            %tmp.151 = newd 4;
+            %tmp.153 = const :identifier;
+            %tmp.154 = "prev";
+            %tmp.155 = dup %tmp.151;
+            %tmp.156 = aputv %tmp.155 %tmp.153 %tmp.154;
+            %tmp.158 = const :rezId;
+            %tmp.159 = getm $;
+            %tmp.160 = getv %tmp.159 :Rez;
+            %tmp.161 = getv %tmp.160 :Drawables;
+            %tmp.162 = getv %tmp.161 :prev;
+            %tmp.163 = dup %tmp.156;
+            %tmp.164 = aputv %tmp.163 %tmp.158 %tmp.162;
+            %tmp.166 = const :locX;
+            %tmp.167 = 10;
+            %tmp.168 = dup %tmp.164;
+            %tmp.169 = aputv %tmp.168 %tmp.166 %tmp.167;
+            %tmp.171 = const :locY;
+            %tmp.172 = 115;
+            %tmp.173 = dup %tmp.169;
+            %tmp.174 = aputv %tmp.173 %tmp.171 %tmp.172;
+            %tmp.147 = newc %tmp.150 (%tmp.174);
+            lputv %rez_cmp_local_bitmap_prev.5 %tmp.147;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 49 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_next.6 = local;
+            %tmp.177 = getm $.Toybox.WatchUi;
+            %tmp.178 = getv function ? %tmp.177 :Bitmap;
+            %tmp.179 = newd 4;
+            %tmp.181 = const :identifier;
+            %tmp.182 = "next";
+            %tmp.183 = dup %tmp.179;
+            %tmp.184 = aputv %tmp.183 %tmp.181 %tmp.182;
+            %tmp.186 = const :rezId;
+            %tmp.187 = getm $;
+            %tmp.188 = getv %tmp.187 :Rez;
+            %tmp.189 = getv %tmp.188 :Drawables;
+            %tmp.190 = getv %tmp.189 :next;
+            %tmp.191 = dup %tmp.184;
+            %tmp.192 = aputv %tmp.191 %tmp.186 %tmp.190;
+            %tmp.194 = const :locX;
+            %tmp.195 = 220;
+            %tmp.196 = dup %tmp.192;
+            %tmp.197 = aputv %tmp.196 %tmp.194 %tmp.195;
+            %tmp.199 = const :locY;
+            %tmp.200 = 115;
+            %tmp.201 = dup %tmp.197;
+            %tmp.202 = aputv %tmp.201 %tmp.199 %tmp.200;
+            %tmp.175 = newc %tmp.178 (%tmp.202);
+            lputv %rez_cmp_local_bitmap_next.6 %tmp.175;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 51 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_penguin.7 = local;
+            %tmp.205 = getm $.Toybox.WatchUi;
+            %tmp.206 = getv function ? %tmp.205 :Bitmap;
+            %tmp.207 = newd 4;
+            %tmp.209 = const :identifier;
+            %tmp.210 = "penguin";
+            %tmp.211 = dup %tmp.207;
+            %tmp.212 = aputv %tmp.211 %tmp.209 %tmp.210;
+            %tmp.214 = const :rezId;
+            %tmp.215 = getm $;
+            %tmp.216 = getv %tmp.215 :Rez;
+            %tmp.217 = getv %tmp.216 :Drawables;
+            %tmp.218 = getv %tmp.217 :penguin;
+            %tmp.219 = dup %tmp.212;
+            %tmp.220 = aputv %tmp.219 %tmp.214 %tmp.218;
+            %tmp.222 = const :locX;
+            %tmp.223 = 65;
+            %tmp.224 = dup %tmp.220;
+            %tmp.225 = aputv %tmp.224 %tmp.222 %tmp.223;
+            %tmp.227 = const :locY;
+            %tmp.228 = 65;
+            %tmp.229 = dup %tmp.225;
+            %tmp.230 = aputv %tmp.229 %tmp.227 %tmp.228;
+            %tmp.203 = newc %tmp.206 (%tmp.230);
+            lputv %rez_cmp_local_bitmap_penguin.7 %tmp.203;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 53 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_turtle1.8 = local;
+            %tmp.233 = getm $.Toybox.WatchUi;
+            %tmp.234 = getv function ? %tmp.233 :Bitmap;
+            %tmp.235 = newd 4;
+            %tmp.237 = const :identifier;
+            %tmp.238 = "turtle1";
+            %tmp.239 = dup %tmp.235;
+            %tmp.240 = aputv %tmp.239 %tmp.237 %tmp.238;
+            %tmp.242 = const :rezId;
+            %tmp.243 = getm $;
+            %tmp.244 = getv %tmp.243 :Rez;
+            %tmp.245 = getv %tmp.244 :Drawables;
+            %tmp.246 = getv %tmp.245 :turtle1;
+            %tmp.247 = dup %tmp.240;
+            %tmp.248 = aputv %tmp.247 %tmp.242 %tmp.246;
+            %tmp.250 = const :locX;
+            %tmp.251 = 70;
+            %tmp.252 = dup %tmp.248;
+            %tmp.253 = aputv %tmp.252 %tmp.250 %tmp.251;
+            %tmp.255 = const :locY;
+            %tmp.256 = 115;
+            %tmp.257 = dup %tmp.253;
+            %tmp.258 = aputv %tmp.257 %tmp.255 %tmp.256;
+            %tmp.231 = newc %tmp.234 (%tmp.258);
+            lputv %rez_cmp_local_bitmap_turtle1.8 %tmp.231;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 55 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_penguin_on.9 = local;
+            %tmp.261 = getm $.Toybox.WatchUi;
+            %tmp.262 = getv function ? %tmp.261 :Bitmap;
+            %tmp.263 = newd 4;
+            %tmp.265 = const :identifier;
+            %tmp.266 = "penguin_on";
+            %tmp.267 = dup %tmp.263;
+            %tmp.268 = aputv %tmp.267 %tmp.265 %tmp.266;
+            %tmp.270 = const :rezId;
+            %tmp.271 = getm $;
+            %tmp.272 = getv %tmp.271 :Rez;
+            %tmp.273 = getv %tmp.272 :Drawables;
+            %tmp.274 = getv %tmp.273 :penguin_on;
+            %tmp.275 = dup %tmp.268;
+            %tmp.276 = aputv %tmp.275 %tmp.270 %tmp.274;
+            %tmp.278 = const :locX;
+            %tmp.279 = 95;
+            %tmp.280 = dup %tmp.276;
+            %tmp.281 = aputv %tmp.280 %tmp.278 %tmp.279;
+            %tmp.283 = const :locY;
+            %tmp.284 = 25;
+            %tmp.285 = dup %tmp.281;
+            %tmp.286 = aputv %tmp.285 %tmp.283 %tmp.284;
+            %tmp.259 = newc %tmp.262 (%tmp.286);
+            lputv %rez_cmp_local_bitmap_penguin_on.9 %tmp.259;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 57 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_penguin_off.10 = local;
+            %tmp.289 = getm $.Toybox.WatchUi;
+            %tmp.290 = getv function ? %tmp.289 :Bitmap;
+            %tmp.291 = newd 4;
+            %tmp.293 = const :identifier;
+            %tmp.294 = "penguin_off";
+            %tmp.295 = dup %tmp.291;
+            %tmp.296 = aputv %tmp.295 %tmp.293 %tmp.294;
+            %tmp.298 = const :rezId;
+            %tmp.299 = getm $;
+            %tmp.300 = getv %tmp.299 :Rez;
+            %tmp.301 = getv %tmp.300 :Drawables;
+            %tmp.302 = getv %tmp.301 :penguin_off;
+            %tmp.303 = dup %tmp.296;
+            %tmp.304 = aputv %tmp.303 %tmp.298 %tmp.302;
+            %tmp.306 = const :locX;
+            %tmp.307 = 95;
+            %tmp.308 = dup %tmp.304;
+            %tmp.309 = aputv %tmp.308 %tmp.306 %tmp.307;
+            %tmp.311 = const :locY;
+            %tmp.312 = 25;
+            %tmp.313 = dup %tmp.309;
+            %tmp.314 = aputv %tmp.313 %tmp.311 %tmp.312;
+            %tmp.287 = newc %tmp.290 (%tmp.314);
+            lputv %rez_cmp_local_bitmap_penguin_off.10 %tmp.287;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 59 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_turtle_on.11 = local;
+            %tmp.317 = getm $.Toybox.WatchUi;
+            %tmp.318 = getv function ? %tmp.317 :Bitmap;
+            %tmp.319 = newd 4;
+            %tmp.321 = const :identifier;
+            %tmp.322 = "turtle_on";
+            %tmp.323 = dup %tmp.319;
+            %tmp.324 = aputv %tmp.323 %tmp.321 %tmp.322;
+            %tmp.326 = const :rezId;
+            %tmp.327 = getm $;
+            %tmp.328 = getv %tmp.327 :Rez;
+            %tmp.329 = getv %tmp.328 :Drawables;
+            %tmp.330 = getv %tmp.329 :turtle_on;
+            %tmp.331 = dup %tmp.324;
+            %tmp.332 = aputv %tmp.331 %tmp.326 %tmp.330;
+            %tmp.334 = const :locX;
+            %tmp.335 = 70;
+            %tmp.336 = dup %tmp.332;
+            %tmp.337 = aputv %tmp.336 %tmp.334 %tmp.335;
+            %tmp.339 = const :locY;
+            %tmp.340 = 115;
+            %tmp.341 = dup %tmp.337;
+            %tmp.342 = aputv %tmp.341 %tmp.339 %tmp.340;
+            %tmp.315 = newc %tmp.318 (%tmp.342);
+            lputv %rez_cmp_local_bitmap_turtle_on.11 %tmp.315;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 61 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_turtle_off.12 = local;
+            %tmp.345 = getm $.Toybox.WatchUi;
+            %tmp.346 = getv function ? %tmp.345 :Bitmap;
+            %tmp.347 = newd 4;
+            %tmp.349 = const :identifier;
+            %tmp.350 = "turtle_off";
+            %tmp.351 = dup %tmp.347;
+            %tmp.352 = aputv %tmp.351 %tmp.349 %tmp.350;
+            %tmp.354 = const :rezId;
+            %tmp.355 = getm $;
+            %tmp.356 = getv %tmp.355 :Rez;
+            %tmp.357 = getv %tmp.356 :Drawables;
+            %tmp.358 = getv %tmp.357 :turtle_off;
+            %tmp.359 = dup %tmp.352;
+            %tmp.360 = aputv %tmp.359 %tmp.354 %tmp.358;
+            %tmp.362 = const :locX;
+            %tmp.363 = 70;
+            %tmp.364 = dup %tmp.360;
+            %tmp.365 = aputv %tmp.364 %tmp.362 %tmp.363;
+            %tmp.367 = const :locY;
+            %tmp.368 = 115;
+            %tmp.369 = dup %tmp.365;
+            %tmp.370 = aputv %tmp.369 %tmp.367 %tmp.368;
+            %tmp.343 = newc %tmp.346 (%tmp.370);
+            lputv %rez_cmp_local_bitmap_turtle_off.12 %tmp.343;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 63 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_podium.13 = local;
+            %tmp.373 = getm $.Toybox.WatchUi;
+            %tmp.374 = getv function ? %tmp.373 :Bitmap;
+            %tmp.375 = newd 4;
+            %tmp.377 = const :identifier;
+            %tmp.378 = "podium";
+            %tmp.379 = dup %tmp.375;
+            %tmp.380 = aputv %tmp.379 %tmp.377 %tmp.378;
+            %tmp.382 = const :rezId;
+            %tmp.383 = getm $;
+            %tmp.384 = getv %tmp.383 :Rez;
+            %tmp.385 = getv %tmp.384 :Drawables;
+            %tmp.386 = getv %tmp.385 :podium;
+            %tmp.387 = dup %tmp.380;
+            %tmp.388 = aputv %tmp.387 %tmp.382 %tmp.386;
+            %tmp.390 = const :locX;
+            %tmp.391 = getm $.Toybox.WatchUi;
+            %tmp.392 = getv %tmp.391 :LAYOUT_HALIGN_CENTER;
+            %tmp.393 = dup %tmp.388;
+            %tmp.394 = aputv %tmp.393 %tmp.390 %tmp.392;
+            %tmp.396 = const :locY;
+            %tmp.397 = getm $.Toybox.WatchUi;
+            %tmp.398 = getv %tmp.397 :LAYOUT_VALIGN_CENTER;
+            %tmp.399 = dup %tmp.394;
+            %tmp.400 = aputv %tmp.399 %tmp.396 %tmp.398;
+            %tmp.371 = newc %tmp.374 (%tmp.400);
+            lputv %rez_cmp_local_bitmap_podium.13 %tmp.371;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 64 12 ]
+            %tmp.401 = lgetv %rez_cmp_local_bitmap_podium.13;
+            %tmp.402 = getv function %tmp.401 :setLocation;
+            %tmp.403 = 280;
+            %tmp.404 = lgetv %rez_cmp_local_bitmap_podium.13;
+            %tmp.405 = getv %tmp.404 :width;
+            %tmp.406 = sub %tmp.403 %tmp.405;
+            %tmp.407 = 0.5;
+            %tmp.408 = mul %tmp.406 %tmp.407;
+            %tmp.409 = 280;
+            %tmp.410 = lgetv %rez_cmp_local_bitmap_podium.13;
+            %tmp.411 = getv %tmp.410 :height;
+            %tmp.412 = sub %tmp.409 %tmp.411;
+            %tmp.413 = 0.5;
+            %tmp.414 = mul %tmp.412 %tmp.413;
+            invoke %tmp.401 %tmp.402(%tmp.408, %tmp.414);
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 66 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_fish0.14 = local;
+            %tmp.417 = getm $.Toybox.WatchUi;
+            %tmp.418 = getv function ? %tmp.417 :Bitmap;
+            %tmp.419 = newd 4;
+            %tmp.421 = const :identifier;
+            %tmp.422 = "fish0";
+            %tmp.423 = dup %tmp.419;
+            %tmp.424 = aputv %tmp.423 %tmp.421 %tmp.422;
+            %tmp.426 = const :rezId;
+            %tmp.427 = getm $;
+            %tmp.428 = getv %tmp.427 :Rez;
+            %tmp.429 = getv %tmp.428 :Drawables;
+            %tmp.430 = getv %tmp.429 :fish0;
+            %tmp.431 = dup %tmp.424;
+            %tmp.432 = aputv %tmp.431 %tmp.426 %tmp.430;
+            %tmp.434 = const :locX;
+            %tmp.435 = getm $.Toybox.WatchUi;
+            %tmp.436 = getv %tmp.435 :LAYOUT_HALIGN_CENTER;
+            %tmp.437 = dup %tmp.432;
+            %tmp.438 = aputv %tmp.437 %tmp.434 %tmp.436;
+            %tmp.440 = const :locY;
+            %tmp.441 = getm $.Toybox.WatchUi;
+            %tmp.442 = getv %tmp.441 :LAYOUT_VALIGN_CENTER;
+            %tmp.443 = dup %tmp.438;
+            %tmp.444 = aputv %tmp.443 %tmp.440 %tmp.442;
+            %tmp.415 = newc %tmp.418 (%tmp.444);
+            lputv %rez_cmp_local_bitmap_fish0.14 %tmp.415;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 67 12 ]
+            %tmp.445 = lgetv %rez_cmp_local_bitmap_fish0.14;
+            %tmp.446 = getv function %tmp.445 :setLocation;
+            %tmp.447 = 280;
+            %tmp.448 = lgetv %rez_cmp_local_bitmap_fish0.14;
+            %tmp.449 = getv %tmp.448 :width;
+            %tmp.450 = sub %tmp.447 %tmp.449;
+            %tmp.451 = 0.5;
+            %tmp.452 = mul %tmp.450 %tmp.451;
+            %tmp.453 = 280;
+            %tmp.454 = lgetv %rez_cmp_local_bitmap_fish0.14;
+            %tmp.455 = getv %tmp.454 :height;
+            %tmp.456 = sub %tmp.453 %tmp.455;
+            %tmp.457 = 0.5;
+            %tmp.458 = mul %tmp.456 %tmp.457;
+            invoke %tmp.445 %tmp.446(%tmp.452, %tmp.458);
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 69 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_fish1.15 = local;
+            %tmp.461 = getm $.Toybox.WatchUi;
+            %tmp.462 = getv function ? %tmp.461 :Bitmap;
+            %tmp.463 = newd 4;
+            %tmp.465 = const :identifier;
+            %tmp.466 = "fish1";
+            %tmp.467 = dup %tmp.463;
+            %tmp.468 = aputv %tmp.467 %tmp.465 %tmp.466;
+            %tmp.470 = const :rezId;
+            %tmp.471 = getm $;
+            %tmp.472 = getv %tmp.471 :Rez;
+            %tmp.473 = getv %tmp.472 :Drawables;
+            %tmp.474 = getv %tmp.473 :fish1;
+            %tmp.475 = dup %tmp.468;
+            %tmp.476 = aputv %tmp.475 %tmp.470 %tmp.474;
+            %tmp.478 = const :locX;
+            %tmp.479 = getm $.Toybox.WatchUi;
+            %tmp.480 = getv %tmp.479 :LAYOUT_HALIGN_CENTER;
+            %tmp.481 = dup %tmp.476;
+            %tmp.482 = aputv %tmp.481 %tmp.478 %tmp.480;
+            %tmp.484 = const :locY;
+            %tmp.485 = getm $.Toybox.WatchUi;
+            %tmp.486 = getv %tmp.485 :LAYOUT_VALIGN_CENTER;
+            %tmp.487 = dup %tmp.482;
+            %tmp.488 = aputv %tmp.487 %tmp.484 %tmp.486;
+            %tmp.459 = newc %tmp.462 (%tmp.488);
+            lputv %rez_cmp_local_bitmap_fish1.15 %tmp.459;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 70 12 ]
+            %tmp.489 = lgetv %rez_cmp_local_bitmap_fish1.15;
+            %tmp.490 = getv function %tmp.489 :setLocation;
+            %tmp.491 = 280;
+            %tmp.492 = lgetv %rez_cmp_local_bitmap_fish1.15;
+            %tmp.493 = getv %tmp.492 :width;
+            %tmp.494 = sub %tmp.491 %tmp.493;
+            %tmp.495 = 0.5;
+            %tmp.496 = mul %tmp.494 %tmp.495;
+            %tmp.497 = 280;
+            %tmp.498 = lgetv %rez_cmp_local_bitmap_fish1.15;
+            %tmp.499 = getv %tmp.498 :height;
+            %tmp.500 = sub %tmp.497 %tmp.499;
+            %tmp.501 = 0.5;
+            %tmp.502 = mul %tmp.500 %tmp.501;
+            invoke %tmp.489 %tmp.490(%tmp.496, %tmp.502);
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 72 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_hole0.16 = local;
+            %tmp.505 = getm $.Toybox.WatchUi;
+            %tmp.506 = getv function ? %tmp.505 :Bitmap;
+            %tmp.507 = newd 4;
+            %tmp.509 = const :identifier;
+            %tmp.510 = "hole0";
+            %tmp.511 = dup %tmp.507;
+            %tmp.512 = aputv %tmp.511 %tmp.509 %tmp.510;
+            %tmp.514 = const :rezId;
+            %tmp.515 = getm $;
+            %tmp.516 = getv %tmp.515 :Rez;
+            %tmp.517 = getv %tmp.516 :Drawables;
+            %tmp.518 = getv %tmp.517 :hole0;
+            %tmp.519 = dup %tmp.512;
+            %tmp.520 = aputv %tmp.519 %tmp.514 %tmp.518;
+            %tmp.522 = const :locX;
+            %tmp.523 = 125;
+            %tmp.524 = dup %tmp.520;
+            %tmp.525 = aputv %tmp.524 %tmp.522 %tmp.523;
+            %tmp.527 = const :locY;
+            %tmp.528 = 125;
+            %tmp.529 = dup %tmp.525;
+            %tmp.530 = aputv %tmp.529 %tmp.527 %tmp.528;
+            %tmp.503 = newc %tmp.506 (%tmp.530);
+            lputv %rez_cmp_local_bitmap_hole0.16 %tmp.503;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 74 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_hole1.17 = local;
+            %tmp.533 = getm $.Toybox.WatchUi;
+            %tmp.534 = getv function ? %tmp.533 :Bitmap;
+            %tmp.535 = newd 4;
+            %tmp.537 = const :identifier;
+            %tmp.538 = "hole1";
+            %tmp.539 = dup %tmp.535;
+            %tmp.540 = aputv %tmp.539 %tmp.537 %tmp.538;
+            %tmp.542 = const :rezId;
+            %tmp.543 = getm $;
+            %tmp.544 = getv %tmp.543 :Rez;
+            %tmp.545 = getv %tmp.544 :Drawables;
+            %tmp.546 = getv %tmp.545 :hole1;
+            %tmp.547 = dup %tmp.540;
+            %tmp.548 = aputv %tmp.547 %tmp.542 %tmp.546;
+            %tmp.550 = const :locX;
+            %tmp.551 = 125;
+            %tmp.552 = dup %tmp.548;
+            %tmp.553 = aputv %tmp.552 %tmp.550 %tmp.551;
+            %tmp.555 = const :locY;
+            %tmp.556 = 125;
+            %tmp.557 = dup %tmp.553;
+            %tmp.558 = aputv %tmp.557 %tmp.555 %tmp.556;
+            %tmp.531 = newc %tmp.534 (%tmp.558);
+            lputv %rez_cmp_local_bitmap_hole1.17 %tmp.531;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 76 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_hole2.18 = local;
+            %tmp.561 = getm $.Toybox.WatchUi;
+            %tmp.562 = getv function ? %tmp.561 :Bitmap;
+            %tmp.563 = newd 4;
+            %tmp.565 = const :identifier;
+            %tmp.566 = "hole2";
+            %tmp.567 = dup %tmp.563;
+            %tmp.568 = aputv %tmp.567 %tmp.565 %tmp.566;
+            %tmp.570 = const :rezId;
+            %tmp.571 = getm $;
+            %tmp.572 = getv %tmp.571 :Rez;
+            %tmp.573 = getv %tmp.572 :Drawables;
+            %tmp.574 = getv %tmp.573 :hole2;
+            %tmp.575 = dup %tmp.568;
+            %tmp.576 = aputv %tmp.575 %tmp.570 %tmp.574;
+            %tmp.578 = const :locX;
+            %tmp.579 = 125;
+            %tmp.580 = dup %tmp.576;
+            %tmp.581 = aputv %tmp.580 %tmp.578 %tmp.579;
+            %tmp.583 = const :locY;
+            %tmp.584 = 125;
+            %tmp.585 = dup %tmp.581;
+            %tmp.586 = aputv %tmp.585 %tmp.583 %tmp.584;
+            %tmp.559 = newc %tmp.562 (%tmp.586);
+            lputv %rez_cmp_local_bitmap_hole2.18 %tmp.559;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 78 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_hole3.19 = local;
+            %tmp.589 = getm $.Toybox.WatchUi;
+            %tmp.590 = getv function ? %tmp.589 :Bitmap;
+            %tmp.591 = newd 4;
+            %tmp.593 = const :identifier;
+            %tmp.594 = "hole3";
+            %tmp.595 = dup %tmp.591;
+            %tmp.596 = aputv %tmp.595 %tmp.593 %tmp.594;
+            %tmp.598 = const :rezId;
+            %tmp.599 = getm $;
+            %tmp.600 = getv %tmp.599 :Rez;
+            %tmp.601 = getv %tmp.600 :Drawables;
+            %tmp.602 = getv %tmp.601 :hole3;
+            %tmp.603 = dup %tmp.596;
+            %tmp.604 = aputv %tmp.603 %tmp.598 %tmp.602;
+            %tmp.606 = const :locX;
+            %tmp.607 = 125;
+            %tmp.608 = dup %tmp.604;
+            %tmp.609 = aputv %tmp.608 %tmp.606 %tmp.607;
+            %tmp.611 = const :locY;
+            %tmp.612 = 125;
+            %tmp.613 = dup %tmp.609;
+            %tmp.614 = aputv %tmp.613 %tmp.611 %tmp.612;
+            %tmp.587 = newc %tmp.590 (%tmp.614);
+            lputv %rez_cmp_local_bitmap_hole3.19 %tmp.587;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 80 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_hole4.20 = local;
+            %tmp.617 = getm $.Toybox.WatchUi;
+            %tmp.618 = getv function ? %tmp.617 :Bitmap;
+            %tmp.619 = newd 4;
+            %tmp.621 = const :identifier;
+            %tmp.622 = "hole4";
+            %tmp.623 = dup %tmp.619;
+            %tmp.624 = aputv %tmp.623 %tmp.621 %tmp.622;
+            %tmp.626 = const :rezId;
+            %tmp.627 = getm $;
+            %tmp.628 = getv %tmp.627 :Rez;
+            %tmp.629 = getv %tmp.628 :Drawables;
+            %tmp.630 = getv %tmp.629 :hole4;
+            %tmp.631 = dup %tmp.624;
+            %tmp.632 = aputv %tmp.631 %tmp.626 %tmp.630;
+            %tmp.634 = const :locX;
+            %tmp.635 = 125;
+            %tmp.636 = dup %tmp.632;
+            %tmp.637 = aputv %tmp.636 %tmp.634 %tmp.635;
+            %tmp.639 = const :locY;
+            %tmp.640 = 125;
+            %tmp.641 = dup %tmp.637;
+            %tmp.642 = aputv %tmp.641 %tmp.639 %tmp.640;
+            %tmp.615 = newc %tmp.618 (%tmp.642);
+            lputv %rez_cmp_local_bitmap_hole4.20 %tmp.615;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 82 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_vynil1.21 = local;
+            %tmp.645 = getm $.Toybox.WatchUi;
+            %tmp.646 = getv function ? %tmp.645 :Bitmap;
+            %tmp.647 = newd 4;
+            %tmp.649 = const :identifier;
+            %tmp.650 = "vynil1";
+            %tmp.651 = dup %tmp.647;
+            %tmp.652 = aputv %tmp.651 %tmp.649 %tmp.650;
+            %tmp.654 = const :rezId;
+            %tmp.655 = getm $;
+            %tmp.656 = getv %tmp.655 :Rez;
+            %tmp.657 = getv %tmp.656 :Drawables;
+            %tmp.658 = getv %tmp.657 :vynil1;
+            %tmp.659 = dup %tmp.652;
+            %tmp.660 = aputv %tmp.659 %tmp.654 %tmp.658;
+            %tmp.662 = const :locX;
+            %tmp.663 = 75;
+            %tmp.664 = dup %tmp.660;
+            %tmp.665 = aputv %tmp.664 %tmp.662 %tmp.663;
+            %tmp.667 = const :locY;
+            %tmp.668 = 50;
+            %tmp.669 = dup %tmp.665;
+            %tmp.670 = aputv %tmp.669 %tmp.667 %tmp.668;
+            %tmp.643 = newc %tmp.646 (%tmp.670);
+            lputv %rez_cmp_local_bitmap_vynil1.21 %tmp.643;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 84 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_vynil2.22 = local;
+            %tmp.673 = getm $.Toybox.WatchUi;
+            %tmp.674 = getv function ? %tmp.673 :Bitmap;
+            %tmp.675 = newd 4;
+            %tmp.677 = const :identifier;
+            %tmp.678 = "vynil2";
+            %tmp.679 = dup %tmp.675;
+            %tmp.680 = aputv %tmp.679 %tmp.677 %tmp.678;
+            %tmp.682 = const :rezId;
+            %tmp.683 = getm $;
+            %tmp.684 = getv %tmp.683 :Rez;
+            %tmp.685 = getv %tmp.684 :Drawables;
+            %tmp.686 = getv %tmp.685 :vynil2;
+            %tmp.687 = dup %tmp.680;
+            %tmp.688 = aputv %tmp.687 %tmp.682 %tmp.686;
+            %tmp.690 = const :locX;
+            %tmp.691 = 75;
+            %tmp.692 = dup %tmp.688;
+            %tmp.693 = aputv %tmp.692 %tmp.690 %tmp.691;
+            %tmp.695 = const :locY;
+            %tmp.696 = 170;
+            %tmp.697 = dup %tmp.693;
+            %tmp.698 = aputv %tmp.697 %tmp.695 %tmp.696;
+            %tmp.671 = newc %tmp.674 (%tmp.698);
+            lputv %rez_cmp_local_bitmap_vynil2.22 %tmp.671;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 86 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_scroll1.23 = local;
+            %tmp.701 = getm $.Toybox.WatchUi;
+            %tmp.702 = getv function ? %tmp.701 :Bitmap;
+            %tmp.703 = newd 4;
+            %tmp.705 = const :identifier;
+            %tmp.706 = "scroll1";
+            %tmp.707 = dup %tmp.703;
+            %tmp.708 = aputv %tmp.707 %tmp.705 %tmp.706;
+            %tmp.710 = const :rezId;
+            %tmp.711 = getm $;
+            %tmp.712 = getv %tmp.711 :Rez;
+            %tmp.713 = getv %tmp.712 :Drawables;
+            %tmp.714 = getv %tmp.713 :scroll1;
+            %tmp.715 = dup %tmp.708;
+            %tmp.716 = aputv %tmp.715 %tmp.710 %tmp.714;
+            %tmp.718 = const :locX;
+            %tmp.719 = 75;
+            %tmp.720 = dup %tmp.716;
+            %tmp.721 = aputv %tmp.720 %tmp.718 %tmp.719;
+            %tmp.723 = const :locY;
+            %tmp.724 = 90;
+            %tmp.725 = dup %tmp.721;
+            %tmp.726 = aputv %tmp.725 %tmp.723 %tmp.724;
+            %tmp.699 = newc %tmp.702 (%tmp.726);
+            lputv %rez_cmp_local_bitmap_scroll1.23 %tmp.699;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 88 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_bitmap_scroll2.24 = local;
+            %tmp.729 = getm $.Toybox.WatchUi;
+            %tmp.730 = getv function ? %tmp.729 :Bitmap;
+            %tmp.731 = newd 4;
+            %tmp.733 = const :identifier;
+            %tmp.734 = "scroll2";
+            %tmp.735 = dup %tmp.731;
+            %tmp.736 = aputv %tmp.735 %tmp.733 %tmp.734;
+            %tmp.738 = const :rezId;
+            %tmp.739 = getm $;
+            %tmp.740 = getv %tmp.739 :Rez;
+            %tmp.741 = getv %tmp.740 :Drawables;
+            %tmp.742 = getv %tmp.741 :scroll2;
+            %tmp.743 = dup %tmp.736;
+            %tmp.744 = aputv %tmp.743 %tmp.738 %tmp.742;
+            %tmp.746 = const :locX;
+            %tmp.747 = 75;
+            %tmp.748 = dup %tmp.744;
+            %tmp.749 = aputv %tmp.748 %tmp.746 %tmp.747;
+            %tmp.751 = const :locY;
+            %tmp.752 = 90;
+            %tmp.753 = dup %tmp.749;
+            %tmp.754 = aputv %tmp.753 %tmp.751 %tmp.752;
+            %tmp.727 = newc %tmp.730 (%tmp.754);
+            lputv %rez_cmp_local_bitmap_scroll2.24 %tmp.727;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 90 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_text_lab1.25 = local;
+            %tmp.757 = getm $.Toybox.WatchUi;
+            %tmp.758 = getv function ? %tmp.757 :Text;
+            %tmp.759 = newd 7;
+            %tmp.761 = const :identifier;
+            %tmp.762 = "lab1";
+            %tmp.763 = dup %tmp.759;
+            %tmp.764 = aputv %tmp.763 %tmp.761 %tmp.762;
+            %tmp.766 = const :color;
+            %tmp.767 = getm $.Toybox.Graphics;
+            %tmp.768 = getv %tmp.767 :COLOR_BLUE;
+            %tmp.769 = dup %tmp.764;
+            %tmp.770 = aputv %tmp.769 %tmp.766 %tmp.768;
+            %tmp.772 = const :locX;
+            %tmp.773 = 75;
+            %tmp.774 = dup %tmp.770;
+            %tmp.775 = aputv %tmp.774 %tmp.772 %tmp.773;
+            %tmp.777 = const :locY;
+            %tmp.778 = 15;
+            %tmp.779 = dup %tmp.775;
+            %tmp.780 = aputv %tmp.779 %tmp.777 %tmp.778;
+            %tmp.782 = const :text;
+            %tmp.783 = getm $;
+            %tmp.784 = getv %tmp.783 :Rez;
+            %tmp.785 = getv %tmp.784 :Strings;
+            %tmp.786 = getv %tmp.785 :accel;
+            %tmp.787 = dup %tmp.780;
+            %tmp.788 = aputv %tmp.787 %tmp.782 %tmp.786;
+            %tmp.790 = const :justification;
+            %tmp.791 = getm $.Toybox.Graphics;
+            %tmp.792 = getv %tmp.791 :TEXT_JUSTIFY_LEFT;
+            %tmp.793 = dup %tmp.788;
+            %tmp.794 = aputv %tmp.793 %tmp.790 %tmp.792;
+            %tmp.796 = const :font;
+            %tmp.797 = getm $.Toybox.Graphics;
+            %tmp.798 = getv %tmp.797 :FONT_MEDIUM;
+            %tmp.799 = dup %tmp.794;
+            %tmp.800 = aputv %tmp.799 %tmp.796 %tmp.798;
+            %tmp.755 = newc %tmp.758 (%tmp.800);
+            lputv %rez_cmp_local_text_lab1.25 %tmp.755;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 92 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_text_lab2.26 = local;
+            %tmp.803 = getm $.Toybox.WatchUi;
+            %tmp.804 = getv function ? %tmp.803 :Text;
+            %tmp.805 = newd 7;
+            %tmp.807 = const :identifier;
+            %tmp.808 = "lab2";
+            %tmp.809 = dup %tmp.805;
+            %tmp.810 = aputv %tmp.809 %tmp.807 %tmp.808;
+            %tmp.812 = const :color;
+            %tmp.813 = getm $.Toybox.Graphics;
+            %tmp.814 = getv %tmp.813 :COLOR_BLUE;
+            %tmp.815 = dup %tmp.810;
+            %tmp.816 = aputv %tmp.815 %tmp.812 %tmp.814;
+            %tmp.818 = const :locX;
+            %tmp.819 = 75;
+            %tmp.820 = dup %tmp.816;
+            %tmp.821 = aputv %tmp.820 %tmp.818 %tmp.819;
+            %tmp.823 = const :locY;
+            %tmp.824 = 135;
+            %tmp.825 = dup %tmp.821;
+            %tmp.826 = aputv %tmp.825 %tmp.823 %tmp.824;
+            %tmp.828 = const :text;
+            %tmp.829 = getm $;
+            %tmp.830 = getv %tmp.829 :Rez;
+            %tmp.831 = getv %tmp.830 :Strings;
+            %tmp.832 = getv %tmp.831 :speed;
+            %tmp.833 = dup %tmp.826;
+            %tmp.834 = aputv %tmp.833 %tmp.828 %tmp.832;
+            %tmp.836 = const :justification;
+            %tmp.837 = getm $.Toybox.Graphics;
+            %tmp.838 = getv %tmp.837 :TEXT_JUSTIFY_LEFT;
+            %tmp.839 = dup %tmp.834;
+            %tmp.840 = aputv %tmp.839 %tmp.836 %tmp.838;
+            %tmp.842 = const :font;
+            %tmp.843 = getm $.Toybox.Graphics;
+            %tmp.844 = getv %tmp.843 :FONT_MEDIUM;
+            %tmp.845 = dup %tmp.840;
+            %tmp.846 = aputv %tmp.845 %tmp.842 %tmp.844;
+            %tmp.801 = newc %tmp.804 (%tmp.846);
+            lputv %rez_cmp_local_text_lab2.26 %tmp.801;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 94 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_text_p1.27 = local;
+            %tmp.849 = getm $.Toybox.WatchUi;
+            %tmp.850 = getv function ? %tmp.849 :Text;
+            %tmp.851 = newd 7;
+            %tmp.853 = const :identifier;
+            %tmp.854 = "p1";
+            %tmp.855 = dup %tmp.851;
+            %tmp.856 = aputv %tmp.855 %tmp.853 %tmp.854;
+            %tmp.858 = const :color;
+            %tmp.859 = getm $.Toybox.Graphics;
+            %tmp.860 = getv %tmp.859 :COLOR_YELLOW;
+            %tmp.861 = dup %tmp.856;
+            %tmp.862 = aputv %tmp.861 %tmp.858 %tmp.860;
+            %tmp.864 = const :locX;
+            %tmp.865 = 140;
+            %tmp.866 = dup %tmp.862;
+            %tmp.867 = aputv %tmp.866 %tmp.864 %tmp.865;
+            %tmp.869 = const :locY;
+            %tmp.870 = 20;
+            %tmp.871 = dup %tmp.867;
+            %tmp.872 = aputv %tmp.871 %tmp.869 %tmp.870;
+            %tmp.874 = const :text;
+            %tmp.875 = getm $;
+            %tmp.876 = getv %tmp.875 :Rez;
+            %tmp.877 = getv %tmp.876 :Strings;
+            %tmp.878 = getv %tmp.877 :prompt;
+            %tmp.879 = dup %tmp.872;
+            %tmp.880 = aputv %tmp.879 %tmp.874 %tmp.878;
+            %tmp.882 = const :justification;
+            %tmp.883 = getm $.Toybox.Graphics;
+            %tmp.884 = getv %tmp.883 :TEXT_JUSTIFY_CENTER;
+            %tmp.885 = dup %tmp.880;
+            %tmp.886 = aputv %tmp.885 %tmp.882 %tmp.884;
+            %tmp.888 = const :font;
+            %tmp.889 = getm $.Toybox.Graphics;
+            %tmp.890 = getv %tmp.889 :FONT_MEDIUM;
+            %tmp.891 = dup %tmp.886;
+            %tmp.892 = aputv %tmp.891 %tmp.888 %tmp.890;
+            %tmp.847 = newc %tmp.850 (%tmp.892);
+            lputv %rez_cmp_local_text_p1.27 %tmp.847;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 96 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_text_p2.28 = local;
+            %tmp.895 = getm $.Toybox.WatchUi;
+            %tmp.896 = getv function ? %tmp.895 :Text;
+            %tmp.897 = newd 7;
+            %tmp.899 = const :identifier;
+            %tmp.900 = "p2";
+            %tmp.901 = dup %tmp.897;
+            %tmp.902 = aputv %tmp.901 %tmp.899 %tmp.900;
+            %tmp.904 = const :color;
+            %tmp.905 = getm $.Toybox.Graphics;
+            %tmp.906 = getv %tmp.905 :COLOR_WHITE;
+            %tmp.907 = dup %tmp.902;
+            %tmp.908 = aputv %tmp.907 %tmp.904 %tmp.906;
+            %tmp.910 = const :locX;
+            %tmp.911 = 80;
+            %tmp.912 = dup %tmp.908;
+            %tmp.913 = aputv %tmp.912 %tmp.910 %tmp.911;
+            %tmp.915 = const :locY;
+            %tmp.916 = 100;
+            %tmp.917 = dup %tmp.913;
+            %tmp.918 = aputv %tmp.917 %tmp.915 %tmp.916;
+            %tmp.920 = const :text;
+            %tmp.921 = getm $;
+            %tmp.922 = getv %tmp.921 :Rez;
+            %tmp.923 = getv %tmp.922 :Strings;
+            %tmp.924 = getv %tmp.923 :prompt;
+            %tmp.925 = dup %tmp.918;
+            %tmp.926 = aputv %tmp.925 %tmp.920 %tmp.924;
+            %tmp.928 = const :justification;
+            %tmp.929 = getm $.Toybox.Graphics;
+            %tmp.930 = getv %tmp.929 :TEXT_JUSTIFY_CENTER;
+            %tmp.931 = dup %tmp.926;
+            %tmp.932 = aputv %tmp.931 %tmp.928 %tmp.930;
+            %tmp.934 = const :font;
+            %tmp.935 = getm $.Toybox.Graphics;
+            %tmp.936 = getv %tmp.935 :FONT_MEDIUM;
+            %tmp.937 = dup %tmp.932;
+            %tmp.938 = aputv %tmp.937 %tmp.934 %tmp.936;
+            %tmp.893 = newc %tmp.896 (%tmp.938);
+            lputv %rez_cmp_local_text_p2.28 %tmp.893;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 98 12 ]
+            [ "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_start" "c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop" ]
+            %rez_cmp_local_text_p3.29 = local;
+            %tmp.941 = getm $.Toybox.WatchUi;
+            %tmp.942 = getv function ? %tmp.941 :Text;
+            %tmp.943 = newd 7;
+            %tmp.945 = const :identifier;
+            %tmp.946 = "p3";
+            %tmp.947 = dup %tmp.943;
+            %tmp.948 = aputv %tmp.947 %tmp.945 %tmp.946;
+            %tmp.950 = const :color;
+            %tmp.951 = getm $.Toybox.Graphics;
+            %tmp.952 = getv %tmp.951 :COLOR_ORANGE;
+            %tmp.953 = dup %tmp.948;
+            %tmp.954 = aputv %tmp.953 %tmp.950 %tmp.952;
+            %tmp.956 = const :locX;
+            %tmp.957 = 190;
+            %tmp.958 = dup %tmp.954;
+            %tmp.959 = aputv %tmp.958 %tmp.956 %tmp.957;
+            %tmp.961 = const :locY;
+            %tmp.962 = 130;
+            %tmp.963 = dup %tmp.959;
+            %tmp.964 = aputv %tmp.963 %tmp.961 %tmp.962;
+            %tmp.966 = const :text;
+            %tmp.967 = getm $;
+            %tmp.968 = getv %tmp.967 :Rez;
+            %tmp.969 = getv %tmp.968 :Strings;
+            %tmp.970 = getv %tmp.969 :prompt;
+            %tmp.971 = dup %tmp.964;
+            %tmp.972 = aputv %tmp.971 %tmp.966 %tmp.970;
+            %tmp.974 = const :justification;
+            %tmp.975 = getm $.Toybox.Graphics;
+            %tmp.976 = getv %tmp.975 :TEXT_JUSTIFY_CENTER;
+            %tmp.977 = dup %tmp.972;
+            %tmp.978 = aputv %tmp.977 %tmp.974 %tmp.976;
+            %tmp.980 = const :font;
+            %tmp.981 = getm $.Toybox.Graphics;
+            %tmp.982 = getv %tmp.981 :FONT_MEDIUM;
+            %tmp.983 = dup %tmp.978;
+            %tmp.984 = aputv %tmp.983 %tmp.980 %tmp.982;
+            %tmp.939 = newc %tmp.942 (%tmp.984);
+            lputv %rez_cmp_local_text_p3.29 %tmp.939;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 100 12 ]
+            %tmp.985 = newa 29 Array<WatchUi.Drawable>;
+            %tmp.987 = lgetv %rez_cmp_local_bitmap_info.1;
+            %tmp.988 = dup %tmp.985;
+            %tmp.989 = aputv %tmp.988 0 %tmp.987;
+            %tmp.991 = lgetv %rez_cmp_local_text_lab.2;
+            %tmp.992 = dup %tmp.989;
+            %tmp.993 = aputv %tmp.992 1 %tmp.991;
+            %tmp.995 = lgetv %rez_cmp_local_bitmap_winner.3;
+            %tmp.996 = dup %tmp.993;
+            %tmp.997 = aputv %tmp.996 2 %tmp.995;
+            %tmp.999 = lgetv %rez_cmp_local_bitmap_game_over.4;
+            %tmp.1000 = dup %tmp.997;
+            %tmp.1001 = aputv %tmp.1000 3 %tmp.999;
+            %tmp.1003 = lgetv %rez_cmp_local_bitmap_prev.5;
+            %tmp.1004 = dup %tmp.1001;
+            %tmp.1005 = aputv %tmp.1004 4 %tmp.1003;
+            %tmp.1007 = lgetv %rez_cmp_local_bitmap_next.6;
+            %tmp.1008 = dup %tmp.1005;
+            %tmp.1009 = aputv %tmp.1008 5 %tmp.1007;
+            %tmp.1011 = lgetv %rez_cmp_local_bitmap_penguin.7;
+            %tmp.1012 = dup %tmp.1009;
+            %tmp.1013 = aputv %tmp.1012 6 %tmp.1011;
+            %tmp.1015 = lgetv %rez_cmp_local_bitmap_turtle1.8;
+            %tmp.1016 = dup %tmp.1013;
+            %tmp.1017 = aputv %tmp.1016 7 %tmp.1015;
+            %tmp.1019 = lgetv %rez_cmp_local_bitmap_penguin_on.9;
+            %tmp.1020 = dup %tmp.1017;
+            %tmp.1021 = aputv %tmp.1020 8 %tmp.1019;
+            %tmp.1023 = lgetv %rez_cmp_local_bitmap_penguin_off.10;
+            %tmp.1024 = dup %tmp.1021;
+            %tmp.1025 = aputv %tmp.1024 9 %tmp.1023;
+            %tmp.1027 = lgetv %rez_cmp_local_bitmap_turtle_on.11;
+            %tmp.1028 = dup %tmp.1025;
+            %tmp.1029 = aputv %tmp.1028 10 %tmp.1027;
+            %tmp.1031 = lgetv %rez_cmp_local_bitmap_turtle_off.12;
+            %tmp.1032 = dup %tmp.1029;
+            %tmp.1033 = aputv %tmp.1032 11 %tmp.1031;
+            %tmp.1035 = lgetv %rez_cmp_local_bitmap_podium.13;
+            %tmp.1036 = dup %tmp.1033;
+            %tmp.1037 = aputv %tmp.1036 12 %tmp.1035;
+            %tmp.1039 = lgetv %rez_cmp_local_bitmap_fish0.14;
+            %tmp.1040 = dup %tmp.1037;
+            %tmp.1041 = aputv %tmp.1040 13 %tmp.1039;
+            %tmp.1043 = lgetv %rez_cmp_local_bitmap_fish1.15;
+            %tmp.1044 = dup %tmp.1041;
+            %tmp.1045 = aputv %tmp.1044 14 %tmp.1043;
+            %tmp.1047 = lgetv %rez_cmp_local_bitmap_hole0.16;
+            %tmp.1048 = dup %tmp.1045;
+            %tmp.1049 = aputv %tmp.1048 15 %tmp.1047;
+            %tmp.1051 = lgetv %rez_cmp_local_bitmap_hole1.17;
+            %tmp.1052 = dup %tmp.1049;
+            %tmp.1053 = aputv %tmp.1052 16 %tmp.1051;
+            %tmp.1055 = lgetv %rez_cmp_local_bitmap_hole2.18;
+            %tmp.1056 = dup %tmp.1053;
+            %tmp.1057 = aputv %tmp.1056 17 %tmp.1055;
+            %tmp.1059 = lgetv %rez_cmp_local_bitmap_hole3.19;
+            %tmp.1060 = dup %tmp.1057;
+            %tmp.1061 = aputv %tmp.1060 18 %tmp.1059;
+            %tmp.1063 = lgetv %rez_cmp_local_bitmap_hole4.20;
+            %tmp.1064 = dup %tmp.1061;
+            %tmp.1065 = aputv %tmp.1064 19 %tmp.1063;
+            %tmp.1067 = lgetv %rez_cmp_local_bitmap_vynil1.21;
+            %tmp.1068 = dup %tmp.1065;
+            %tmp.1069 = aputv %tmp.1068 20 %tmp.1067;
+            %tmp.1071 = lgetv %rez_cmp_local_bitmap_vynil2.22;
+            %tmp.1072 = dup %tmp.1069;
+            %tmp.1073 = aputv %tmp.1072 21 %tmp.1071;
+            %tmp.1075 = lgetv %rez_cmp_local_bitmap_scroll1.23;
+            %tmp.1076 = dup %tmp.1073;
+            %tmp.1077 = aputv %tmp.1076 22 %tmp.1075;
+            %tmp.1079 = lgetv %rez_cmp_local_bitmap_scroll2.24;
+            %tmp.1080 = dup %tmp.1077;
+            %tmp.1081 = aputv %tmp.1080 23 %tmp.1079;
+            %tmp.1083 = lgetv %rez_cmp_local_text_lab1.25;
+            %tmp.1084 = dup %tmp.1081;
+            %tmp.1085 = aputv %tmp.1084 24 %tmp.1083;
+            %tmp.1087 = lgetv %rez_cmp_local_text_lab2.26;
+            %tmp.1088 = dup %tmp.1085;
+            %tmp.1089 = aputv %tmp.1088 25 %tmp.1087;
+            %tmp.1091 = lgetv %rez_cmp_local_text_p1.27;
+            %tmp.1092 = dup %tmp.1089;
+            %tmp.1093 = aputv %tmp.1092 26 %tmp.1091;
+            %tmp.1095 = lgetv %rez_cmp_local_text_p2.28;
+            %tmp.1096 = dup %tmp.1093;
+            %tmp.1097 = aputv %tmp.1096 27 %tmp.1095;
+            %tmp.1099 = lgetv %rez_cmp_local_text_p3.29;
+            %tmp.1100 = dup %tmp.1097;
+            %tmp.1101 = aputv %tmp.1100 28 %tmp.1099;
+            ret %tmp.1101;
+c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_37_74_101_8_stop:
+        }
+    }
+    [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 104; ]
+    module Menus {
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 104; ]
+        <init> {
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 105; ]
+        class MainMenu extends WatchUi.Menu{
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 105; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 105; ]
+            static
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 106; ]
+            function initialize() as Void {
+c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_106_34_110_12_start:
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 107 16 ]
+                %tmp.2 = getv ? :Menu;
+                %tmp.3 = getv function %tmp.2 :initialize;
+                invoke %tmp.2 %tmp.3();
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 108 16 ]
+                %tmp.4 = self;
+                %tmp.5 = getv function %tmp.4 :addItem;
+                %tmp.6 = getm $.Toybox.WatchUi;
+                %tmp.7 = getv function %tmp.6 :loadResource;
+                %tmp.8 = getm $;
+                %tmp.9 = getv %tmp.8 :Rez;
+                %tmp.10 = getv %tmp.9 :Strings;
+                %tmp.11 = getv %tmp.10 :menu_label_1;
+                %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
+                %tmp.13 = as %tmp.12 String;
+                %tmp.15 = const :item_1;
+                invoke %tmp.4 %tmp.5(%tmp.13, %tmp.15);
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 109 16 ]
+                %tmp.16 = self;
+                %tmp.17 = getv function %tmp.16 :addItem;
+                %tmp.18 = getm $.Toybox.WatchUi;
+                %tmp.19 = getv function %tmp.18 :loadResource;
+                %tmp.20 = getm $;
+                %tmp.21 = getv %tmp.20 :Rez;
+                %tmp.22 = getv %tmp.21 :Strings;
+                %tmp.23 = getv %tmp.22 :menu_label_2;
+                %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.23);
+                %tmp.25 = as %tmp.24 String;
+                %tmp.27 = const :item_2;
+                invoke %tmp.16 %tmp.17(%tmp.25, %tmp.27);
+c_Users_javier_pedrosa_Desktop_Ice_surfing_bin_gen_006_B3907_00_source_Rez_mcgen_106_34_110_12_stop:
+            }
+        }
+    }
+    [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 114; ]
+    module Strings {
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 114; ]
+        <init> {
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 115; @position = 27; initialized = true; ]
+        var menu_label_1 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 116; @position = 27; initialized = true; ]
+        var menu_label_2 as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 117; @position = 27; initialized = true; ]
+        var prompt as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 118; @position = 27; initialized = true; ]
+        var accel as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 119; @position = 27; initialized = true; ]
+        var speed as ResourceId;
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 120; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 123; ]
+    module Styles {
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 123; ]
+        <init> {
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 124; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 124; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 125; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 128; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 128; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 129; @position = 18; ]
+            const width as Number = 280;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 130; @position = 18; ]
+            const height as Number = 87;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 133; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 133; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 134; @position = 18; ]
+            const x as Number = 11;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 135; @position = 18; ]
+            const y as Number = 185;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 138; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 138; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 139; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 142; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 142; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 143; @position = 18; ]
+            const x as Number = 28;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 144; @position = 18; ]
+            const y as Number = 28;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 147; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 147; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 148; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 149; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 150; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 151; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 154; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 154; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 155; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__question.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 156; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 159; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 159; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 160; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 163; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 163; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 164 18 ]
+                %tmp.28 = getm $.Toybox.Graphics;
+                %tmp.29 = getv %tmp.28 :TEXT_JUSTIFY_CENTER;
+                %tmp.30 = getm $.Toybox.Graphics;
+                %tmp.31 = getv %tmp.30 :TEXT_JUSTIFY_VCENTER;
+                %tmp.32 = bitor %tmp.29 %tmp.31;
+                putv self :justification %tmp.32;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 165 18 ]
+                %tmp.33 = getm $.Toybox.Graphics;
+                %tmp.34 = getv %tmp.33 :FONT_XTINY;
+                putv self :font %tmp.34;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 164; @position = 18; ]
+            const justification;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 165; @position = 18; ]
+            const font;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 168; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 168; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 169; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 170; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 171; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 172; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 175; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 175; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 176; @position = 18; ]
+            const width as Number = 280;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 177; @position = 18; ]
+            const height as Number = 73;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 180; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 180; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 182 18 ]
+                %tmp.35 = getm $.Toybox.Graphics;
+                %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                putv self :background %tmp.36;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 181; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 182; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 185; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 185; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 186; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 187; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 190; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 190; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 191; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 192; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 195; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 195; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 196; @position = 18; ]
+            const width as Number = 224;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 197; @position = 18; ]
+            const height as Number = 42;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 200; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 200; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 201 18 ]
+                %tmp.37 = getm $.Toybox.Graphics;
+                %tmp.38 = getv %tmp.37 :TEXT_JUSTIFY_CENTER;
+                %tmp.39 = getm $.Toybox.Graphics;
+                %tmp.40 = getv %tmp.39 :TEXT_JUSTIFY_VCENTER;
+                %tmp.41 = bitor %tmp.38 %tmp.40;
+                putv self :justification %tmp.41;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 202 18 ]
+                %tmp.42 = getm $.Toybox.Graphics;
+                %tmp.43 = getv %tmp.42 :FONT_TINY;
+                putv self :font %tmp.43;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 201; @position = 18; ]
+            const justification;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 202; @position = 18; ]
+            const font;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 205; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 205; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 206; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 207; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 210; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 210; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 211; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 212; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 215; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 216; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 217; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 218; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 221; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 221; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 222 18 ]
+                %tmp.44 = getm $.Toybox.WatchUi;
+                %tmp.45 = getv %tmp.44 :KEY_ENTER;
+                putv self :button %tmp.45;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 222; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 225; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 225; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 226 18 ]
+                %tmp.46 = getm $.Toybox.Graphics;
+                %tmp.47 = getv %tmp.46 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.47;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 227 18 ]
+                %tmp.48 = getm $.Toybox.Graphics;
+                %tmp.49 = getv %tmp.48 :FONT_TINY;
+                putv self :font %tmp.49;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 226; @position = 18; ]
+            const justification;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 227; @position = 18; ]
+            const font;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 230; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 230; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 231; @position = 18; ]
+            const x as Number = 56;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 232; @position = 18; ]
+            const y as Number = 56;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 235; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 235; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 236; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 237; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 240; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 240; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 241; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 245; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 245; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 246; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 247; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 250; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 250; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 251; @position = 18; ]
+            const x as Number = 242;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 252; @position = 18; ]
+            const y as Number = 52;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 255; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 256; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 257; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 260; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 260; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 261; @position = 18; ]
+            const x as Number = 3;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 262; @position = 18; ]
+            const y as Number = 116;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 265; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 265; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 266; @position = 18; ]
+            const width as Number = 224;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 267; @position = 18; ]
+            const height as Number = 224;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 270; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 270; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 271; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__hint_button_left_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 272; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 275; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 275; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 276; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 277; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 280; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 280; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 281 18 ]
+                %tmp.50 = getm $.Toybox.WatchUi;
+                %tmp.51 = getv %tmp.50 :KEY_ENTER;
+                putv self :button %tmp.51;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 281; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 284; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 284; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 285; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__hint_button_left_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 286; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 289; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 289; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 290 18 ]
+                %tmp.52 = getm $.Toybox.WatchUi;
+                %tmp.53 = getv %tmp.52 :KEY_ENTER;
+                putv self :button %tmp.53;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 290; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 293; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 293; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 294; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__save.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 295; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 298; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 298; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 300 18 ]
+                %tmp.54 = getm $.Toybox.Graphics;
+                %tmp.55 = getv %tmp.54 :COLOR_TRANSPARENT;
+                putv self :background %tmp.55;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 299; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 300; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 303; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 303; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 304; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 307; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 307; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 308; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__warning.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 309; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 312; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 312; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 314 18 ]
+                %tmp.56 = getm $.Toybox.Graphics;
+                %tmp.57 = getv %tmp.56 :COLOR_TRANSPARENT;
+                putv self :background %tmp.57;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 313; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 314; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 317; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 317; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 318; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 319; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 322; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 322; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 323; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 324; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 327; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 328; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 329; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 332; ]
+        module system_size__screen {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 332; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 333; @position = 18; ]
+            const width as Number = 280;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 334; @position = 18; ]
+            const height as Number = 280;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 337; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 337; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 338; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 339; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 342; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 342; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 343; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 344; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 347; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 347; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 348; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 349; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 352; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 353; @position = 18; ]
+            const x as Number = 226;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 354; @position = 18; ]
+            const y as Number = 52;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 357; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 357; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 359 18 ]
+                %tmp.58 = getm $.Toybox.Graphics;
+                %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+                putv self :background %tmp.59;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 358; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 359; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 362; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 362; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 363 18 ]
+                %tmp.60 = getm $.Toybox.WatchUi;
+                %tmp.61 = getv %tmp.60 :KEY_DOWN;
+                putv self :button %tmp.61;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 363; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 366; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 366; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 367; @position = 18; ]
+            const x as Number = 28;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 368; @position = 18; ]
+            const y as Number = 84;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 371; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 372; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 373; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 374; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 375; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 378; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 378; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 380 18 ]
+                %tmp.62 = getm $.Toybox.Graphics;
+                %tmp.63 = getv %tmp.62 :COLOR_TRANSPARENT;
+                putv self :background %tmp.63;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 379; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 380; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 383; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 383; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 384; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 385; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 388; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 388; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 389; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 390; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 391; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 392; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 395; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 395; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 396; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 397; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 400; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 400; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 401; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__search.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 402; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 405; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 405; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 406; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 407; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 410; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 410; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 411; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_positive__hint_button_left_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 412; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 415; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 416; @position = 18; ]
+            const x as Number = 242;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 417; @position = 18; ]
+            const y as Number = 185;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 420; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 421; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 422; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 425; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 427 18 ]
+                %tmp.64 = getm $.Toybox.Graphics;
+                %tmp.65 = getv %tmp.64 :COLOR_TRANSPARENT;
+                putv self :background %tmp.65;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 426; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 427; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 430; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 431; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 432; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 435; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 437 18 ]
+                %tmp.66 = getm $.Toybox.Graphics;
+                %tmp.67 = getv %tmp.66 :COLOR_TRANSPARENT;
+                putv self :background %tmp.67;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 436; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 437; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 440; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 441; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 442; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 445; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 446; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 447; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 450; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            const x as Number = 28;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 452; @position = 18; ]
+            const y as Number = 21;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 455; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 455; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 456; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 459; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 459; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 461 18 ]
+                %tmp.68 = getm $.Toybox.Graphics;
+                %tmp.69 = getv %tmp.68 :COLOR_TRANSPARENT;
+                putv self :background %tmp.69;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 460; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 461; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 464; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 464; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 465; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 466; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 469; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 470; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 471; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 474; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 475; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 476; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 479; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 479; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 480; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__cancel.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 481; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 484; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 484; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 485; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 486; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 489; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 489; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 490; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__about.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 491; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 494; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 494; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 495; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 496; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 497; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 500; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 501; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 504; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 504; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 505; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 506; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 509; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 509; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 510; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 511; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 514; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 514; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 515; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 518; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 518; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 519; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 522; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 522; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 523; @position = 18; ]
+            const x as Number = 11;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 524; @position = 18; ]
+            const y as Number = 185;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 525; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 528; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 528; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 529; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 530; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 533; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 533; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 534; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 535; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 538; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 538; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 539; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 540; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 543; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 543; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 544; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 545; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 548; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 548; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 549; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 550; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 551; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 554; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 554; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 555; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 556; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 559; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 559; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 560; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 563; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 563; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 564; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 565; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 566; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 567; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 570; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 570; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 571; @position = 18; ]
+            const width as Number = 224;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 572; @position = 18; ]
+            const height as Number = 168;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 575; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 575; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 576; @position = 18; ]
+            const x as Number = 242;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 577; @position = 18; ]
+            const y as Number = 52;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 580; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 580; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 582 18 ]
+                %tmp.70 = getm $.Toybox.Graphics;
+                %tmp.71 = getv %tmp.70 :COLOR_TRANSPARENT;
+                putv self :background %tmp.71;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 581; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 582; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 585; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 585; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 586; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__check.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 587; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 590; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 590; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 591 18 ]
+                %tmp.72 = getm $.Toybox.WatchUi;
+                %tmp.73 = getv %tmp.72 :KEY_DOWN;
+                putv self :button %tmp.73;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 591; @position = 18; ]
+            const button;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 594; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 594; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 595; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__revert.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 596; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 599; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 599; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 600; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 603; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 603; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 604; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 605; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 608; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 608; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 609; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 610; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 611; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 612; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 615; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 615; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 616; @position = 18; ]
+            const x as Number = 11;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 617; @position = 18; ]
+            const y as Number = 185;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 618; @position = 18; ]
+            const horizontalJustification as String = "left";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 621; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 622; @position = 18; ]
+            const x as Number = 226;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 623; @position = 18; ]
+            const y as Number = 52;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 626; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 626; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 627; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 628; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 631; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 631; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 632; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 635; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 635; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 636; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__hint_button_left_middle.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 637; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 640; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 640; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 641; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 642; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 645; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 645; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 646; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 647; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 650; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 650; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 651; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 652; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 653; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 654; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 657; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 657; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 658; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 659; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 662; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 662; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 663; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 664; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 665; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 666; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 669; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 669; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 670; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__discard.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 671; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 674; ]
+        module device_info {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 674; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 676 18 ]
+                %tmp.74 = getm $.Toybox.System;
+                %tmp.75 = getv %tmp.74 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.75;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 675; @position = 18; ]
+            const screenWidth as Number = 280;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 676; @position = 18; ]
+            const screenShape;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 677; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 678; @position = 18; ]
+            const hasGpu as Boolean = true;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 679; @position = 18; ]
+            const screenHeight as Number = 280;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 680; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 681; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 684; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 684; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 685; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 686; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 689; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 689; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 690 18 ]
+                %tmp.76 = getm $.Toybox.Graphics;
+                %tmp.77 = getv %tmp.76 :TEXT_JUSTIFY_CENTER;
+                %tmp.78 = getm $.Toybox.Graphics;
+                %tmp.79 = getv %tmp.78 :TEXT_JUSTIFY_VCENTER;
+                %tmp.80 = bitor %tmp.77 %tmp.79;
+                putv self :justification %tmp.80;
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 691 18 ]
+                %tmp.81 = getm $.Toybox.Graphics;
+                %tmp.82 = getv %tmp.81 :FONT_TINY;
+                putv self :font %tmp.82;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 690; @position = 18; ]
+            const justification;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 691; @position = 18; ]
+            const font;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 694; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 694; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 695; @position = 18; ]
+            const scaleX as Float = 0.15;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 696; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 699; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 699; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 700; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 701; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 702; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 703; @position = 18; ]
+            const automaticPalette as String = "true";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 706; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 706; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 707; @position = 18; ]
+            const x as Number = 140;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 708; @position = 18; ]
+            const y as Number = 42;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 709; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 710; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 713; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 713; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 714; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 717; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 717; ]
+            <init> {
+[ "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen" 719 18 ]
+                %tmp.83 = getm $.Toybox.Graphics;
+                %tmp.84 = getv %tmp.83 :COLOR_TRANSPARENT;
+                putv self :background %tmp.84;
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 718; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 719; @position = 18; ]
+            const background;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 722; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 722; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 723; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 724; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 727; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 727; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 728; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 729; @position = 18; ]
+            const dithering as String = "none";
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 732; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 732; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 733; @position = 18; ]
+            const width as Number = 168;
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 734; @position = 18; ]
+            const height as Number = 168;
+        }
+        [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 737; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 737; ]
+            <init> {
+            }
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 738; @position = 18; ]
+            const filename as String = "C:\\Users\\javier.pedrosa\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix7x\\system_icon_positive__check.svg";
+            [ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 739; @position = 18; ]
+            const dithering as String = "none";
+        }
+    }
+}
+[ @file = "c:\Users\javier.pedrosa\Desktop\Ice surfing\bin\gen\006-B3907-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

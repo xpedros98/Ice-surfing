@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\javier.pedrosa\Documents\firstapp\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="2" lineNum="19" parent="globals" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="2" lineNum="20" parent="globals" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="2" lineNum="21" parent="globals" pc="268435484" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="2" lineNum="22" parent="globals" pc="268435496" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="2" lineNum="33" parent="globals" pc="268435508" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="2" lineNum="44" parent="globals" pc="268435520" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435550" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="7" lineNum="24" parent="globals/firstappView" pc="268435570" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="8" lineNum="173" parent="globals" pc="268435582" symbol="able_game"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="8" lineNum="174" parent="globals" pc="268435592" symbol="able_game"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="8" lineNum="175" parent="globals" pc="268435608" symbol="able_game"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="9" lineNum="47" parent="globals/firstappDelegate" pc="268435625" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="10" lineNum="187" parent="globals" pc="268435637" symbol="is_in_ellipse"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="10" lineNum="188" parent="globals" pc="268435647" symbol="is_in_ellipse"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="11" lineNum="26" parent="globals" pc="268435724" symbol="getApp"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="11" lineNum="27" parent="globals" pc="268435734" symbol="getApp"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="12" lineNum="5" parent="globals/firstappApp" pc="268435745" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="13" lineNum="178" parent="globals" pc="268435757" symbol="able_settings"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="13" lineNum="179" parent="globals" pc="268435767" symbol="able_settings"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="13" lineNum="180" parent="globals" pc="268435783" symbol="able_settings"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="13" lineNum="181" parent="globals" pc="268435799" symbol="able_settings"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="13" lineNum="182" parent="globals" pc="268435815" symbol="able_settings"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="13" lineNum="183" parent="globals" pc="268435831" symbol="able_settings"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="13" lineNum="184" parent="globals" pc="268435847" symbol="able_settings"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappMenuDelegate.mc" id="14" lineNum="5" parent="globals/firstappMenuDelegate" pc="268435864" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="31" parent="globals/firstappView" pc="268435876" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="32" parent="globals/firstappView" pc="268435878" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="33" parent="globals/firstappView" pc="268435911" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="34" parent="globals/firstappView" pc="268435931" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="36" parent="globals/firstappView" pc="268435951" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="37" parent="globals/firstappView" pc="268435971" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="38" parent="globals/firstappView" pc="268435991" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="39" parent="globals/firstappView" pc="268436011" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="40" parent="globals/firstappView" pc="268436031" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="41" parent="globals/firstappView" pc="268436051" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="42" parent="globals/firstappView" pc="268436071" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="44" parent="globals/firstappView" pc="268436091" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="16" lineNum="45" parent="globals/firstappView" pc="268436105" symbol="onLayout"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="17" lineNum="26" parent="globals/firstappView" pc="268436121" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="17" lineNum="27" parent="globals/firstappView" pc="268436123" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="55" parent="globals/firstappView" pc="268436136" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="57" parent="globals/firstappView" pc="268436139" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="58" parent="globals/firstappView" pc="268436155" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="59" parent="globals/firstappView" pc="268436163" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="60" parent="globals/firstappView" pc="268436171" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="61" parent="globals/firstappView" pc="268436191" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="62" parent="globals/firstappView" pc="268436213" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="65" parent="globals/firstappView" pc="268436235" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="66" parent="globals/firstappView" pc="268436255" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="67" parent="globals/firstappView" pc="268436273" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="68" parent="globals/firstappView" pc="268436296" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="69" parent="globals/firstappView" pc="268436320" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="70" parent="globals/firstappView" pc="268436337" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="71" parent="globals/firstappView" pc="268436355" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="74" parent="globals/firstappView" pc="268436373" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="75" parent="globals/firstappView" pc="268436437" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="76" parent="globals/firstappView" pc="268436464" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="78" parent="globals/firstappView" pc="268436494" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="79" parent="globals/firstappView" pc="268436518" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="85" parent="globals/firstappView" pc="268436545" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="86" parent="globals/firstappView" pc="268436564" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="87" parent="globals/firstappView" pc="268436586" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="89" parent="globals/firstappView" pc="268436608" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="90" parent="globals/firstappView" pc="268436624" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="92" parent="globals/firstappView" pc="268436640" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="93" parent="globals/firstappView" pc="268436658" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="94" parent="globals/firstappView" pc="268436670" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="95" parent="globals/firstappView" pc="268436688" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="96" parent="globals/firstappView" pc="268436733" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="101" parent="globals/firstappView" pc="268436779" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="102" parent="globals/firstappView" pc="268436799" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="104" parent="globals/firstappView" pc="268436820" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="108" parent="globals/firstappView" pc="268436838" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="109" parent="globals/firstappView" pc="268436916" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="110" parent="globals/firstappView" pc="268436935" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="111" parent="globals/firstappView" pc="268436977" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="112" parent="globals/firstappView" pc="268436996" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="113" parent="globals/firstappView" pc="268437027" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="114" parent="globals/firstappView" pc="268437058" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="115" parent="globals/firstappView" pc="268437119" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="116" parent="globals/firstappView" pc="268437142" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="117" parent="globals/firstappView" pc="268437230" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="122" parent="globals/firstappView" pc="268437296" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="124" parent="globals/firstappView" pc="268437320" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="125" parent="globals/firstappView" pc="268437340" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="127" parent="globals/firstappView" pc="268437362" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="128" parent="globals/firstappView" pc="268437440" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="129" parent="globals/firstappView" pc="268437459" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="130" parent="globals/firstappView" pc="268437501" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="131" parent="globals/firstappView" pc="268437520" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="132" parent="globals/firstappView" pc="268437551" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="133" parent="globals/firstappView" pc="268437582" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="134" parent="globals/firstappView" pc="268437645" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="135" parent="globals/firstappView" pc="268437668" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="136" parent="globals/firstappView" pc="268437759" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="139" parent="globals/firstappView" pc="268437825" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="140" parent="globals/firstappView" pc="268437849" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="141" parent="globals/firstappView" pc="268437868" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="142" parent="globals/firstappView" pc="268437931" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="144" parent="globals/firstappView" pc="268437995" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="145" parent="globals/firstappView" pc="268438011" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="146" parent="globals/firstappView" pc="268438027" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="147" parent="globals/firstappView" pc="268438043" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="149" parent="globals/firstappView" pc="268438059" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappView.mc" id="19" lineNum="150" parent="globals/firstappView" pc="268438075" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="20" lineNum="95" parent="globals/firstappDelegate" pc="268438092" symbol="new_val"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="20" lineNum="98" parent="globals/firstappDelegate" pc="268438094" symbol="new_val"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="21" lineNum="162" parent="globals/firstappDelegate" pc="268438106" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="21" lineNum="163" parent="globals/firstappDelegate" pc="268438109" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="21" lineNum="164" parent="globals/firstappDelegate" pc="268438149" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="21" lineNum="165" parent="globals/firstappDelegate" pc="268438149" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="21" lineNum="166" parent="globals/firstappDelegate" pc="268438204" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="21" lineNum="167" parent="globals/firstappDelegate" pc="268438259" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="21" lineNum="168" parent="globals/firstappDelegate" pc="268438283" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="21" lineNum="169" parent="globals/firstappDelegate" pc="268438301" symbol="onMenu"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="22" lineNum="49" parent="globals/firstappDelegate" pc="268438303" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="22" lineNum="50" parent="globals/firstappDelegate" pc="268438305" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="22" lineNum="51" parent="globals/firstappDelegate" pc="268438317" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="106" parent="globals/firstappDelegate" pc="268438351" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="107" parent="globals/firstappDelegate" pc="268438353" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="108" parent="globals/firstappDelegate" pc="268438371" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="111" parent="globals/firstappDelegate" pc="268438406" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="112" parent="globals/firstappDelegate" pc="268438419" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="113" parent="globals/firstappDelegate" pc="268438433" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="114" parent="globals/firstappDelegate" pc="268438448" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="117" parent="globals/firstappDelegate" pc="268438459" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="119" parent="globals/firstappDelegate" pc="268438471" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="23" lineNum="120" parent="globals/firstappDelegate" pc="268438482" symbol="onTap"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="123" parent="globals/firstappDelegate" pc="268438484" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="124" parent="globals/firstappDelegate" pc="268438486" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="125" parent="globals/firstappDelegate" pc="268438500" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="126" parent="globals/firstappDelegate" pc="268438512" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="127" parent="globals/firstappDelegate" pc="268438524" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="129" parent="globals/firstappDelegate" pc="268438543" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="130" parent="globals/firstappDelegate" pc="268438623" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="133" parent="globals/firstappDelegate" pc="268438634" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="136" parent="globals/firstappDelegate" pc="268438642" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="137" parent="globals/firstappDelegate" pc="268438722" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="140" parent="globals/firstappDelegate" pc="268438733" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="143" parent="globals/firstappDelegate" pc="268438744" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="144" parent="globals/firstappDelegate" pc="268438757" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="145" parent="globals/firstappDelegate" pc="268438765" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="148" parent="globals/firstappDelegate" pc="268438776" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="149" parent="globals/firstappDelegate" pc="268438784" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="150" parent="globals/firstappDelegate" pc="268438812" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="151" parent="globals/firstappDelegate" pc="268438842" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="151" parent="globals/firstappDelegate" pc="268438856" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="152" parent="globals/firstappDelegate" pc="268438871" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="152" parent="globals/firstappDelegate" pc="268438885" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="153" parent="globals/firstappDelegate" pc="268438900" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="153" parent="globals/firstappDelegate" pc="268438914" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="154" parent="globals/firstappDelegate" pc="268438929" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="154" parent="globals/firstappDelegate" pc="268438943" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="155" parent="globals/firstappDelegate" pc="268438958" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="158" parent="globals/firstappDelegate" pc="268438973" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="24" lineNum="159" parent="globals/firstappDelegate" pc="268438984" symbol="onDrag"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="54" parent="globals/firstappDelegate" pc="268438986" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="55" parent="globals/firstappDelegate" pc="268438989" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="56" parent="globals/firstappDelegate" pc="268439001" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="57" parent="globals/firstappDelegate" pc="268439023" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="59" parent="globals/firstappDelegate" pc="268439032" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="60" parent="globals/firstappDelegate" pc="268439038" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="61" parent="globals/firstappDelegate" pc="268439045" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="62" parent="globals/firstappDelegate" pc="268439052" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="63" parent="globals/firstappDelegate" pc="268439091" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="65" parent="globals/firstappDelegate" pc="268439111" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="67" parent="globals/firstappDelegate" pc="268439175" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="68" parent="globals/firstappDelegate" pc="268439207" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="69" parent="globals/firstappDelegate" pc="268439267" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="70" parent="globals/firstappDelegate" pc="268439339" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="73" parent="globals/firstappDelegate" pc="268439354" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="75" parent="globals/firstappDelegate" pc="268439362" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="76" parent="globals/firstappDelegate" pc="268439390" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="76" parent="globals/firstappDelegate" pc="268439407" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="77" parent="globals/firstappDelegate" pc="268439425" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="77" parent="globals/firstappDelegate" pc="268439439" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="79" parent="globals/firstappDelegate" pc="268439454" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="80" parent="globals/firstappDelegate" pc="268439489" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="81" parent="globals/firstappDelegate" pc="268439549" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="82" parent="globals/firstappDelegate" pc="268439621" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="85" parent="globals/firstappDelegate" pc="268439636" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="87" parent="globals/firstappDelegate" pc="268439644" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="88" parent="globals/firstappDelegate" pc="268439672" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="88" parent="globals/firstappDelegate" pc="268439689" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="89" parent="globals/firstappDelegate" pc="268439707" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="89" parent="globals/firstappDelegate" pc="268439721" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappDelegate.mc" id="25" lineNum="91" parent="globals/firstappDelegate" pc="268439736" symbol="onTimer"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="26" lineNum="12" parent="globals/firstappApp" pc="268439751" symbol="onStart"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="27" lineNum="20" parent="globals/firstappApp" pc="268439754" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="27" lineNum="21" parent="globals/firstappApp" pc="268439756" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="28" lineNum="7" parent="globals/firstappApp" pc="268439811" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="28" lineNum="8" parent="globals/firstappApp" pc="268439813" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappApp.mc" id="29" lineNum="16" parent="globals/firstappApp" pc="268439826" symbol="onStop"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappMenuDelegate.mc" id="30" lineNum="7" parent="globals/firstappMenuDelegate" pc="268439829" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappMenuDelegate.mc" id="30" lineNum="8" parent="globals/firstappMenuDelegate" pc="268439831" symbol="initialize"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappMenuDelegate.mc" id="31" lineNum="11" parent="globals/firstappMenuDelegate" pc="268439844" symbol="onSelect"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappMenuDelegate.mc" id="31" lineNum="12" parent="globals/firstappMenuDelegate" pc="268439846" symbol="onSelect"/>
+        <entry filename="C:\\Users\\javier.pedrosa\\Documents\\firstapp\\source\\firstappMenuDelegate.mc" id="31" lineNum="13" parent="globals/firstappMenuDelegate" pc="268439862" symbol="onSelect"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="20" parent="globals/Rez/Layouts" pc="268439884" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="21" parent="globals/Rez/Layouts" pc="268439895" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="23" parent="globals/Rez/Layouts" pc="268439976" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="25" parent="globals/Rez/Layouts" pc="268440091" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="27" parent="globals/Rez/Layouts" pc="268440172" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="29" parent="globals/Rez/Layouts" pc="268440253" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="31" parent="globals/Rez/Layouts" pc="268440335" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="33" parent="globals/Rez/Layouts" pc="268440416" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="35" parent="globals/Rez/Layouts" pc="268440497" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="37" parent="globals/Rez/Layouts" pc="268440604" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="32" lineNum="39" parent="globals/Rez/Layouts" pc="268440712" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="33" lineNum="44" parent="globals/Rez/Menus/MainMenu" pc="268440762" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="34" lineNum="45" parent="globals/Rez/Menus/MainMenu" pc="268440774" symbol="initialize"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="34" lineNum="46" parent="globals/Rez/Menus/MainMenu" pc="268440776" symbol="initialize"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="34" lineNum="47" parent="globals/Rez/Menus/MainMenu" pc="268440788" symbol="initialize"/>
+        <entry filename="c:\\Users\\javier.pedrosa\\Documents\\firstapp\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="34" lineNum="48" parent="globals/Rez/Menus/MainMenu" pc="268440833" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="59" symbol="toggle_view"/>
+        <entry field="true" id="10" symbol="a_limit"/>
+        <entry id="8389346" symbol="text"/>
+        <entry field="true" id="8" symbol="Re_y"/>
+        <entry field="true" id="7" symbol="Re_x"/>
+        <entry field="true" id="62" symbol="v_y"/>
+        <entry field="true" id="61" symbol="v_x"/>
+        <entry field="true" id="44" symbol="new_p_y"/>
+        <entry field="true" id="43" symbol="new_p_x"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="27" symbol="i_y"/>
+        <entry field="true" id="26" symbol="i_x"/>
+        <entry id="75" method="true" symbol="MainLayout"/>
+        <entry id="70" method="true" symbol="new_val"/>
+        <entry field="true" id="58" symbol="timer"/>
+        <entry field="true" id="65" symbol="vynil_dim"/>
+        <entry field="true" id="53" symbol="s1_y"/>
+        <entry field="true" id="52" symbol="s1_x"/>
+        <entry field="true" id="57" symbol="scroll2"/>
+        <entry field="true" id="56" symbol="scroll1"/>
+        <entry field="true" id="66" symbol="x_center"/>
+        <entry field="true" id="42" symbol="myHole"/>
+        <entry field="true" id="8389605" symbol="accel"/>
+        <entry id="22" object="true" symbol="firstappMenuDelegate"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="8388922" method="true" symbol="now"/>
+        <entry field="true" id="25" symbol="flag_s2"/>
+        <entry field="true" id="24" symbol="flag_s1"/>
+        <entry field="true" id="77" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8391829" symbol="visible"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="9" symbol="Tms"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="13" method="true" symbol="able_game"/>
+        <entry field="true" id="12" symbol="a_y"/>
+        <entry field="true" id="11" symbol="a_x"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="80" symbol="prompt"/>
+        <entry field="true" id="41" symbol="min_y"/>
+        <entry field="true" id="40" symbol="min_x"/>
+        <entry field="true" id="28" symbol="ice_hole"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="50" symbol="p_y0"/>
+        <entry field="true" id="48" symbol="p_x0"/>
+        <entry field="true" id="33" symbol="last_click"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="82" symbol="item_2"/>
+        <entry id="81" symbol="item_1"/>
+        <entry id="69" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="60" symbol="v_limit"/>
+        <entry field="true" id="67" symbol="y_center"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8389098" method="true" symbol="onTap"/>
+        <entry id="15" symbol="coords"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="29" method="true" symbol="is_in_ellipse"/>
+        <entry id="76" object="true" symbol="MainMenu"/>
+        <entry field="true" id="32" symbol="lab2"/>
+        <entry field="true" id="31" symbol="lab1"/>
+        <entry field="true" id="34" symbol="last_coords"/>
+        <entry field="true" id="39" symbol="max_y"/>
+        <entry field="true" id="38" symbol="max_x"/>
+        <entry field="true" id="37" symbol="max_v"/>
+        <entry field="true" id="36" symbol="max_a"/>
+        <entry field="true" id="35" symbol="max_R"/>
+        <entry field="true" id="46" symbol="new_s_y"/>
+        <entry field="true" id="45" symbol="new_s_x"/>
+        <entry field="true" id="30" symbol="lab"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="14" method="true" symbol="able_settings"/>
+        <entry id="20" object="true" symbol="firstappApp"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="19" symbol="e_y"/>
+        <entry field="true" id="18" symbol="e_x"/>
+        <entry field="true" id="72" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="73" symbol="hole"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
+        <entry field="true" id="51" symbol="penguin"/>
+        <entry field="true" id="17" symbol="distance_to_point"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="8388958" symbol="speed"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="74" symbol="ice_hole_img"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="64" symbol="vynil2"/>
+        <entry field="true" id="63" symbol="vynil1"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="23" object="true" symbol="firstappView"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="16" symbol="dim"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="68" module="true" symbol="Layouts"/>
+        <entry id="21" object="true" symbol="firstappDelegate"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8391828" method="true" symbol="onDrag"/>
+        <entry field="true" id="55" symbol="s2_y"/>
+        <entry field="true" id="54" symbol="s2_x"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry field="true" id="49" symbol="p_y"/>
+        <entry field="true" id="47" symbol="p_x"/>
+        <entry id="71" method="true" symbol="onTimer"/>
+        <entry field="true" id="79" symbol="menu_label_2"/>
+        <entry field="true" id="78" symbol="menu_label_1"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435624" name="bool" stackId="1" startPc="268435582"/>
+        <entry arg="true" endPc="268435723" name="x" stackId="1" startPc="268435637"/>
+        <entry arg="true" endPc="268435723" name="y" stackId="2" startPc="268435637"/>
+        <entry arg="true" endPc="268435723" name="c_x" stackId="3" startPc="268435637"/>
+        <entry arg="true" endPc="268435723" name="c_y" stackId="4" startPc="268435637"/>
+        <entry arg="true" endPc="268435723" name="R_x" stackId="5" startPc="268435637"/>
+        <entry arg="true" endPc="268435723" name="R_y" stackId="6" startPc="268435637"/>
+        <entry arg="true" endPc="268435863" name="bool" stackId="1" startPc="268435757"/>
+        <entry arg="true" endPc="268436120" name="dc" stackId="1" startPc="268435876"/>
+        <entry arg="true" endPc="268438091" name="dc" stackId="1" startPc="268436136"/>
+        <entry endPc="268437292" name="angle" stackId="2" startPc="268436935"/>
+        <entry endPc="268437821" name="angle" stackId="3" startPc="268437459"/>
+        <entry arg="true" endPc="268438105" name="val" stackId="1" startPc="268438092"/>
+        <entry arg="true" endPc="268438105" name="min_val" stackId="2" startPc="268438092"/>
+        <entry arg="true" endPc="268438105" name="max_val" stackId="3" startPc="268438092"/>
+        <entry endPc="268438302" name="menu" stackId="1" startPc="268438109"/>
+        <entry endPc="268438302" name="delegate" stackId="2" startPc="268438109"/>
+        <entry arg="true" endPc="268438483" name="clickEvent" stackId="1" startPc="268438351"/>
+        <entry arg="true" endPc="268438985" name="dragEvent" stackId="1" startPc="268438484"/>
+        <entry endPc="268439749" name="sensorInfo" stackId="1" startPc="268438989"/>
+        <entry endPc="268439746" name="accel" stackId="2" startPc="268439023"/>
+        <entry endPc="268439746" name="x" stackId="3" startPc="268439023"/>
+        <entry endPc="268439746" name="y" stackId="4" startPc="268439023"/>
+        <entry endPc="268439746" name="z" stackId="5" startPc="268439023"/>
+        <entry endPc="268439746" name="pitch" stackId="6" startPc="268439023"/>
+        <entry endPc="268439746" name="roll" stackId="7" startPc="268439023"/>
+        <entry arg="true" endPc="268439883" name="item" stackId="1" startPc="268439844"/>
+        <entry arg="true" endPc="268440761" name="dc" stackId="1" startPc="268439884"/>
+        <entry endPc="268440761" name="rez_cmp_local_bitmap_penguin" stackId="2" startPc="268439895"/>
+        <entry endPc="268440761" name="rez_cmp_local_text_lab" stackId="3" startPc="268439895"/>
+        <entry endPc="268440761" name="rez_cmp_local_bitmap_hole" stackId="4" startPc="268439895"/>
+        <entry endPc="268440761" name="rez_cmp_local_bitmap_vynil1" stackId="5" startPc="268439895"/>
+        <entry endPc="268440761" name="rez_cmp_local_bitmap_vynil2" stackId="6" startPc="268439895"/>
+        <entry endPc="268440761" name="rez_cmp_local_bitmap_scroll1" stackId="7" startPc="268439895"/>
+        <entry endPc="268440761" name="rez_cmp_local_bitmap_scroll2" stackId="8" startPc="268439895"/>
+        <entry endPc="268440761" name="rez_cmp_local_text_lab1" stackId="9" startPc="268439895"/>
+        <entry endPc="268440761" name="rez_cmp_local_text_lab2" stackId="10" startPc="268439895"/>
+    </localVars>
+    <deviceInfo deviceVersion="fcbb2d71ec35a1d3f34d13093a6835d1c69522b8" partNumber="006-B3907-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="scroll1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="scroll2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="accel"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="ice_hole_img"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="hole"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="vynil1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="vynil2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="penguin"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="speed"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="703" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/firstappView" offset="765" parentId="globals" symbolId="firstappView" type="class"/>
+        <dataEntry label="globals/firstappDelegate" offset="845" parentId="globals" symbolId="firstappDelegate" type="class"/>
+        <dataEntry label="globals/firstappApp" offset="934" parentId="globals" symbolId="firstappApp" type="class"/>
+        <dataEntry label="globals/firstappMenuDelegate" offset="1005" parentId="globals" symbolId="firstappMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1058" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1156" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1191" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1226" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1306" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435569" name="&lt;init&gt;" parent="Rez" startPc="268435550">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435581" name="&lt;init&gt;" parent="firstappView" startPc="268435570">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435624" name="able_game" startPc="268435582">
+            <param id="bool"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435636" name="&lt;init&gt;" parent="firstappDelegate" startPc="268435625">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435723" name="is_in_ellipse" startPc="268435637">
+            <param id="x"/>
+            <param id="y"/>
+            <param id="c_x"/>
+            <param id="c_y"/>
+            <param id="R_x"/>
+            <param id="R_y"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435744" name="getApp" startPc="268435724">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435756" name="&lt;init&gt;" parent="firstappApp" startPc="268435745">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435863" name="able_settings" startPc="268435757">
+            <param id="bool"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435875" name="&lt;init&gt;" parent="firstappMenuDelegate" startPc="268435864">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="firstappView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436120" name="onLayout" parent="firstappView" startPc="268435876">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436135" name="initialize" parent="firstappView" startPc="268436121">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="firstappView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438091" name="onUpdate" parent="firstappView" startPc="268436136">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438105" name="new_val" parent="firstappDelegate" startPc="268438092">
+            <param id="val"/>
+            <param id="min_val"/>
+            <param id="max_val"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438302" name="onMenu" parent="firstappDelegate" startPc="268438106">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438350" name="initialize" parent="firstappDelegate" startPc="268438303">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438483" name="onTap" parent="firstappDelegate" startPc="268438351">
+            <param id="clickEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438985" name="onDrag" parent="firstappDelegate" startPc="268438484">
+            <param id="dragEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439750" name="onTimer" parent="firstappDelegate" startPc="268438986">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439753" name="onStart" parent="firstappApp" startPc="268439751">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439810" name="getInitialView" parent="firstappApp" startPc="268439754">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439825" name="initialize" parent="firstappApp" startPc="268439811">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439828" name="onStop" parent="firstappApp" startPc="268439826">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439843" name="initialize" parent="firstappMenuDelegate" startPc="268439829">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439883" name="onSelect" parent="firstappMenuDelegate" startPc="268439844">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440761" name="MainLayout" parent="Layouts" startPc="268439884">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440773" name="&lt;init&gt;" parent="MainMenu" startPc="268440762">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440878" name="initialize" parent="MainMenu" startPc="268440774">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

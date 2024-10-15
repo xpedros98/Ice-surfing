@@ -1,0 +1,54 @@
+[ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 1; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 3; ]
+class acc_view extends WatchUi.View{
+    [ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 4; ]
+    function initialize() as Void {
+C_Users_javier_pedrosa_Desktop_firstapp_source_acc_view_mc_4_26_6_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc" 5 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_javier_pedrosa_Desktop_firstapp_source_acc_view_mc_4_26_6_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 9; ]
+    function onLayout(dc) {
+C_Users_javier_pedrosa_Desktop_firstapp_source_acc_view_mc_9_26_11_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc" 10 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :Slider;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+C_Users_javier_pedrosa_Desktop_firstapp_source_acc_view_mc_9_26_11_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 14; ]
+    function onShow() {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 18; ]
+    function onUpdate(dc) {
+C_Users_javier_pedrosa_Desktop_firstapp_source_acc_view_mc_18_26_20_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc" 19 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+C_Users_javier_pedrosa_Desktop_firstapp_source_acc_view_mc_18_26_20_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 23; ]
+    function onHide() {
+    }
+}
+[ @file = "C:\Users\javier.pedrosa\Desktop\firstapp\source\acc_view.mc"; @line = 1; ]
+<init> {
+}

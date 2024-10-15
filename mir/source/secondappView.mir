@@ -1,0 +1,80 @@
+[ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 4; @position = 4; ]
+var lab1;
+[ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 5; @position = 4; ]
+var lab2;
+[ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 6; @position = 4; ]
+var lab3;
+[ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 8; ]
+class secondappView extends WatchUi.View{
+    [ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 10; ]
+    function initialize() as Void {
+C_Users_javier_pedrosa_Desktop_secondapp_source_secondappView_mc_10_26_12_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc" 11 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_javier_pedrosa_Desktop_secondapp_source_secondappView_mc_10_26_12_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 15; ]
+    function onLayout(dc as Dc) as Void {
+C_Users_javier_pedrosa_Desktop_secondapp_source_secondappView_mc_15_40_20_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc" 16 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :MainLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+[ "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc" 17 8 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "lab1";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :lab1 %tmp.13;
+[ "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc" 18 8 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :findDrawableById;
+        %tmp.16 = "lab2";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        putv self :lab2 %tmp.17;
+[ "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc" 19 8 ]
+        %tmp.18 = self;
+        %tmp.19 = getv function %tmp.18 :findDrawableById;
+        %tmp.20 = "lab3";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        putv self :lab3 %tmp.21;
+C_Users_javier_pedrosa_Desktop_secondapp_source_secondappView_mc_15_40_20_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 25; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 29; ]
+    function onUpdate(dc as Dc) as Void {
+C_Users_javier_pedrosa_Desktop_secondapp_source_secondappView_mc_29_40_32_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc" 31 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+C_Users_javier_pedrosa_Desktop_secondapp_source_secondappView_mc_29_40_32_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 37; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\javier.pedrosa\Desktop\secondapp\source\secondappView.mc"; @line = 1; ]
+<init> {
+}

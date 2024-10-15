@@ -1,0 +1,51 @@
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 5; ]
+class firstappMenuDelegate extends WatchUi.Menu2InputDelegate{
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 7; ]
+    function initialize() as Void {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_7_26_9_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc" 8 8 ]
+        %tmp.2 = getv ? :Menu2InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 11; ]
+    function onSelect(item) {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_11_28_15_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc" 12 8 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_12_8_14_8_if_stmt:
+        %tmp.1 = lgetv %item;
+        %tmp.2 = getv function %tmp.1 :getId;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = "acc";
+        %tmp.5 = eq %tmp.3 %tmp.4;
+        bf %tmp.5 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_12_8_14_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_12_8_14_8_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_12_35_14_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc" 13 12 ]
+        %tmp.6 = getm $.Toybox.System;
+        %tmp.7 = getv function %tmp.6 :println;
+        %tmp.8 = "acc item";
+        invoke %tmp.6 %tmp.7(%tmp.8);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_12_35_14_8_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_12_8_14_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_12_8_14_8_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_firstappMenuDelegate_mc_11_28_15_4_stop:
+    }
+}
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\firstappMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

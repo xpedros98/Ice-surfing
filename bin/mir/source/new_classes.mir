@@ -1,0 +1,190 @@
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 1; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 3; ]
+class MyTextPickerDelegate extends WatchUi.TextPickerDelegate{
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 5; ]
+    function initialize() as Void {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_5_26_7_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 6 8 ]
+        %tmp.2 = getv ? :TextPickerDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_5_26_7_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 9; ]
+    function onTextEntered(text, changed) {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_9_42_24_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 10 8 ]
+        %tmp.2 = lgetv %text;
+        putv self :name %tmp.2;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 13 8 ]
+        %tmp.4 = getv ? :Application;
+        %tmp.5 = getv %tmp.4 :Storage;
+        %tmp.6 = getv function %tmp.5 :setValue;
+        %tmp.7 = "compete";
+        %tmp.9 = getv ? :global_i;
+        %tmp.10 = getv function %tmp.9 :toString;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = add %tmp.7 %tmp.11;
+        %tmp.14 = getv ? :name;
+        %tmp.15 = " : ";
+        %tmp.16 = add %tmp.14 %tmp.15;
+        %tmp.18 = getv ? :compete_cnt;
+        %tmp.19 = add %tmp.16 %tmp.18;
+        invoke %tmp.5 %tmp.6(%tmp.12, %tmp.19);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 14 8 ]
+        %tmp.21 = getv ? :System;
+        %tmp.22 = getv function %tmp.21 :println;
+        %tmp.23 = "New saved player: ";
+        %tmp.25 = getv ? :global_i;
+        %tmp.26 = add %tmp.23 %tmp.25;
+        %tmp.27 = " : ";
+        %tmp.28 = add %tmp.26 %tmp.27;
+        %tmp.30 = getv ? :Application;
+        %tmp.31 = getv %tmp.30 :Storage;
+        %tmp.32 = getv function %tmp.31 :getValue;
+        %tmp.33 = "compete";
+        %tmp.35 = getv ? :global_i;
+        %tmp.36 = getv function %tmp.35 :toString;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        %tmp.38 = add %tmp.33 %tmp.37;
+        %tmp.39 = invoke %tmp.31 %tmp.32(%tmp.38);
+        %tmp.40 = add %tmp.28 %tmp.39;
+        invoke %tmp.21 %tmp.22(%tmp.40);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 17 8 ]
+        for @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_test @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_incr @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_init:
+        [ "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_begin" "C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_end" ]
+        %j.1 = local;
+        %tmp.42 = getv ? :global_i;
+        %tmp.43 = 1;
+        %tmp.44 = add %tmp.42 %tmp.43;
+        lputv %j.1 %tmp.44;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_test:
+        %tmp.46 = lgetv %j.1;
+        %tmp.47 = 4;
+        %tmp.48 = lt %tmp.46 %tmp.47;
+        bf %tmp.48 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_begin:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_41_21_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 18 12 ]
+        %tmp.50 = getv ? :Application;
+        %tmp.51 = getv %tmp.50 :Storage;
+        %tmp.52 = getv function %tmp.51 :getValue;
+        %tmp.53 = "compete";
+        %tmp.54 = lgetv %j.1;
+        %tmp.55 = getv function %tmp.54 :toString;
+        %tmp.56 = invoke %tmp.54 %tmp.55();
+        %tmp.57 = add %tmp.53 %tmp.56;
+        %tmp.58 = invoke %tmp.51 %tmp.52(%tmp.57);
+        putv self :curr_val %tmp.58;
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 19 12 ]
+        %tmp.60 = getv ? :Application;
+        %tmp.61 = getv %tmp.60 :Storage;
+        %tmp.62 = getv function %tmp.61 :setValue;
+        %tmp.63 = "compete";
+        %tmp.64 = lgetv %j.1;
+        %tmp.65 = getv function %tmp.64 :toString;
+        %tmp.66 = invoke %tmp.64 %tmp.65();
+        %tmp.67 = add %tmp.63 %tmp.66;
+        %tmp.69 = getv ? :previous_player;
+        invoke %tmp.61 %tmp.62(%tmp.67, %tmp.69);
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 20 12 ]
+        %tmp.71 = getv ? :curr_val;
+        putv self :previous_player %tmp.71;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_41_21_8_stop:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_incr:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 17 ]
+        %tmp.74 = lgetv %j.1;
+        %tmp.75 = add %tmp.74 1;
+        lputv %j.1 %tmp.75;
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_test;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_17_8_21_8_for_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 23 8 ]
+        %tmp.76 = true;
+        ret %tmp.76;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_9_42_24_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 26; ]
+    function onCancel() {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_26_24_28_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 27 8 ]
+        %tmp.1 = true;
+        ret %tmp.1;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_26_24_28_4_stop:
+    }
+}
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 31; ]
+class MyInputDelegate extends WatchUi.InputDelegate{
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 31; ]
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 31; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 32; ]
+    function initialize() as Void {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_32_26_34_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 33 8 ]
+        %tmp.2 = getv ? :InputDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_32_26_34_4_stop:
+    }
+    [ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 36; ]
+    function onKey(key) {
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_36_24_47_4_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 37 8 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_37_8_45_8_if_stmt:
+        %tmp.2 = getm $.Toybox.WatchUi;
+        %tmp.4 = const :TextPicker;
+        %tmp.5 = canhazplz %tmp.2 %tmp.4;
+        bf %tmp.5 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_37_8_45_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_37_8_45_8_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_37_37_45_8_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 38 12 ]
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_38_12_44_12_if_stmt:
+        %tmp.6 = lgetv %key;
+        %tmp.7 = getv function %tmp.6 :getKey;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = getm $.Toybox.WatchUi;
+        %tmp.10 = getv %tmp.9 :KEY_MENU;
+        %tmp.11 = eq %tmp.8 %tmp.10;
+        bf %tmp.11 @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_38_12_44_12_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_38_12_44_12_if_true:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_38_50_44_12_start:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 39 16 ]
+        %tmp.12 = getm $.Toybox.WatchUi;
+        %tmp.13 = getv function %tmp.12 :pushView;
+        %tmp.16 = getm $.Toybox.WatchUi;
+        %tmp.17 = getv function ? %tmp.16 :TextPicker;
+        %tmp.19 = getv ? :name;
+        %tmp.14 = newc %tmp.17 (%tmp.19);
+        %tmp.23 = getv ? :MyTextPickerDelegate;
+        %tmp.20 = newc %tmp.23 ();
+        %tmp.24 = getm $.Toybox.WatchUi;
+        %tmp.25 = getv %tmp.24 :SLIDE_DOWN;
+        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.20, %tmp.25);
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_38_50_44_12_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_38_12_44_12_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_38_12_44_12_if_end:
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_37_37_45_8_stop:
+        goto @C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_37_8_45_8_if_end;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_37_8_45_8_if_end:
+[ "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc" 46 8 ]
+        %tmp.26 = true;
+        ret %tmp.26;
+C_Users_javier_pedrosa_Desktop_Ice_surfing_source_new_classes_mc_36_24_47_4_stop:
+    }
+}
+[ @file = "C:\Users\javier.pedrosa\Desktop\Ice surfing\source\new_classes.mc"; @line = 1; ]
+<init> {
+}

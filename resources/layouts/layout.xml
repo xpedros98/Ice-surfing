@@ -1,0 +1,35 @@
+<layout id="MainLayout">
+    <bitmap id="info" x="20" y="10" filename="../drawables/fenix_bkg.png" scaleX="270" scaleY="270" />
+    <label id="lab" x="140" y="120" text="@Strings.prompt" color="Graphics.COLOR_ORANGE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <bitmap id="winner" x="40" y="40" filename="../drawables/celebrating.png" scaleX="200" scaleY="200" />
+    <bitmap id="game_over" x="center" y="center" filename="../drawables/game_over.png" scaleX="200" scaleY="200" />
+    <bitmap id="prev" x="10" y="115" filename="../drawables/prev.png" scaleX="55" scaleY="55" />
+    <bitmap id="next" x="220" y="115" filename="../drawables/next.png" scaleX="55" scaleY="55" />
+
+    <bitmap id="penguin" x="65" y="65" filename="../drawables/surf_penguin.png" scaleX="50" scaleY="50"/>
+    <bitmap id="turtle1" x="70" y="115" filename="../drawables/turtle.png" scaleX="80" scaleY="80" />
+    <bitmap id="penguin_on" x="95" y="25" filename="../drawables/surf_penguin.png" scaleX="100" scaleY="100"/>
+    <bitmap id="penguin_off" x="95" y="25" filename="../drawables/surf_penguin_off.png" scaleX="100" scaleY="100" />
+    <bitmap id="turtle_on" x="70" y="115" filename="../drawables/turtle.png" scaleX="150" scaleY="150" />
+    <bitmap id="turtle_off" x="70" y="115" filename="../drawables/turtle_off.png" scaleX="150" scaleY="150" />
+    <bitmap id="podium" x="center" y="center" filename="../drawables/podium.png" scaleX="160" scaleY="160" />
+    <bitmap id="fish0" x="center" y="center" filename="../drawables/jumping_fish0.png" scaleX="40" scaleY="40" />
+    <bitmap id="fish1" x="center" y="center" filename="../drawables/jumping_fish1.png" scaleX="45" scaleY="45" />
+    
+    <bitmap id="hole0" x="125" y="125" filename="../drawables/ice_hole.png" scaleX="130" scaleY="100" /> 
+    <bitmap id="hole1" x="125" y="125" filename="../drawables/ice_hole.png" scaleX="80" scaleY="100" />
+    <bitmap id="hole2" x="125" y="125" filename="../drawables/ice_hole.png" scaleX="90" scaleY="70" />
+    <bitmap id="hole3" x="125" y="125" filename="../drawables/ice_hole.png" scaleX="70" scaleY="100" />
+    <bitmap id="hole4" x="125" y="125" filename="../drawables/ice_hole.png" scaleX="100" scaleY="120" />
+
+    <bitmap id="vynil1" x="75" y="50" filename="../drawables/vynil.png" scaleX="120" scaleY="80" />
+    <bitmap id="vynil2" x="75" y="170" filename="../drawables/vynil.png" scaleX="120" scaleY="80" />
+    <bitmap id="scroll1" x="75" y="90" filename="../drawables/scroll.png" scaleX="55" scaleY="55" />
+    <bitmap id="scroll2" x="75" y="90" filename="../drawables/scroll.png" scaleX="55" scaleY="55" />
+    <label id="lab1" x="75" y="15" text="@Strings.accel" color="Graphics.COLOR_BLUE" justification="Graphics.TEXT_JUSTIFY_LEFT" />
+    <label id="lab2" x="75" y="135" text="@Strings.speed" color="Graphics.COLOR_BLUE" justification="Graphics.TEXT_JUSTIFY_LEFT" />
+    
+    <label id="p1" x="140" y="20" text="@Strings.prompt" color="Graphics.COLOR_YELLOW" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="p2" x="80" y="100" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="p3" x="190" y="130" text="@Strings.prompt" color="Graphics.COLOR_ORANGE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+</layout>
